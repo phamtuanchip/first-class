@@ -22,9 +22,14 @@ package lab1;
  *          exo@exoplatform.com
  * Aug 16, 2013  
  */
-public class Base {
+public class Base{
 
   public Base()throws RuntimeException {
     
+  
+  }
+  
+   void sayHello(){
+    System.out.println("Base hello");
   }
 }
