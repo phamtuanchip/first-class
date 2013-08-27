@@ -2,6 +2,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collection;
 import java.util.Collections;
+import java.util.List;
 
 /*
  * Copyright (C) 2003-2013 eXo Platform SAS.
@@ -29,12 +30,18 @@ import java.util.Collections;
 public class CollectionExample {
 
   public static void main(String[] args) {
-    Collection<String> c = Arrays.asList(new String[]{"Test1"}) ;
+    //Fixed size array
+    String[] arr = new String[]{"Test1"} ;
+    List<String> c = Arrays.asList(arr) ;
+    
     try {
       c.add("Test2") ;
     } catch (Exception e) {
       System.out.println("Khong chay " + e.getClass());
     }
+    c.set(0, "test2");
+    System.out.println(" goc  " +  arr[0].toString());
+    System.out.println(" moi " + c.toString());
     
     c = Arrays.asList("Test 1", "Test 2") ;
     System.out.println(" class " +  c.getClass());
@@ -43,11 +50,11 @@ public class CollectionExample {
     } catch (Exception e) {
       System.out.println("Khong chay " + e.getClass());
     }
-   
-    c = new ArrayList<String>(Arrays.asList(new String[]{"Test1"})) ;
+  
+    c = new ArrayList<String>(Arrays.asList(arr)) ;
     Collections.addAll(c, "String");
-    System.out.println(" class " +  c.getClass());
     c.add("Test2") ;
-    System.out.println("Chay lun");
+    System.out.println(" goc  " +  arr.toString());
+    System.out.println(" moi " + c.toString());
   }
 }
