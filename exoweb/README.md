@@ -1,4 +1,4 @@
-This to introduce how to cearte juzu applicaiton for tomcat
+This to introduce how to cearte juzu applicaiton for eXoPlatform 4
 
 mvn archetype:generate -s settings.xml 
 
