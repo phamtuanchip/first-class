@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:util="http://www.springframework.org/schema/util"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="
+	http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.0.xsd
+	http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-3.0.xsd
+	http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+	
+	<!-- Apache DB pooling DS -->
+    <bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource" destroy-method="close">
+		<property name="driverClassName" value="com.mysql.jdbc.Driver"/>
+		<property name="url" value="jdbc:mysql://localhost:3306/quartz18"/>
+		<property name="username" value="quartz18"/>
+		<property name="password" value="quartz18123"/>
+		<property name="maxActive" value="4"/>
+		<property name="minIdle" value="0"/>
+	</bean>
+	
+	<!-- Apache DB pooling DS
+    <bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource" destroy-method="close">
+		<property name="driverClassName" value="oracle.jdbc.driver.OracleDriver"/>
+		<property name="url" value="jdbc:oracle:thin:@localhost:1521:XE"/>
+		<property name="username" value="quartz18"/>
+		<property name="password" value="quartz18123"/>
+		<property name="maxActive" value="4"/>
+		<property name="minIdle" value="0"/>
+	</bean> -->
+    
+	<!-- C3P0 pooling DS
+    <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource" destroy-method="close">
+		<property name="driverClass" value="com.mysql.jdbc.Driver"/>
+		<property name="jdbcUrl" value="jdbc:mysql://localhost:3306/quartz18"/>
+		<property name="user" value="quartz18"/>
+		<property name="password" value="quartz18123"/>
+		<property name="maxPoolSize" value="4"/>
+		<property name="minPoolSize" value="0"/>
+    </bean> -->
+    
+    
+    <!-- Quartz Scheduler -->
+	<bean id="scheduler" class="org.springframework.scheduling.quartz.SchedulerFactoryBean">
+		<property name="schedulerName" value="SpringQuartzScheduler"/>
+		<property name="autoStartup" value="false"/>
+		<property name="dataSource" ref="dataSource"/>
+		<property name="quartzProperties">
+			<props>
+				<prop key="org.quartz.scheduler.classLoadHelper.class">org.quartz.simpl.CascadingClassLoadHelper</prop>
+				
+				<!-- This prop will not work unless it's quartz-1.8.x or above! -->
+				<prop key="org.quartz.scheduler.skipUpdateCheck">true</prop>
+				
+				<!-- In Quartz 1.7.3, this is a bug that you can not disable updateCheck entirely.
+				The mostly you can do is set System Properties "org.terracotta.quartz.skipUpdateCheck"
+				to true. This will only skip the check, but the timer task object is still created. 
+				
+				Note that "org.terracotta.quartz.skipUpdateCheck" is sys prop, and NOT the same as 
+				quartz properties! Setting this value here will not do anything!
+				<prop key="org.terracotta.quartz.skipUpdateCheck">true</prop>
+				-->
+			</props>
+		</property>
+	</bean>
+	
+	
+	    
+    <!-- Quartz Scheduler -->
+	<bean id="scheduler2" class="org.springframework.scheduling.quartz.SchedulerFactoryBean">
+		<property name="schedulerName" value="SpringQuartzScheduler"/>
+		<property name="autoStartup" value="false"/>
+		<property name="dataSource" ref="dataSource"/>
+		<!-- This tx manager only used during registering job/trigger with this bean, not programmatically with scheduler operations. -->
+		<property name="transactionManager" ref="transactionManager"/>
+		<property name="quartzProperties">
+			<props>
+				<prop key="org.terracotta.quartz.skipUpdateCheck">true</prop>
+				<!-- Some jdbc driver might need this.
+				<prop key="org.quartz.jobStore.dontSetAutoCommitFalse">true</prop> -->
+			</props>
+		</property>
+	</bean>
+
+</beans>
