@@ -1,0 +1,1 @@
+This is example integration mybatis and struts
