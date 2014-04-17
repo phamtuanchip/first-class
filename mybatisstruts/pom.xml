@@ -8,5 +8,6 @@
   <modules>
   	<module>service</module>
   	<module>webapp</module>
+  	<module>tutorial-title</module>
   </modules>
 </project>
