@@ -5,3 +5,5 @@ MyBatis is free software that is distributed under the Apache License 2.0.
 MyBatis is a fork of iBATIS 3.0 and is maintained by a team that includes the original creators of iBATIS.
 
 http://en.wikipedia.org/wiki/MyBatis
+Step by step mybatis
+http://www.javacodegeeks.com/2012/11/mybatis-tutorial-crud-operations-and-mapping-relationships-part-1.html
