@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<!DOCTYPE Quadro SYSTEM "tipologiastampa.dtd">
+<Quadro NomeQuadro="QuadroD" annoImposta="2013" modello="730" multiModulo="no" nome="QuadroD" pagine="1">
+    <TipologiaStampaQuadro AnnoImposta="2013" NumeroColonne="7" NumeroRighe="7">
+        <TipologiaCampoQuadro NumeroColonna="001" NumeroRiga="001" TipoCampoQuadro="numero">
+            <DatiDiStampa>
+                <PosX>130</PosX>
+                <PosY>179</PosY>
+                <LunghezzaInStampa>2</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroD1_1" TipoCampoQuadro="intero">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo>Utili ed altri proventi equiparati - Tipo di reddito</DescrizioneCampo>
+                <LunghezzaCampo>97</LunghezzaCampo>
+                <AdeguamentoSx>-65</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+        <TipologiaCampoQuadro NumeroColonna="002" NumeroRiga="001" TipoCampoQuadro="importo">
+            <DatiDiStampa>
+                <PosX>148</PosX>
+                <PosY>179</PosY>
+                <LunghezzaInStampa>13</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroD1_2" TipoCampoQuadro="importo">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo>Utili ed altri proventi equiparati - Reddito</DescrizioneCampo>
+                <LunghezzaCampo>97</LunghezzaCampo>
+                <AdeguamentoSx>-65</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+        <TipologiaCampoQuadro NumeroColonna="004" NumeroRiga="001" TipoCampoQuadro="importo">
+            <DatiDiStampa>
+                <PosX>220</PosX>
+                <PosY>179</PosY>
+                <LunghezzaInStampa>13</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroD1_4" TipoCampoQuadro="importo">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo>Utili ed altri proventi equiparati - Ritenute</DescrizioneCampo>
+                <LunghezzaCampo>97</LunghezzaCampo>
+                <AdeguamentoSx>-65</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+        <TipologiaCampoQuadro NumeroColonna="001" NumeroRiga="002" TipoCampoQuadro="numero">
+            <DatiDiStampa>
+                <PosX>380</PosX>
+                <PosY>179</PosY>
+                <LunghezzaInStampa>2</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroD2_1" TipoCampoQuadro="intero">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo>Altri redditi di capitale - Tipo di reddito</DescrizioneCampo>
+                <LunghezzaCampo>97</LunghezzaCampo>
+                <AdeguamentoSx>-65</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+        <TipologiaCampoQuadro NumeroColonna="002" NumeroRiga="002" TipoCampoQuadro="importo">
+            <DatiDiStampa>
+                <PosX>407</PosX>
+                <PosY>179</PosY>
+                <LunghezzaInStampa>13</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroD2_2" TipoCampoQuadro="importo">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo>Altri redditi di capitale - Reddito</DescrizioneCampo>
+                <LunghezzaCampo>97</LunghezzaCampo>
+                <AdeguamentoSx>-65</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+        <TipologiaCampoQuadro NumeroColonna="004" NumeroRiga="002" TipoCampoQuadro="importo">
+            <DatiDiStampa>
+                <PosX>486</PosX>
+                <PosY>179</PosY>
+                <LunghezzaInStampa>13</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroD2_4" TipoCampoQuadro="importo">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo>Altri redditi di capitale - Ritenute</DescrizioneCampo>
+                <LunghezzaCampo>97</LunghezzaCampo>
+                <AdeguamentoSx>-65</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+        <TipologiaCampoQuadro NumeroColonna="001" NumeroRiga="003" TipoCampoQuadro="numero">
+            <DatiDiStampa>
+                <PosX>286</PosX>
+                <PosY>155</PosY>
+                <LunghezzaInStampa>2</LunghezzaInStampa>
+               <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroD3_1" TipoCampoQuadro="intero">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo>Compensi di lavoro autonomo non derivanti da attività professionale/Tipo di reddito</DescrizioneCampo>
+                <LunghezzaCampo>97</LunghezzaCampo>
+                <AdeguamentoSx>-65</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+        <TipologiaCampoQuadro NumeroColonna="002" NumeroRiga="003" TipoCampoQuadro="importo">
+            <DatiDiStampa>
+                <PosX>328</PosX>
+                <PosY>155</PosY>
+                <LunghezzaInStampa>13</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroD3_2" TipoCampoQuadro="importo">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo>Compensi di lavoro autonomo non derivanti da attività professionale/Reddito</DescrizioneCampo>
+                <LunghezzaCampo>97</LunghezzaCampo>
+                <AdeguamentoSx>-65</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+        <TipologiaCampoQuadro NumeroColonna="004" NumeroRiga="003" TipoCampoQuadro="importo">
+            <DatiDiStampa>
+                <PosX>486</PosX>
+                <PosY>155</PosY>
+                <LunghezzaInStampa>13</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroD3_4" TipoCampoQuadro="importo">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo>Compensi di lavoro autonomo non derivanti da attività professionale/Ritenute </DescrizioneCampo>
+                <LunghezzaCampo>97</LunghezzaCampo>
+                <AdeguamentoSx>-65</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+        <TipologiaCampoQuadro NumeroColonna="001" NumeroRiga="004" TipoCampoQuadro="numero">
+            <DatiDiStampa>
+                <PosX>286</PosX>
+                <PosY>131</PosY>
+                <LunghezzaInStampa>2</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroD4_1" TipoCampoQuadro="intero">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo>Redditi diversi/Tipo di reddito</DescrizioneCampo>
+                <LunghezzaCampo>97</LunghezzaCampo>
+                <AdeguamentoSx>-65</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+        <TipologiaCampoQuadro NumeroColonna="002" NumeroRiga="004" TipoCampoQuadro="importo">
+            <DatiDiStampa>
+                <PosX>328</PosX>
+                <PosY>131</PosY>
+                <LunghezzaInStampa>13</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroD4_2" TipoCampoQuadro="importo">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo>Redditi diversi/Reddito</DescrizioneCampo>
+                <LunghezzaCampo>97</LunghezzaCampo>
+                <AdeguamentoSx>-65</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+        <TipologiaCampoQuadro NumeroColonna="003" NumeroRiga="004" TipoCampoQuadro="importo">
+            <DatiDiStampa>
+                <PosX>407</PosX>
+                <PosY>131</PosY>
+                <LunghezzaInStampa>13</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroD4_3" TipoCampoQuadro="importo">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo>Redditi diversi/Spese</DescrizioneCampo>
+                <LunghezzaCampo>97</LunghezzaCampo>
+                <AdeguamentoSx>-65</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+        <TipologiaCampoQuadro NumeroColonna="004" NumeroRiga="004" TipoCampoQuadro="importo">
+            <DatiDiStampa>
+                <PosX>486</PosX>
+                <PosY>131</PosY>
+                <LunghezzaInStampa>13</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroD4_4" TipoCampoQuadro="importo">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo>Redditi diversi/Ritenute </DescrizioneCampo>
+                <LunghezzaCampo>97</LunghezzaCampo>
+                <AdeguamentoSx>-65</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+        <TipologiaCampoQuadro NumeroColonna="001" NumeroRiga="005" TipoCampoQuadro="testo">
+            <DatiDiStampa>
+                <PosX>286</PosX>
+                <PosY>109</PosY>
+                <LunghezzaInStampa>2</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroD5_1" TipoCampoQuadro="alfa">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo>Redditi diversi  è prevista la detrazione / Tipo di reddito</DescrizioneCampo>
+                <LunghezzaCampo>97</LunghezzaCampo>
+                <AdeguamentoSx>-65</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+        <TipologiaCampoQuadro NumeroColonna="002" NumeroRiga="005" TipoCampoQuadro="importo">
+            <DatiDiStampa>
+                <PosX>328</PosX>
+                <PosY>107</PosY>
+                <LunghezzaInStampa>13</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroD5_2" TipoCampoQuadro="importo">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo>Redditi diversi per i quali è prevista la detrazione / Reddito</DescrizioneCampo>
+                <LunghezzaCampo>97</LunghezzaCampo>
+                <AdeguamentoSx>-65</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+        <TipologiaCampoQuadro NumeroColonna="003" NumeroRiga="005" TipoCampoQuadro="importo">
+            <DatiDiStampa>
+                <PosX>407</PosX>
+                <PosY>107</PosY>
+                <LunghezzaInStampa>13</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroD5_3" TipoCampoQuadro="importo">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo>Redditi diversi / Spese</DescrizioneCampo>
+                <LunghezzaCampo>97</LunghezzaCampo>
+                <AdeguamentoSx>-65</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+        <TipologiaCampoQuadro NumeroColonna="004" NumeroRiga="005" TipoCampoQuadro="importo">
+            <DatiDiStampa>
+                <PosX>486</PosX>
+                <PosY>107</PosY>
+                <LunghezzaInStampa>13</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroD5_4" TipoCampoQuadro="importo">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo>Redditi diversi per i quali è prevista la detrazione / Ritenute </DescrizioneCampo>
+                <LunghezzaCampo>97</LunghezzaCampo>
+                <AdeguamentoSx>-65</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+        <TipologiaCampoQuadro NumeroColonna="001" NumeroRiga="006" TipoCampoQuadro="numero">
+            <DatiDiStampa>
+                <PosX>142</PosX>
+                <PosY>71</PosY>
+                <LunghezzaInStampa>2</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroD6_1" TipoCampoQuadro="intero">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo>Tipo di reddito</DescrizioneCampo>
+                <LunghezzaCampo>97</LunghezzaCampo>
+                <AdeguamentoSx>-65</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>   
+        <TipologiaCampoQuadro NumeroColonna="002" NumeroRiga="006" TipoCampoQuadro="casella">
+            <DatiDiStampa>
+                <PosX>194</PosX>
+                <PosY>71</PosY>
+                <LunghezzaInStampa>1</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+                <ValoreCasella>1</ValoreCasella>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroD6_2" TipoCampoQuadro="alfa">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo>Opzione per la tassazione ordinaria</DescrizioneCampo>
+                <LunghezzaCampo>97</LunghezzaCampo>
+                <AdeguamentoSx>-65</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>             
+                <TipologiaCampoQuadro NumeroColonna="003" NumeroRiga="006" TipoCampoQuadro="numero">
+            <DatiDiStampa>
+                <PosX>235</PosX>
+                <PosY>71</PosY>
+                <LunghezzaInStampa>4</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroD6_3" TipoCampoQuadro="intero">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo>Anno</DescrizioneCampo>
+                <LunghezzaCampo>97</LunghezzaCampo>
+                <AdeguamentoSx>-65</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+        <TipologiaCampoQuadro NumeroColonna="004" NumeroRiga="006" TipoCampoQuadro="importo">
+            <DatiDiStampa>
+                <PosX>256</PosX>
+                <PosY>71</PosY>
+                <LunghezzaInStampa>13</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroD6_4" TipoCampoQuadro="importo">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo>Reddito </DescrizioneCampo>
+                <LunghezzaCampo>97</LunghezzaCampo>
+                <AdeguamentoSx>-65</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>    
+        <TipologiaCampoQuadro NumeroColonna="005" NumeroRiga="006" TipoCampoQuadro="importo">
+            <DatiDiStampa>
+                <PosX>335</PosX>
+                <PosY>71</PosY>
+                <LunghezzaInStampa>13</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroD6_5" TipoCampoQuadro="importo">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo>Reddito totale del deceduto</DescrizioneCampo>
+                <LunghezzaCampo>97</LunghezzaCampo>
+                <AdeguamentoSx>-65</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>          
+        <TipologiaCampoQuadro NumeroColonna="006" NumeroRiga="006" TipoCampoQuadro="importo">
+            <DatiDiStampa>
+                <PosX>414</PosX>
+                <PosY>71</PosY>
+                <LunghezzaInStampa>13</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroD6_6" TipoCampoQuadro="importo">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo>Quota delle imposte sulle successioni</DescrizioneCampo>
+                <LunghezzaCampo>97</LunghezzaCampo>
+                <AdeguamentoSx>-65</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>    
+        <TipologiaCampoQuadro NumeroColonna="007" NumeroRiga="006" TipoCampoQuadro="importo">
+            <DatiDiStampa>
+                <PosX>487</PosX>
+                <PosY>71</PosY>
+                <LunghezzaInStampa>13</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroD6_7" TipoCampoQuadro="importo">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo>Ritenute</DescrizioneCampo>
+                <LunghezzaCampo>97</LunghezzaCampo>
+                <AdeguamentoSx>-65</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>        
+        <TipologiaCampoQuadro NumeroColonna="001" NumeroRiga="007" TipoCampoQuadro="numero">
+            <DatiDiStampa>
+                <PosX>142</PosX>
+                <PosY>47</PosY>
+                <LunghezzaInStampa>2</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroD7_1" TipoCampoQuadro="intero">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo>Tipo reddito</DescrizioneCampo>
+                <LunghezzaCampo>97</LunghezzaCampo>
+                <AdeguamentoSx>-65</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>   
+        <TipologiaCampoQuadro NumeroColonna="002" NumeroRiga="007" TipoCampoQuadro="casella">
+            <DatiDiStampa>
+                <PosX>194</PosX>
+                <PosY>47</PosY>
+                <LunghezzaInStampa>1</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+                <ValoreCasella>1</ValoreCasella>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroD7_2" TipoCampoQuadro="alfa">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo>Opzione per la tassazione ordinaria</DescrizioneCampo>
+                <LunghezzaCampo>97</LunghezzaCampo>
+                <AdeguamentoSx>-65</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>             
+                <TipologiaCampoQuadro NumeroColonna="003" NumeroRiga="007" TipoCampoQuadro="numero">
+            <DatiDiStampa>
+                <PosX>235</PosX>
+                <PosY>47</PosY>
+                <LunghezzaInStampa>4</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroD7_3" TipoCampoQuadro="intero">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo>Anno</DescrizioneCampo>
+                <LunghezzaCampo>97</LunghezzaCampo>
+                <AdeguamentoSx>-65</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+        <TipologiaCampoQuadro NumeroColonna="004" NumeroRiga="007" TipoCampoQuadro="importo">
+            <DatiDiStampa>
+                <PosX>256</PosX>
+                <PosY>47</PosY>
+                <LunghezzaInStampa>13</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroD7_4" TipoCampoQuadro="importo">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo>Reddito </DescrizioneCampo>
+                <LunghezzaCampo>97</LunghezzaCampo>
+                <AdeguamentoSx>-65</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>       
+        <TipologiaCampoQuadro NumeroColonna="007" NumeroRiga="007" TipoCampoQuadro="importo">
+            <DatiDiStampa>
+                <PosX>487</PosX>
+                <PosY>47</PosY>
+                <LunghezzaInStampa>13</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroD7_7" TipoCampoQuadro="importo">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo>Ritenute</DescrizioneCampo>
+                <LunghezzaCampo>97</LunghezzaCampo>
+                <AdeguamentoSx>-65</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>              
+        <Font>
+            <Tipo>Courier-Bold</Tipo>
+            <Dimensione>9</Dimensione>
+        </Font>
+		
+		<TipologiaAltroCampo Nome="CodiceFiscale" TipoAltroCampo="testo">
+			<DatiDiStampa>
+				<PosX>395</PosX>
+				<PosY>820</PosY>
+				<LunghezzaInStampa>16</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<Font>
+				<Tipo>Courier-Bold</Tipo>
+				<Dimensione>10</Dimensione>
+			</Font>
+		</TipologiaAltroCampo>
+		<TipologiaAltroCampo Nome="Modello" TipoAltroCampo="numeroconspaziatura">
+			<DatiDiStampa>
+				<PosX>537</PosX>
+				<PosY>820</PosY>
+				<LunghezzaInStampa>2</LunghezzaInStampa>
+				<NumeroSpazi>1</NumeroSpazi>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<Font>
+				<Tipo>Courier-Bold</Tipo>
+				<Dimensione>10</Dimensione>
+			</Font>
+		</TipologiaAltroCampo>
+
+         <TipologiaAltroCampo Nome="DataStampa" TipoAltroCampo="testo">
+            <DatiDiStampa>
+                <PosX>25</PosX>
+                <PosY>5</PosY>
+                <LunghezzaInStampa>16</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <Font>
+                <Tipo>Courier-Bold</Tipo>
+                <Dimensione>10</Dimensione>
+            </Font>
+        </TipologiaAltroCampo>
+        <TipologiaAltroCampo Nome="StatoDichiarazione" TipoAltroCampo="testo">
+            <DatiDiStampa>
+                <PosX>250</PosX>
+                <PosY>10</PosY>
+                <LunghezzaInStampa>16</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <Font>
+                <Tipo>Courier-Bold</Tipo>
+                <Dimensione>10</Dimensione>
+            </Font>
+        </TipologiaAltroCampo>
+        <TipologiaAltroCampo Nome="ModelloDicitura" TipoAltroCampo="testo">
+            <DatiDiStampa>
+                <PosX>500</PosX>
+                <PosY>10</PosY>
+                <LunghezzaInStampa>16</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <Font>
+                <Tipo>Courier-Bold</Tipo>
+                <Dimensione>10</Dimensione>
+            </Font>
+        </TipologiaAltroCampo>
+        <TipologiaAltroCampo Nome="ProtocolloTelematico" TipoAltroCampo="testo">
+            <DatiDiStampa>
+                <PosX>25</PosX>
+                <PosY>18</PosY>
+                <LunghezzaInStampa>70</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <Font>
+                <Tipo>Courier-Bold</Tipo>
+                <Dimensione>10</Dimensione>
+            </Font>
+        </TipologiaAltroCampo>
+        <TipologiaAltroCampo Nome="CodiceFiscaleDicitura" TipoAltroCampo="testo">
+            <DatiDiStampa>
+                <PosX>400</PosX>
+                <PosY>25</PosY>
+                <LunghezzaInStampa>70</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <Font>
+                <Tipo>Courier-Bold</Tipo>
+                <Dimensione>10</Dimensione>
+            </Font>
+        </TipologiaAltroCampo>
+        <cf xcf1="417" xcfn="180" ycf1="100" ycfn="50"/>
+        <modulo xModulo1="740" xModulon="600" yModulo1="178" yModulon="48"/>
+    </TipologiaStampaQuadro>
+</Quadro>

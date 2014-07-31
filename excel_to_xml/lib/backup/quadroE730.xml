@@ -1,0 +1,2469 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE Quadro SYSTEM "tipologiastampa.dtd">
+<Quadro NomeQuadro="QuadroE" annoImposta="2013" modello="730" multiModulo="no" nome="QuadroE" pagine="1">
+	<TipologiaStampaQuadro AnnoImposta="2013" NumeroColonne="310" NumeroRighe="508">
+		<TipologiaCampoQuadro NumeroColonna="310" NumeroRiga="508" NumeroRigaDB="0" NumeroColonnaDB="0"
+			TipoCampoQuadro="casella">
+			<DatiDiStampa>
+				<PosX>207</PosX>
+				<PosY>745</PosY>
+				<LunghezzaInStampa>1</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+				<ValoreCasella>1</ValoreCasella>
+			</DatiDiStampa>
+			<DatiSchermo Id="QuadroE508_310" TipoCampoQuadro="alfa">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo>SPESE SANITARIE PER FAMILIARI NON A CARICO
+					(vedere istruzioni)</DescrizioneCampo>
+				<LunghezzaCampo>15</LunghezzaCampo>
+				<AdeguamentoSx>0</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		<TipologiaCampoQuadro NumeroColonna="001" NumeroRiga="001" TipoCampoQuadro="importo">
+			<DatiDiStampa>
+				<PosX>111</PosX>
+				<PosY>767</PosY>
+				<LunghezzaInStampa>13</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<DatiSchermo Id="QuadroE1_1" TipoCampoQuadro="importo">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo>SPESE SANITARIE </DescrizioneCampo>
+				<LunghezzaCampo>97</LunghezzaCampo>
+				<AdeguamentoSx>-65</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		<TipologiaCampoQuadro NumeroColonna="002"
+			NumeroRiga="001" TipoCampoQuadro="importo">
+			<DatiDiStampa>
+				<PosX>216</PosX>
+				<PosY>767</PosY>
+				<LunghezzaInStampa>13</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<DatiSchermo Id="QuadroE1_2" TipoCampoQuadro="importo">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo>SPESE SANITARIE Determinate patologie</DescrizioneCampo>
+				<LunghezzaCampo>97</LunghezzaCampo>
+				<AdeguamentoSx>-65</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		<TipologiaCampoQuadro NumeroColonna="001"
+			NumeroRiga="002" TipoCampoQuadro="importo">
+			<DatiDiStampa>
+				<PosX>216</PosX>
+				<PosY>744</PosY>
+				<LunghezzaInStampa>13</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<DatiSchermo Id="QuadroE2_1" TipoCampoQuadro="importo">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo>TOTALE SPESE SANITARIE PER LE QUALI
+					E&#x2019; STATA RICHIESTA LA RATEIZZAZIONE NELLA PRECEDENTE
+					DICHIARAZIONE</DescrizioneCampo>
+				<LunghezzaCampo>97</LunghezzaCampo>
+				<AdeguamentoSx>-65</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		<TipologiaCampoQuadro NumeroColonna="001"
+			NumeroRiga="003" TipoCampoQuadro="importo">
+			<DatiDiStampa>
+				<PosX>216</PosX>
+				<PosY>720</PosY>
+				<LunghezzaInStampa>13</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<DatiSchermo Id="QuadroE3_1" TipoCampoQuadro="importo">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo>SPESE SANITARIE PER PORTATORI DI HANDICAP</DescrizioneCampo>
+				<LunghezzaCampo>97</LunghezzaCampo>
+				<AdeguamentoSx>-65</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		<TipologiaCampoQuadro NumeroColonna="310"
+			NumeroRiga="004" NumeroColonnaDB="0" TipoCampoQuadro="importo">
+			<DatiDiStampa>
+				<PosX>207</PosX>
+				<PosY>696</PosY>
+				<LunghezzaInStampa>1</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<DatiSchermo Id="QuadroE4_310" TipoCampoQuadro="importo">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo>SPESE PER VEICOLI PER I PORTATORI DI HANDICAP
+					(vedere istruzioni)</DescrizioneCampo>
+				<LunghezzaCampo>15</LunghezzaCampo>
+				<AdeguamentoSx>0</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		<TipologiaCampoQuadro NumeroColonna="001"
+			NumeroRiga="004" TipoCampoQuadro="importo">
+			<DatiDiStampa>
+				<PosX>216</PosX>
+				<PosY>696</PosY>
+				<LunghezzaInStampa>13</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<DatiSchermo Id="QuadroE4_1" TipoCampoQuadro="importo">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo>SPESE PER VEICOLI PER I PORTATORI DI HANDICAP
+					(vedere istruzioni)</DescrizioneCampo>
+				<LunghezzaCampo>97</LunghezzaCampo>
+				<AdeguamentoSx>-65</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		<TipologiaCampoQuadro NumeroColonna="310"
+			NumeroRiga="005" NumeroColonnaDB="0" TipoCampoQuadro="importo">
+			<DatiDiStampa>
+				<PosX>207</PosX>
+				<PosY>672</PosY>
+				<LunghezzaInStampa>1</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<DatiSchermo Id="QuadroE5_310" TipoCampoQuadro="importo">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo>SPESE PER L&#x2019;ACQUISTO DI CANI GUIDA
+					(vedere istruzioni)</DescrizioneCampo>
+				<LunghezzaCampo>15</LunghezzaCampo>
+				<AdeguamentoSx>0</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		<TipologiaCampoQuadro NumeroColonna="001"
+			NumeroRiga="005" TipoCampoQuadro="importo">
+			<DatiDiStampa>
+				<PosX>216</PosX>
+				<PosY>672</PosY>
+				<LunghezzaInStampa>13</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<DatiSchermo Id="QuadroE5_1" TipoCampoQuadro="importo">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo>SPESE PER L&#x2019;ACQUISTO DI CANI GUIDA
+					(vedere istruzioni)</DescrizioneCampo>
+				<LunghezzaCampo>97</LunghezzaCampo>
+				<AdeguamentoSx>-65</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		<TipologiaCampoQuadro NumeroColonna="310"
+			NumeroRiga="006" NumeroColonnaDB="0" TipoCampoQuadro="importo">
+			<DatiDiStampa>
+				<PosX>207</PosX>
+				<PosY>648</PosY>
+				<LunghezzaInStampa>1</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<DatiSchermo Id="QuadroE6_310" TipoCampoQuadro="importo">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo>TOTALE SPESE SANITARIE PER LE QUALI
+					E&#x2019; STATA RICHIESTA LA RATEIZZAZIONE NELLA PRECEDENTE
+					DICHIARAZIONE</DescrizioneCampo>
+				<LunghezzaCampo>15</LunghezzaCampo>
+				<AdeguamentoSx>0</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		<TipologiaCampoQuadro NumeroColonna="001"
+			NumeroRiga="006" TipoCampoQuadro="importo">
+			<DatiDiStampa>
+				<PosX>216</PosX>
+				<PosY>649</PosY>
+				<LunghezzaInStampa>13</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<DatiSchermo Id="QuadroE6_1" TipoCampoQuadro="importo">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo>TOTALE SPESE SANITARIE PER LE QUALI
+					E&#x2019; STATA RICHIESTA LA RATEIZZAZIONE NELLA PRECEDENTE
+					DICHIARAZIONE</DescrizioneCampo>
+				<LunghezzaCampo>97</LunghezzaCampo>
+				<AdeguamentoSx>-65</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		<TipologiaCampoQuadro NumeroColonna="001"
+			NumeroRiga="007" TipoCampoQuadro="importo">
+			<DatiDiStampa>
+				<PosX>486</PosX>
+				<PosY>768</PosY>
+				<LunghezzaInStampa>13</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<DatiSchermo Id="QuadroE7_1" TipoCampoQuadro="importo">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo>INTERESSI PER MUTUI IPOTECARI PER
+					ACQUISTO ABITAZIONE PRINCIPALE</DescrizioneCampo>
+				<LunghezzaCampo>97</LunghezzaCampo>
+				<AdeguamentoSx>-65</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		<TipologiaCampoQuadro NumeroColonna="001"
+			NumeroRiga="008" TipoCampoQuadro="importo">
+			<DatiDiStampa>
+				<PosX>406</PosX>
+				<PosY>744</PosY>
+				<LunghezzaInStampa>13</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<DatiSchermo Id="QuadroE8_1" TipoCampoQuadro="importo">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo></DescrizioneCampo>
+				<LunghezzaCampo>97</LunghezzaCampo>
+				<AdeguamentoSx>-65</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		<TipologiaCampoQuadro NumeroColonna="002"
+			NumeroRiga="008" TipoCampoQuadro="importo">
+			<DatiDiStampa>
+				<PosX>486</PosX>
+				<PosY>744</PosY>
+				<LunghezzaInStampa>13</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<DatiSchermo Id="QuadroE8_2" TipoCampoQuadro="importo">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo></DescrizioneCampo>
+				<LunghezzaCampo>97</LunghezzaCampo>
+				<AdeguamentoSx>-65</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		<TipologiaCampoQuadro NumeroColonna="001"
+			NumeroRiga="009" TipoCampoQuadro="importo">
+			<DatiDiStampa>
+				<PosX>406</PosX>
+				<PosY>720</PosY>
+				<LunghezzaInStampa>13</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<DatiSchermo Id="QuadroE9_1" TipoCampoQuadro="importo">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo></DescrizioneCampo>
+				<LunghezzaCampo>97</LunghezzaCampo>
+				<AdeguamentoSx>-65</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		<TipologiaCampoQuadro NumeroColonna="002"
+			NumeroRiga="009" TipoCampoQuadro="importo">
+			<DatiDiStampa>
+				<PosX>486</PosX>
+				<PosY>720</PosY>
+				<LunghezzaInStampa>13</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<DatiSchermo Id="QuadroE9_2" TipoCampoQuadro="importo">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo></DescrizioneCampo>
+				<LunghezzaCampo>97</LunghezzaCampo>
+				<AdeguamentoSx>-65</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		<TipologiaCampoQuadro NumeroColonna="001"
+			NumeroRiga="010" TipoCampoQuadro="importo">
+			<DatiDiStampa>
+				<PosX>406</PosX>
+				<PosY>696</PosY>
+				<LunghezzaInStampa>13</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<DatiSchermo Id="QuadroE10_1" TipoCampoQuadro="importo">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo>INTERESSI PER MUTUI IPOTECARI PER
+					ACQUISTO ALTRI IMMOBILI</DescrizioneCampo>
+				<LunghezzaCampo>97</LunghezzaCampo>
+				<AdeguamentoSx>-65</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		<TipologiaCampoQuadro NumeroColonna="002"
+			NumeroRiga="010" TipoCampoQuadro="importo">
+			<DatiDiStampa>
+				<PosX>486</PosX>
+				<PosY>696</PosY>
+				<LunghezzaInStampa>13</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<DatiSchermo Id="QuadroE10_2" TipoCampoQuadro="importo">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo>INTERESSI PER MUTUI IPOTECARI PER
+					ACQUISTO ALTRI IMMOBILI</DescrizioneCampo>
+				<LunghezzaCampo>97</LunghezzaCampo>
+				<AdeguamentoSx>-65</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		<TipologiaCampoQuadro NumeroColonna="001"
+			NumeroRiga="011" TipoCampoQuadro="importo">
+			<DatiDiStampa>
+				<PosX>406</PosX>
+				<PosY>672</PosY>
+				<LunghezzaInStampa>13</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<DatiSchermo Id="QuadroE11_1" TipoCampoQuadro="importo">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo>INTERESSI PER MUTUI CONTRATTI NEL 1997
+					PER RECUPERO EDILIZIO</DescrizioneCampo>
+				<LunghezzaCampo>97</LunghezzaCampo>
+				<AdeguamentoSx>-65</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		<TipologiaCampoQuadro NumeroColonna="002"
+			NumeroRiga="011" TipoCampoQuadro="importo">
+			<DatiDiStampa>
+				<PosX>486</PosX>
+				<PosY>672</PosY>
+				<LunghezzaInStampa>13</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<DatiSchermo Id="QuadroE11_2" TipoCampoQuadro="importo">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo>INTERESSI PER MUTUI CONTRATTI NEL 1997
+					PER RECUPERO EDILIZIO</DescrizioneCampo>
+				<LunghezzaCampo>97</LunghezzaCampo>
+				<AdeguamentoSx>-65</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		<TipologiaCampoQuadro NumeroColonna="001"
+			NumeroRiga="012" TipoCampoQuadro="importo">
+			<DatiDiStampa>
+				<PosX>406</PosX>
+				<PosY>648</PosY>
+				<LunghezzaInStampa>13</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<DatiSchermo Id="QuadroE12_1" TipoCampoQuadro="importo">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo>INTERESSI PER MUTUI IPOTECARI PER
+					COSTRUZIONE ABITAZ. PRINCIPALE</DescrizioneCampo>
+				<LunghezzaCampo>97</LunghezzaCampo>
+				<AdeguamentoSx>-65</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		<TipologiaCampoQuadro NumeroColonna="002"
+			NumeroRiga="012" TipoCampoQuadro="importo">
+			<DatiDiStampa>
+				<PosX>486</PosX>
+				<PosY>648</PosY>
+				<LunghezzaInStampa>13</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<DatiSchermo Id="QuadroE12_2" TipoCampoQuadro="importo">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo>INTERESSI PER MUTUI IPOTECARI PER
+					COSTRUZIONE ABITAZ. PRINCIPALE</DescrizioneCampo>
+				<LunghezzaCampo>97</LunghezzaCampo>
+				<AdeguamentoSx>-65</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		
+		<TipologiaCampoQuadro NumeroColonna="001" NumeroRiga="021" TipoCampoQuadro="importo">
+			<DatiDiStampa>
+				<PosX>143</PosX>
+				<PosY>613</PosY>
+				<LunghezzaInStampa>13</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<DatiSchermo Id="QuadroE21_1" TipoCampoQuadro="importo">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo></DescrizioneCampo>
+				<LunghezzaCampo>97</LunghezzaCampo>
+				<AdeguamentoSx>-65</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		
+		<TipologiaCampoQuadro NumeroColonna="002" NumeroRiga="021" TipoCampoQuadro="importo">
+			<DatiDiStampa>
+				<PosX>216</PosX>
+				<PosY>613</PosY>
+				<LunghezzaInStampa>13</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<DatiSchermo Id="QuadroE21_2" TipoCampoQuadro="importo">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo>CONTRIBUTI PREVIDENZIALI ED
+					ASSISTENZIALI DEDUCIBILI</DescrizioneCampo>
+				<LunghezzaCampo>97</LunghezzaCampo>
+				<AdeguamentoSx>-65</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		
+		<TipologiaCampoQuadro NumeroColonna="001" NumeroRiga="022" TipoCampoQuadro="testo">
+			<DatiDiStampa>
+				<PosX>93</PosX>
+				<PosY>590</PosY>
+				<LunghezzaInStampa>16</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<DatiSchermo Id="QuadroE22_1" TipoCampoQuadro="alfa">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo>CONTRIBUTI PREVIDENZIALI ED
+					ASSISTENZIALI DEDUCIBILI</DescrizioneCampo>
+				<LunghezzaCampo>97</LunghezzaCampo>
+				<AdeguamentoSx>-65</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		<TipologiaCampoQuadro NumeroColonna="002" NumeroRiga="022" TipoCampoQuadro="importo">
+			<DatiDiStampa>
+				<PosX>216</PosX>
+				<PosY>590</PosY>
+				<LunghezzaInStampa>13</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<DatiSchermo Id="QuadroE22_2" TipoCampoQuadro="importo">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo>ASSEGNO PERIODICO AL CONIUGE - Importo</DescrizioneCampo>
+				<LunghezzaCampo>97</LunghezzaCampo>
+				<AdeguamentoSx>-65</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		<TipologiaCampoQuadro NumeroColonna="001"
+			NumeroRiga="023" TipoCampoQuadro="importo">
+			<DatiDiStampa>
+				<PosX>216</PosX>
+				<PosY>566</PosY>
+				<LunghezzaInStampa>13</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<DatiSchermo Id="QuadroE23_1" TipoCampoQuadro="importo">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo>ASSEGNO PERIODICO AL CONIUGE - Codice
+					Fiscale</DescrizioneCampo>
+				<LunghezzaCampo>97</LunghezzaCampo>
+				<AdeguamentoSx>-65</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		<TipologiaCampoQuadro NumeroColonna="001"
+			NumeroRiga="024" TipoCampoQuadro="importo">
+			<DatiDiStampa>
+				<PosX>216</PosX>
+				<PosY>542</PosY>
+				<LunghezzaInStampa>13</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<DatiSchermo Id="QuadroE24_1" TipoCampoQuadro="importo">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo>CONTRIBUTI PER ADDETTI AI SERVIZI
+					DOMESTICI E FAMILIARI</DescrizioneCampo>
+				<LunghezzaCampo>97</LunghezzaCampo>
+				<AdeguamentoSx>-65</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		<TipologiaCampoQuadro NumeroColonna="001"
+			NumeroRiga="025" TipoCampoQuadro="importo">
+			<DatiDiStampa>
+				<PosX>216</PosX>
+				<PosY>518</PosY>
+				<LunghezzaInStampa>13</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<DatiSchermo Id="QuadroE25_1" TipoCampoQuadro="importo">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo>EROGAZIONI LIBERALI A FAVORE DI
+					ISTITUZIONI RELIGIOSE</DescrizioneCampo>
+				<LunghezzaCampo>97</LunghezzaCampo>
+				<AdeguamentoSx>-65</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		<TipologiaCampoQuadro NumeroColonna="001"
+			NumeroRiga="026" TipoCampoQuadro="importo">
+			<DatiDiStampa>
+				<PosX>205</PosX>
+				<PosY>495</PosY>
+				<LunghezzaInStampa>1</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<DatiSchermo Id="QuadroE26_1" TipoCampoQuadro="importo">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo>SPESE MEDICHE E DI ASSISTENZA DEI PORTATORI
+					DI HANDICAP</DescrizioneCampo>
+				<LunghezzaCampo>97</LunghezzaCampo>
+				<AdeguamentoSx>-65</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		<TipologiaCampoQuadro NumeroColonna="002"
+			NumeroRiga="026" TipoCampoQuadro="importo">
+			<DatiDiStampa>
+				<PosX>216</PosX>
+				<PosY>494</PosY>
+				<LunghezzaInStampa>13</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<DatiSchermo Id="QuadroE26_2" TipoCampoQuadro="importo">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo>SPESE MEDICHE E DI ASSISTENZA DEI PORTATORI
+					DI HANDICAP</DescrizioneCampo>
+				<LunghezzaCampo>97</LunghezzaCampo>
+				<AdeguamentoSx>-65</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		<TipologiaCampoQuadro NumeroColonna="001"
+			NumeroRiga="027" TipoCampoQuadro="importo">
+			<DatiDiStampa>
+				<PosX>414</PosX>
+				<PosY>602</PosY>
+				<LunghezzaInStampa>13</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<DatiSchermo Id="QuadroE27_1" TipoCampoQuadro="importo">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo>ALTRI ONERI DEDUCIBILI (vedere istruzioni)</DescrizioneCampo>
+				<LunghezzaCampo>97</LunghezzaCampo>
+				<AdeguamentoSx>-65</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		<TipologiaCampoQuadro NumeroColonna="002"
+			NumeroRiga="027" TipoCampoQuadro="importo">
+			<DatiDiStampa>
+				<PosX>486</PosX>
+				<PosY>602</PosY>
+				<LunghezzaInStampa>13</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<DatiSchermo Id="QuadroE27_2" TipoCampoQuadro="importo">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo>ALTRI ONERI DEDUCIBILI (vedere istruzioni)</DescrizioneCampo>
+				<LunghezzaCampo>97</LunghezzaCampo>
+				<AdeguamentoSx>-65</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		<TipologiaCampoQuadro NumeroColonna="001"
+			NumeroRiga="028" TipoCampoQuadro="importo">
+			<DatiDiStampa>
+				<PosX>413</PosX>
+				<PosY>578</PosY>
+				<LunghezzaInStampa>13</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<DatiSchermo Id="QuadroE28_1" TipoCampoQuadro="importo">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo></DescrizioneCampo>
+				<LunghezzaCampo>97</LunghezzaCampo>
+				<AdeguamentoSx>-65</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		<TipologiaCampoQuadro NumeroColonna="002"
+			NumeroRiga="028" TipoCampoQuadro="importo">
+			<DatiDiStampa>
+				<PosX>486</PosX>
+				<PosY>578</PosY>
+				<LunghezzaInStampa>13</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<DatiSchermo Id="QuadroE28_2" TipoCampoQuadro="importo">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo></DescrizioneCampo>
+				<LunghezzaCampo>97</LunghezzaCampo>
+				<AdeguamentoSx>-65</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		<TipologiaCampoQuadro NumeroColonna="001"
+			NumeroRiga="029" TipoCampoQuadro="importo">
+			<DatiDiStampa>
+				<PosX>413</PosX>
+				<PosY>554</PosY>
+				<LunghezzaInStampa>13</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<DatiSchermo Id="QuadroE29_1" TipoCampoQuadro="importo">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo></DescrizioneCampo>
+				<LunghezzaCampo>97</LunghezzaCampo>
+				<AdeguamentoSx>-65</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		<TipologiaCampoQuadro NumeroColonna="002"
+			NumeroRiga="029" TipoCampoQuadro="importo">
+			<DatiDiStampa>
+				<PosX>486</PosX>
+				<PosY>554</PosY>
+				<LunghezzaInStampa>13</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<DatiSchermo Id="QuadroE29_2" TipoCampoQuadro="importo">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo></DescrizioneCampo>
+				<LunghezzaCampo>97</LunghezzaCampo>
+				<AdeguamentoSx>-65</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		<TipologiaCampoQuadro NumeroColonna="001"
+			NumeroRiga="030" TipoCampoQuadro="importo">
+			<DatiDiStampa>
+				<PosX>413</PosX>
+				<PosY>530</PosY>
+				<LunghezzaInStampa>13</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<DatiSchermo Id="QuadroE30_1" TipoCampoQuadro="importo">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo></DescrizioneCampo>
+				<LunghezzaCampo>97</LunghezzaCampo>
+				<AdeguamentoSx>-65</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		<TipologiaCampoQuadro NumeroColonna="002"
+			NumeroRiga="030" TipoCampoQuadro="importo">
+			<DatiDiStampa>
+				<PosX>486</PosX>
+				<PosY>530</PosY>
+				<LunghezzaInStampa>13</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<DatiSchermo Id="QuadroE30_2" TipoCampoQuadro="importo">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo></DescrizioneCampo>
+				<LunghezzaCampo>97</LunghezzaCampo>
+				<AdeguamentoSx>-65</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		<TipologiaCampoQuadro NumeroColonna="001"
+			NumeroRiga="031" TipoCampoQuadro="importo">
+			<DatiDiStampa>
+				<PosX>313</PosX>
+				<PosY>494</PosY>
+				<LunghezzaInStampa>13</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<DatiSchermo Id="QuadroE31_1" TipoCampoQuadro="importo">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo></DescrizioneCampo>
+				<LunghezzaCampo>97</LunghezzaCampo>
+				<AdeguamentoSx>-65</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		<TipologiaCampoQuadro NumeroColonna="002"
+			NumeroRiga="031" TipoCampoQuadro="importo">
+			<DatiDiStampa>
+				<PosX>399</PosX>
+				<PosY>494</PosY>
+				<LunghezzaInStampa>13</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<DatiSchermo Id="QuadroE31_2" TipoCampoQuadro="importo">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo></DescrizioneCampo>
+				<LunghezzaCampo>97</LunghezzaCampo>
+				<AdeguamentoSx>-65</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		<TipologiaCampoQuadro NumeroColonna="003"
+			NumeroRiga="031" TipoCampoQuadro="importo">
+			<DatiDiStampa>
+				<PosX>487</PosX>
+				<PosY>494</PosY>
+				<LunghezzaInStampa>13</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<DatiSchermo Id="QuadroE31_3" TipoCampoQuadro="importo">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo></DescrizioneCampo>
+				<LunghezzaCampo>97</LunghezzaCampo>
+				<AdeguamentoSx>-65</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		<TipologiaCampoQuadro NumeroColonna="001"
+			NumeroRiga="041" TipoCampoQuadro="numero">
+			<DatiDiStampa>
+				<PosX>55</PosX>
+				<PosY>446</PosY>
+				<LunghezzaInStampa>4</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<DatiSchermo Id="QuadroE41_1" TipoCampoQuadro="intero">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo>Anno</DescrizioneCampo>
+				<LunghezzaCampo>120</LunghezzaCampo>
+				<AdeguamentoSx>0</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		<TipologiaCampoQuadro NumeroColonna="002"
+			NumeroRiga="041" TipoCampoQuadro="numero">
+			<DatiDiStampa>
+				<PosX>96</PosX>
+				<PosY>446</PosY>
+				<LunghezzaInStampa>1</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<DatiSchermo Id="QuadroE41_2" TipoCampoQuadro="intero">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo>Periodo</DescrizioneCampo>
+				<LunghezzaCampo>120</LunghezzaCampo>
+				<AdeguamentoSx>0</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		<TipologiaCampoQuadro NumeroColonna="003"
+			NumeroRiga="041" TipoCampoQuadro="testo">
+			<DatiDiStampa>
+				<PosX>130</PosX>
+				<PosY>446</PosY>
+				<LunghezzaInStampa>16</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<DatiSchermo Id="QuadroE41_3" TipoCampoQuadro="alfa">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo>Codice fiscale</DescrizioneCampo>
+				<LunghezzaCampo>120</LunghezzaCampo>
+				<AdeguamentoSx>0</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		<TipologiaCampoQuadro NumeroColonna="004"
+			NumeroRiga="041" TipoCampoQuadro="importo">
+			<DatiDiStampa>
+				<PosX>254</PosX>
+				<PosY>446</PosY>
+				<LunghezzaInStampa>1</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<DatiSchermo Id="QuadroE41_4" TipoCampoQuadro="importo">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo>Vedere istruzioni</DescrizioneCampo>
+				<LunghezzaCampo>15</LunghezzaCampo>
+				<AdeguamentoSx>0</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		<TipologiaCampoQuadro NumeroColonna="005"
+			NumeroRiga="041" TipoCampoQuadro="numero">
+			<DatiDiStampa>
+				<PosX>285</PosX>
+				<PosY>446</PosY>
+				<LunghezzaInStampa>1</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<DatiSchermo Id="QuadroE41_5" TipoCampoQuadro="intero">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo>Situazioni particolari Codice</DescrizioneCampo>
+				<LunghezzaCampo>120</LunghezzaCampo>
+				<AdeguamentoSx>0</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		<TipologiaCampoQuadro NumeroColonna="006"
+			NumeroRiga="041" TipoCampoQuadro="numero">
+			<DatiDiStampa>
+				<PosX>305</PosX>
+				<PosY>446</PosY>
+				<LunghezzaInStampa>4</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<DatiSchermo Id="QuadroE41_6" TipoCampoQuadro="intero">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo>Situazioni particolari Anno</DescrizioneCampo>
+				<LunghezzaCampo>120</LunghezzaCampo>
+				<AdeguamentoSx>0</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		<TipologiaCampoQuadro NumeroColonna="007"
+			NumeroRiga="041" TipoCampoQuadro="numero">
+			<DatiDiStampa>
+				<PosX>348</PosX>
+				<PosY>446</PosY>
+				<LunghezzaInStampa>2</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<DatiSchermo Id="QuadroE41_7" TipoCampoQuadro="intero">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo>Situazioni particolari Rideterminazione
+					rate</DescrizioneCampo>
+				<LunghezzaCampo>2</LunghezzaCampo>
+				<AdeguamentoSx>0</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		<TipologiaCampoQuadro NumeroColonna="108"
+			NumeroRiga="041" TipoCampoQuadro="numero">
+			<DatiDiStampa>
+				<PosX>386</PosX>
+				<PosY>446</PosY>
+				<LunghezzaInStampa>2</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<DatiSchermo Id="QuadroE41_108" TipoCampoQuadro="intero">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo>N. rate 3</DescrizioneCampo>
+				<LunghezzaCampo>120</LunghezzaCampo>
+				<AdeguamentoSx>0</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		<TipologiaCampoQuadro NumeroColonna="208"
+			NumeroRiga="041" TipoCampoQuadro="numero">
+			<DatiDiStampa>
+				<PosX>413</PosX>
+				<PosY>446</PosY>
+				<LunghezzaInStampa>2</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<DatiSchermo Id="QuadroE41_208" TipoCampoQuadro="intero">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo>N. rate 5</DescrizioneCampo>
+				<LunghezzaCampo>120</LunghezzaCampo>
+				<AdeguamentoSx>0</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		<TipologiaCampoQuadro NumeroColonna="308"
+			NumeroRiga="041" TipoCampoQuadro="numero">
+			<DatiDiStampa>
+				<PosX>437</PosX>
+				<PosY>446</PosY>
+				<LunghezzaInStampa>2</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<DatiSchermo Id="QuadroE41_308" TipoCampoQuadro="intero">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo>N. rate 7</DescrizioneCampo>
+				<LunghezzaCampo>120</LunghezzaCampo>
+				<AdeguamentoSx>0</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		<TipologiaCampoQuadro NumeroColonna="309"
+			NumeroRiga="041" TipoCampoQuadro="importo">
+			<DatiDiStampa>
+				<PosX>450</PosX>
+				<PosY>445</PosY>
+				<LunghezzaInStampa>13</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<DatiSchermo Id="QuadroE41_309" TipoCampoQuadro="importo">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo>Importo</DescrizioneCampo>
+				<LunghezzaCampo>97</LunghezzaCampo>
+				<AdeguamentoSx>-65</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		<TipologiaCampoQuadro NumeroColonna="310"
+			NumeroRiga="041" TipoCampoQuadro="numero">
+			<DatiDiStampa>
+				<PosX>490</PosX>
+				<PosY>446</PosY>
+				<LunghezzaInStampa>13</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<DatiSchermo Id="QuadroE41_310" TipoCampoQuadro="intero">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo>Importo</DescrizioneCampo>
+				<LunghezzaCampo>97</LunghezzaCampo>
+				<AdeguamentoSx>-65</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		<TipologiaCampoQuadro NumeroColonna="001"
+			NumeroRiga="042" TipoCampoQuadro="numero">
+			<DatiDiStampa>
+				<PosX>55</PosX>
+				<PosY>423</PosY>
+				<LunghezzaInStampa>4</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<DatiSchermo Id="QuadroE42_1" TipoCampoQuadro="intero">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo> </DescrizioneCampo>
+				<LunghezzaCampo>120</LunghezzaCampo>
+				<AdeguamentoSx>0</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		<TipologiaCampoQuadro NumeroColonna="002"
+			NumeroRiga="042" TipoCampoQuadro="numero">
+			<DatiDiStampa>
+				<PosX>96</PosX>
+				<PosY>423</PosY>
+				<LunghezzaInStampa>1</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<DatiSchermo Id="QuadroE42_2" TipoCampoQuadro="intero">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo> </DescrizioneCampo>
+				<LunghezzaCampo>120</LunghezzaCampo>
+				<AdeguamentoSx>0</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		<TipologiaCampoQuadro NumeroColonna="003"
+			NumeroRiga="042" TipoCampoQuadro="testo">
+			<DatiDiStampa>
+				<PosX>130</PosX>
+				<PosY>423</PosY>
+				<LunghezzaInStampa>16</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<DatiSchermo Id="QuadroE42_3" TipoCampoQuadro="alfa">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo> </DescrizioneCampo>
+				<LunghezzaCampo>120</LunghezzaCampo>
+				<AdeguamentoSx>0</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		<TipologiaCampoQuadro NumeroColonna="004"
+			NumeroRiga="042" TipoCampoQuadro="importo">
+			<DatiDiStampa>
+				<PosX>254</PosX>
+				<PosY>423</PosY>
+				<LunghezzaInStampa>1</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<DatiSchermo Id="QuadroE42_4" TipoCampoQuadro="importo">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo> </DescrizioneCampo>
+				<LunghezzaCampo>15</LunghezzaCampo>
+				<AdeguamentoSx>0</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		<TipologiaCampoQuadro NumeroColonna="005"
+			NumeroRiga="042" TipoCampoQuadro="numero">
+			<DatiDiStampa>
+				<PosX>285</PosX>
+				<PosY>423</PosY>
+				<LunghezzaInStampa>1</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<DatiSchermo Id="QuadroE42_5" TipoCampoQuadro="intero">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo> </DescrizioneCampo>
+				<LunghezzaCampo>120</LunghezzaCampo>
+				<AdeguamentoSx>0</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		<TipologiaCampoQuadro NumeroColonna="006"
+			NumeroRiga="042" TipoCampoQuadro="numero">
+			<DatiDiStampa>
+				<PosX>305</PosX>
+				<PosY>423</PosY>
+				<LunghezzaInStampa>4</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<DatiSchermo Id="QuadroE42_6" TipoCampoQuadro="intero">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo> </DescrizioneCampo>
+				<LunghezzaCampo>120</LunghezzaCampo>
+				<AdeguamentoSx>0</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		<TipologiaCampoQuadro NumeroColonna="007"
+			NumeroRiga="042" TipoCampoQuadro="numero">
+			<DatiDiStampa>
+				<PosX>348</PosX>
+				<PosY>423</PosY>
+				<LunghezzaInStampa>2</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<DatiSchermo Id="QuadroE42_7" TipoCampoQuadro="intero">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo> </DescrizioneCampo>
+				<LunghezzaCampo>120</LunghezzaCampo>
+				<AdeguamentoSx>0</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		<TipologiaCampoQuadro NumeroColonna="108"
+			NumeroRiga="042" TipoCampoQuadro="numero">
+			<DatiDiStampa>
+				<PosX>386</PosX>
+				<PosY>423</PosY>
+				<LunghezzaInStampa>2</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<DatiSchermo Id="QuadroE42_108" TipoCampoQuadro="intero">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo> </DescrizioneCampo>
+				<LunghezzaCampo>120</LunghezzaCampo>
+				<AdeguamentoSx>0</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		<TipologiaCampoQuadro NumeroColonna="208"
+			NumeroRiga="042" TipoCampoQuadro="numero">
+			<DatiDiStampa>
+				<PosX>413</PosX>
+				<PosY>423</PosY>
+				<LunghezzaInStampa>2</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<DatiSchermo Id="QuadroE42_208" TipoCampoQuadro="intero">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo> </DescrizioneCampo>
+				<LunghezzaCampo>120</LunghezzaCampo>
+				<AdeguamentoSx>0</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		<TipologiaCampoQuadro NumeroColonna="308"
+			NumeroRiga="042" TipoCampoQuadro="numero">
+			<DatiDiStampa>
+				<PosX>437</PosX>
+				<PosY>423</PosY>
+				<LunghezzaInStampa>2</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<DatiSchermo Id="QuadroE42_308" TipoCampoQuadro="intero">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo> </DescrizioneCampo>
+				<LunghezzaCampo>120</LunghezzaCampo>
+				<AdeguamentoSx>0</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		<TipologiaCampoQuadro NumeroColonna="309"
+			NumeroRiga="042" TipoCampoQuadro="importo">
+			<DatiDiStampa>
+				<PosX>450</PosX>
+				<PosY>422</PosY>
+				<LunghezzaInStampa>13</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<DatiSchermo Id="QuadroE42_309" TipoCampoQuadro="importo">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo> </DescrizioneCampo>
+				<LunghezzaCampo>97</LunghezzaCampo>
+				<AdeguamentoSx>-65</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		<TipologiaCampoQuadro NumeroColonna="310"
+			NumeroRiga="042" TipoCampoQuadro="numero">
+			<DatiDiStampa>
+				<PosX>490</PosX>
+				<PosY>423</PosY>
+				<LunghezzaInStampa>13</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<DatiSchermo Id="QuadroE42_310" TipoCampoQuadro="intero">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo>Importo</DescrizioneCampo>
+				<LunghezzaCampo>97</LunghezzaCampo>
+				<AdeguamentoSx>-65</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		<TipologiaCampoQuadro NumeroColonna="001"
+			NumeroRiga="043" TipoCampoQuadro="numero">
+			<DatiDiStampa>
+				<PosX>55</PosX>
+				<PosY>399</PosY>
+				<LunghezzaInStampa>4</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<DatiSchermo Id="QuadroE43_1" TipoCampoQuadro="intero">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo> </DescrizioneCampo>
+				<LunghezzaCampo>120</LunghezzaCampo>
+				<AdeguamentoSx>0</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		<TipologiaCampoQuadro NumeroColonna="002"
+			NumeroRiga="043" TipoCampoQuadro="numero">
+			<DatiDiStampa>
+				<PosX>96</PosX>
+				<PosY>399</PosY>
+				<LunghezzaInStampa>1</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<DatiSchermo Id="QuadroE43_2" TipoCampoQuadro="intero">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo> </DescrizioneCampo>
+				<LunghezzaCampo>120</LunghezzaCampo>
+				<AdeguamentoSx>0</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		<TipologiaCampoQuadro NumeroColonna="003"
+			NumeroRiga="043" TipoCampoQuadro="testo">
+			<DatiDiStampa>
+				<PosX>130</PosX>
+				<PosY>399</PosY>
+				<LunghezzaInStampa>16</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<DatiSchermo Id="QuadroE43_3" TipoCampoQuadro="alfa">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo> </DescrizioneCampo>
+				<LunghezzaCampo>120</LunghezzaCampo>
+				<AdeguamentoSx>0</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		<TipologiaCampoQuadro NumeroColonna="004"
+			NumeroRiga="043" TipoCampoQuadro="importo">
+			<DatiDiStampa>
+				<PosX>254</PosX>
+				<PosY>399</PosY>
+				<LunghezzaInStampa>1</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<DatiSchermo Id="QuadroE43_4" TipoCampoQuadro="importo">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo> </DescrizioneCampo>
+				<LunghezzaCampo>15</LunghezzaCampo>
+				<AdeguamentoSx>0</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		<TipologiaCampoQuadro NumeroColonna="005"
+			NumeroRiga="043" TipoCampoQuadro="numero">
+			<DatiDiStampa>
+				<PosX>285</PosX>
+				<PosY>399</PosY>
+				<LunghezzaInStampa>1</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<DatiSchermo Id="QuadroE43_5" TipoCampoQuadro="intero">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo> </DescrizioneCampo>
+				<LunghezzaCampo>120</LunghezzaCampo>
+				<AdeguamentoSx>0</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		<TipologiaCampoQuadro NumeroColonna="006"
+			NumeroRiga="043" TipoCampoQuadro="numero">
+			<DatiDiStampa>
+				<PosX>305</PosX>
+				<PosY>399</PosY>
+				<LunghezzaInStampa>4</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<DatiSchermo Id="QuadroE43_6" TipoCampoQuadro="intero">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo> </DescrizioneCampo>
+				<LunghezzaCampo>120</LunghezzaCampo>
+				<AdeguamentoSx>0</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		<TipologiaCampoQuadro NumeroColonna="007"
+			NumeroRiga="043" TipoCampoQuadro="numero">
+			<DatiDiStampa>
+				<PosX>348</PosX>
+				<PosY>399</PosY>
+				<LunghezzaInStampa>2</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<DatiSchermo Id="QuadroE43_007" TipoCampoQuadro="intero">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo> </DescrizioneCampo>
+				<LunghezzaCampo>120</LunghezzaCampo>
+				<AdeguamentoSx>0</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		<TipologiaCampoQuadro NumeroColonna="108"
+			NumeroRiga="043" TipoCampoQuadro="numero">
+			<DatiDiStampa>
+				<PosX>386</PosX>
+				<PosY>399</PosY>
+				<LunghezzaInStampa>2</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<DatiSchermo Id="QuadroE43_108" TipoCampoQuadro="intero">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo> </DescrizioneCampo>
+				<LunghezzaCampo>120</LunghezzaCampo>
+				<AdeguamentoSx>0</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		<TipologiaCampoQuadro NumeroColonna="208"
+			NumeroRiga="043" TipoCampoQuadro="numero">
+			<DatiDiStampa>
+				<PosX>413</PosX>
+				<PosY>399</PosY>
+				<LunghezzaInStampa>2</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<DatiSchermo Id="QuadroE43_208" TipoCampoQuadro="intero">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo> </DescrizioneCampo>
+				<LunghezzaCampo>120</LunghezzaCampo>
+				<AdeguamentoSx>0</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		<TipologiaCampoQuadro NumeroColonna="308"
+			NumeroRiga="043" TipoCampoQuadro="numero">
+			<DatiDiStampa>
+				<PosX>437</PosX>
+				<PosY>399</PosY>
+				<LunghezzaInStampa>2</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<DatiSchermo Id="QuadroE43_308" TipoCampoQuadro="intero">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo> </DescrizioneCampo>
+				<LunghezzaCampo>120</LunghezzaCampo>
+				<AdeguamentoSx>0</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		<TipologiaCampoQuadro NumeroColonna="309"
+			NumeroRiga="043" TipoCampoQuadro="importo">
+			<DatiDiStampa>
+				<PosX>450</PosX>
+				<PosY>399</PosY>
+				<LunghezzaInStampa>13</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<DatiSchermo Id="QuadroE43_309" TipoCampoQuadro="importo">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo> </DescrizioneCampo>
+				<LunghezzaCampo>97</LunghezzaCampo>
+				<AdeguamentoSx>-65</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		<TipologiaCampoQuadro NumeroColonna="310"
+			NumeroRiga="043" TipoCampoQuadro="numero">
+			<DatiDiStampa>
+				<PosX>490</PosX>
+				<PosY>399</PosY>
+				<LunghezzaInStampa>13</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<DatiSchermo Id="QuadroE43_310" TipoCampoQuadro="intero">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo>Importo</DescrizioneCampo>
+				<LunghezzaCampo>97</LunghezzaCampo>
+				<AdeguamentoSx>-65</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		<TipologiaCampoQuadro NumeroColonna="001"
+			NumeroRiga="044" TipoCampoQuadro="numero">
+			<DatiDiStampa>
+				<PosX>55</PosX>
+				<PosY>374</PosY>
+				<LunghezzaInStampa>4</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<DatiSchermo Id="QuadroE44_1" TipoCampoQuadro="intero">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo> </DescrizioneCampo>
+				<LunghezzaCampo>120</LunghezzaCampo>
+				<AdeguamentoSx>0</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		<TipologiaCampoQuadro NumeroColonna="002"
+			NumeroRiga="044" TipoCampoQuadro="numero">
+			<DatiDiStampa>
+				<PosX>96</PosX>
+				<PosY>374</PosY>
+				<LunghezzaInStampa>1</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<DatiSchermo Id="QuadroE44_2" TipoCampoQuadro="intero">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo> </DescrizioneCampo>
+				<LunghezzaCampo>120</LunghezzaCampo>
+				<AdeguamentoSx>0</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		<TipologiaCampoQuadro NumeroColonna="003"
+			NumeroRiga="044" TipoCampoQuadro="testo">
+			<DatiDiStampa>
+				<PosX>130</PosX>
+				<PosY>374</PosY>
+				<LunghezzaInStampa>16</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<DatiSchermo Id="QuadroE44_3" TipoCampoQuadro="alfa">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo> </DescrizioneCampo>
+				<LunghezzaCampo>120</LunghezzaCampo>
+				<AdeguamentoSx>0</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		<TipologiaCampoQuadro NumeroColonna="004"
+			NumeroRiga="044" TipoCampoQuadro="importo">
+			<DatiDiStampa>
+				<PosX>254</PosX>
+				<PosY>374</PosY>
+				<LunghezzaInStampa>1</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<DatiSchermo Id="QuadroE44_4" TipoCampoQuadro="importo">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo> </DescrizioneCampo>
+				<LunghezzaCampo>15</LunghezzaCampo>
+				<AdeguamentoSx>0</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		<TipologiaCampoQuadro NumeroColonna="005"
+			NumeroRiga="044" TipoCampoQuadro="numero">
+			<DatiDiStampa>
+				<PosX>285</PosX>
+				<PosY>374</PosY>
+				<LunghezzaInStampa>1</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<DatiSchermo Id="QuadroE44_5" TipoCampoQuadro="intero">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo>
+				</DescrizioneCampo>
+				<LunghezzaCampo>120</LunghezzaCampo>
+				<AdeguamentoSx>0</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		<TipologiaCampoQuadro NumeroColonna="006"
+			NumeroRiga="044" TipoCampoQuadro="numero">
+			<DatiDiStampa>
+				<PosX>305</PosX>
+				<PosY>374</PosY>
+				<LunghezzaInStampa>4</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<DatiSchermo Id="QuadroE44_6" TipoCampoQuadro="intero">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo>
+				</DescrizioneCampo>
+				<LunghezzaCampo>120</LunghezzaCampo>
+				<AdeguamentoSx>0</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		<TipologiaCampoQuadro NumeroColonna="007"
+			NumeroRiga="044" TipoCampoQuadro="numero">
+			<DatiDiStampa>
+				<PosX>348</PosX>
+				<PosY>374</PosY>
+				<LunghezzaInStampa>2</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<DatiSchermo Id="QuadroE44_7" TipoCampoQuadro="intero">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo> </DescrizioneCampo>
+				<LunghezzaCampo>120</LunghezzaCampo>
+				<AdeguamentoSx>0</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		<TipologiaCampoQuadro NumeroColonna="108"
+			NumeroRiga="044" TipoCampoQuadro="numero">
+			<DatiDiStampa>
+				<PosX>386</PosX>
+				<PosY>374</PosY>
+				<LunghezzaInStampa>1</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<DatiSchermo Id="QuadroE44_108" TipoCampoQuadro="intero">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo> </DescrizioneCampo>
+				<LunghezzaCampo>120</LunghezzaCampo>
+				<AdeguamentoSx>0</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		<TipologiaCampoQuadro NumeroColonna="208"
+			NumeroRiga="044" TipoCampoQuadro="numero">
+			<DatiDiStampa>
+				<PosX>413</PosX>
+				<PosY>374</PosY>
+				<LunghezzaInStampa>1</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<DatiSchermo Id="QuadroE44_208" TipoCampoQuadro="intero">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo> </DescrizioneCampo>
+				<LunghezzaCampo>120</LunghezzaCampo>
+				<AdeguamentoSx>0</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		<TipologiaCampoQuadro NumeroColonna="308"
+			NumeroRiga="044" TipoCampoQuadro="numero">
+			<DatiDiStampa>
+				<PosX>437</PosX>
+				<PosY>374</PosY>
+				<LunghezzaInStampa>2</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<DatiSchermo Id="QuadroE44_308" TipoCampoQuadro="intero">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo> </DescrizioneCampo>
+				<LunghezzaCampo>120</LunghezzaCampo>
+				<AdeguamentoSx>0</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		<TipologiaCampoQuadro NumeroColonna="309"
+			NumeroRiga="044" TipoCampoQuadro="importo">
+			<DatiDiStampa>
+				<PosX>450</PosX>
+				<PosY>374</PosY>
+				<LunghezzaInStampa>13</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<DatiSchermo Id="QuadroE44_309" TipoCampoQuadro="importo">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo> </DescrizioneCampo>
+				<LunghezzaCampo>97</LunghezzaCampo>
+				<AdeguamentoSx>-65</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		<TipologiaCampoQuadro NumeroColonna="310"
+			NumeroRiga="044" TipoCampoQuadro="numero">
+			<DatiDiStampa>
+				<PosX>490</PosX>
+				<PosY>374</PosY>
+				<LunghezzaInStampa>13</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<DatiSchermo Id="QuadroE44_310" TipoCampoQuadro="intero">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo>Importo</DescrizioneCampo>
+				<LunghezzaCampo>97</LunghezzaCampo>
+				<AdeguamentoSx>-65</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		<TipologiaCampoQuadro NumeroColonna="001"
+			NumeroRiga="051" TipoCampoQuadro="importo">
+			<DatiDiStampa>
+				<PosX>31</PosX>
+				<PosY>340</PosY>
+				<LunghezzaInStampa>8</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			
+			<DatiSchermo Id="QuadroE51_1" TipoCampoQuadro="importo">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo>Numero d'ordine immobile</DescrizioneCampo>
+				<LunghezzaCampo>97</LunghezzaCampo>
+				<AdeguamentoSx>-65</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		<TipologiaCampoQuadro NumeroColonna="002"
+			NumeroRiga="051" TipoCampoQuadro="casella">
+			<DatiDiStampa>
+				<PosX>110</PosX>
+				<PosY>340</PosY>
+				<LunghezzaInStampa>1</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+				<ValoreCasella>1</ValoreCasella>
+			</DatiDiStampa>
+			<DatiSchermo Id="QuadroE51_2" TipoCampoQuadro="alfa">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo>Casella C.O. Pescara /Condominio</DescrizioneCampo>
+				<LunghezzaCampo>97</LunghezzaCampo>
+				<AdeguamentoSx>-65</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		<TipologiaCampoQuadro NumeroColonna="003"
+			NumeroRiga="051" TipoCampoQuadro="testoconspaziatura">
+			<DatiDiStampa>
+				<PosX>142</PosX>
+				<PosY>339</PosY>
+				<LunghezzaInStampa>5</LunghezzaInStampa>
+				
+				<NumeroPagina>1</NumeroPagina>
+				
+			</DatiDiStampa>
+			<DatiSchermo Id="QuadroE51_3" TipoCampoQuadro="alfa">
+				<NumeroPagina>1</NumeroPagina>
+				
+				<DescrizioneCampo>Codice catastale del comune</DescrizioneCampo>
+				
+				<LunghezzaCampo>97</LunghezzaCampo>
+				<AdeguamentoSx>-65</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		<TipologiaCampoQuadro NumeroColonna="004"
+			NumeroRiga="051" TipoCampoQuadro="testo">
+			<DatiDiStampa>
+				<PosX>235</PosX>
+				<PosY>340</PosY>
+				<LunghezzaInStampa>1</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<DatiSchermo Id="QuadroE51_4" TipoCampoQuadro="alfa">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo> Tipologia accatastamento</DescrizioneCampo>
+				<LunghezzaCampo>97</LunghezzaCampo>
+				<AdeguamentoSx>-65</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		<TipologiaCampoQuadro NumeroColonna="005"
+			NumeroRiga="051" TipoCampoQuadro="testoconspaziatura">
+			<DatiDiStampa>
+				<PosX>261</PosX>
+				<PosY>338</PosY>
+				<LunghezzaInStampa>4</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<Font>
+				<Tipo>Courier-Bold</Tipo>
+				<Dimensione>8</Dimensione>
+			</Font>
+			<DatiSchermo Id="QuadroE51_5" TipoCampoQuadro="alfa">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo>Immobile intero/porzione</DescrizioneCampo>
+				<LunghezzaCampo>97</LunghezzaCampo>
+				<AdeguamentoSx>-65</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		<TipologiaCampoQuadro NumeroColonna="006"
+			NumeroRiga="051" TipoCampoQuadro="testoconspaziatura">
+			<DatiDiStampa>
+				<PosX>314</PosX>
+				<PosY>338</PosY>
+				<LunghezzaInStampa>4</LunghezzaInStampa>
+				
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<DatiSchermo Id="QuadroE51_6" TipoCampoQuadro="alfa">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo>Sezione urbana/codice comune catastale</DescrizioneCampo>
+				<LunghezzaCampo>97</LunghezzaCampo>
+				<AdeguamentoSx>-65</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		<TipologiaCampoQuadro NumeroColonna="107"
+			NumeroRiga="051" TipoCampoQuadro="testoconspaziatura">
+			<DatiDiStampa>
+				<PosX>374</PosX>
+				<PosY>338</PosY>
+				<LunghezzaInStampa>5</LunghezzaInStampa>
+				<NumeroSpazi>1</NumeroSpazi>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<DatiSchermo Id="QuadroE51_107" TipoCampoQuadro="alfa">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo>Foglio</DescrizioneCampo>
+				<LunghezzaCampo>97</LunghezzaCampo>
+				<AdeguamentoSx>-65</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		<TipologiaCampoQuadro NumeroColonna="207"
+			NumeroRiga="051" TipoCampoQuadro="testoconspaziatura">
+			<DatiDiStampa>
+				<PosX>455</PosX>
+				<PosY>338</PosY>
+				<LunghezzaInStampa>4</LunghezzaInStampa>
+				
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<DatiSchermo Id="QuadroE51_207" TipoCampoQuadro="alfa">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo>Particella - Numero</DescrizioneCampo>
+				<LunghezzaCampo>97</LunghezzaCampo>
+				<AdeguamentoSx>-65</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		<TipologiaCampoQuadro NumeroColonna="208"
+			NumeroRiga="051" TipoCampoQuadro="testoconspaziatura">
+			<DatiDiStampa>
+				<PosX>515</PosX>
+				<PosY>338</PosY>
+				<LunghezzaInStampa>4</LunghezzaInStampa>
+			
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<DatiSchermo Id="QuadroE51_208" TipoCampoQuadro="alfa">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo>Particella - Denominatore</DescrizioneCampo>
+				<LunghezzaCampo>97</LunghezzaCampo>
+				<AdeguamentoSx>-65</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		
+		<TipologiaCampoQuadro NumeroColonna="001"
+			NumeroRiga="052" TipoCampoQuadro="importo">
+			<DatiDiStampa>
+				<PosX>31</PosX>
+				<PosY>316</PosY>
+				<LunghezzaInStampa>8</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			
+			<DatiSchermo Id="QuadroE52_1" TipoCampoQuadro="importo">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo>Numero d'ordine immobile</DescrizioneCampo>
+				<LunghezzaCampo>97</LunghezzaCampo>
+				<AdeguamentoSx>-65</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		<TipologiaCampoQuadro NumeroColonna="002"
+			NumeroRiga="052" TipoCampoQuadro="casella">
+			<DatiDiStampa>
+				<PosX>110</PosX>
+				<PosY>316</PosY>
+				<LunghezzaInStampa>1</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+				<ValoreCasella>1</ValoreCasella>
+			</DatiDiStampa>
+			<DatiSchermo Id="QuadroE52_2" TipoCampoQuadro="alfa">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo>Casella C.O. Pescara /Condominio</DescrizioneCampo>
+				<LunghezzaCampo>97</LunghezzaCampo>
+				<AdeguamentoSx>-65</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		<TipologiaCampoQuadro NumeroColonna="003"
+			NumeroRiga="052" TipoCampoQuadro="testoconspaziatura">
+			<DatiDiStampa>
+				<PosX>142</PosX>
+				<PosY>315</PosY>
+				<LunghezzaInStampa>5</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<DatiSchermo Id="QuadroE52_3" TipoCampoQuadro="alfa">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo>Codice catastale del comune</DescrizioneCampo>
+				<LunghezzaCampo>97</LunghezzaCampo>
+				<AdeguamentoSx>-65</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		<TipologiaCampoQuadro NumeroColonna="004"
+			NumeroRiga="052" TipoCampoQuadro="testo">
+			<DatiDiStampa>
+				<PosX>235</PosX>
+				<PosY>316</PosY>
+				<LunghezzaInStampa>1</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<DatiSchermo Id="QuadroE52_4" TipoCampoQuadro="alfa">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo> Tipologia accatastamento</DescrizioneCampo>
+				<LunghezzaCampo>97</LunghezzaCampo>
+				<AdeguamentoSx>-65</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		<TipologiaCampoQuadro NumeroColonna="005"
+			NumeroRiga="052" TipoCampoQuadro="testoconspaziatura">
+			<DatiDiStampa>
+				<PosX>261</PosX>
+				<PosY>314</PosY>
+				<LunghezzaInStampa>4</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<Font>
+				<Tipo>Courier-Bold</Tipo>
+				<Dimensione>8</Dimensione>
+			</Font>
+			<DatiSchermo Id="QuadroE52_5" TipoCampoQuadro="alfa">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo>Immobile intero/porzione</DescrizioneCampo>
+				<LunghezzaCampo>97</LunghezzaCampo>
+				<AdeguamentoSx>-65</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		<TipologiaCampoQuadro NumeroColonna="006"
+			NumeroRiga="052" TipoCampoQuadro="testoconspaziatura">
+			<DatiDiStampa>
+				<PosX>314</PosX>
+				<PosY>314</PosY>
+				<LunghezzaInStampa>4</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<DatiSchermo Id="QuadroE52_6" TipoCampoQuadro="alfa">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo>Sezione urbana/codice comune catastale</DescrizioneCampo>
+				<LunghezzaCampo>97</LunghezzaCampo>
+				<AdeguamentoSx>-65</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		<TipologiaCampoQuadro NumeroColonna="107"
+			NumeroRiga="052" TipoCampoQuadro="testoconspaziatura">
+			<DatiDiStampa>
+				<PosX>374</PosX>
+				<PosY>314</PosY>
+				<LunghezzaInStampa>5</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<DatiSchermo Id="QuadroE52_107" TipoCampoQuadro="alfa">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo>Foglio</DescrizioneCampo>
+				<LunghezzaCampo>97</LunghezzaCampo>
+				<AdeguamentoSx>-65</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		<TipologiaCampoQuadro NumeroColonna="207"
+			NumeroRiga="052" TipoCampoQuadro="testoconspaziatura">
+			<DatiDiStampa>
+				<PosX>455</PosX>
+				<PosY>314</PosY>
+				<LunghezzaInStampa>4</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<DatiSchermo Id="QuadroE52_207" TipoCampoQuadro="alfa">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo>Particella - Numero</DescrizioneCampo>
+				<LunghezzaCampo>97</LunghezzaCampo>
+				<AdeguamentoSx>-65</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		<TipologiaCampoQuadro NumeroColonna="208"
+			NumeroRiga="052" TipoCampoQuadro="testoconspaziatura">
+			<DatiDiStampa>
+				<PosX>515</PosX>
+				<PosY>314</PosY>
+				<LunghezzaInStampa>4</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<DatiSchermo Id="QuadroE52_208" TipoCampoQuadro="alfa">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo>Particella - Denominatore</DescrizioneCampo>
+				<LunghezzaCampo>97</LunghezzaCampo>
+				<AdeguamentoSx>-65</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		
+		<TipologiaCampoQuadro NumeroColonna="001"
+			NumeroRiga="053" TipoCampoQuadro="importo">
+			<DatiDiStampa>
+				<PosX>54</PosX>
+				<PosY>278</PosY>
+				<LunghezzaInStampa>8</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			
+			<DatiSchermo Id="QuadroE53_1" TipoCampoQuadro="importo">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo>Numero d'ordine immobile</DescrizioneCampo>
+				<LunghezzaCampo>97</LunghezzaCampo>
+				<AdeguamentoSx>-65</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		<TipologiaCampoQuadro NumeroColonna="002"
+			NumeroRiga="053" TipoCampoQuadro="casella">
+			<DatiDiStampa>
+				<PosX>130</PosX>
+				<PosY>278</PosY>
+				<LunghezzaInStampa>1</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+				<ValoreCasella>1</ValoreCasella>
+			</DatiDiStampa>
+			<DatiSchermo Id="QuadroE53_2" TipoCampoQuadro="alfa">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo>Casella C.O. Pescara /Condominio</DescrizioneCampo>
+				<LunghezzaCampo>97</LunghezzaCampo>
+				<AdeguamentoSx>-65</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		<TipologiaCampoQuadro NumeroColonna="003"
+			NumeroRiga="053" TipoCampoQuadro="dataconspaziatura">
+			<DatiDiStampa>
+				<PosX>161</PosX>
+				<PosY>278</PosY>
+				<LunghezzaInStampa>10</LunghezzaInStampa>
+				<NumeroSpazi>3</NumeroSpazi>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<DatiSchermo Id="QuadroE53_3" TipoCampoQuadro="data">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo>Data di registrazione</DescrizioneCampo>
+				<LunghezzaCampo>50</LunghezzaCampo>
+				<AdeguamentoSx>0</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		<TipologiaCampoQuadro NumeroColonna="004"
+			NumeroRiga="053" TipoCampoQuadro="testo">
+			<DatiDiStampa>
+				<PosX>235</PosX>
+				<PosY>278</PosY>
+				<LunghezzaInStampa>2</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<DatiSchermo Id="QuadroE53_4" TipoCampoQuadro="alfa">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo>Serie</DescrizioneCampo>
+				<LunghezzaCampo>97</LunghezzaCampo>
+				<AdeguamentoSx>-65</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		<TipologiaCampoQuadro NumeroColonna="105"
+			NumeroRiga="053" TipoCampoQuadro="testo">
+			<DatiDiStampa>
+				<PosX>258</PosX>
+				<PosY>284</PosY>
+				<LunghezzaInStampa>16</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<Font>
+                <Tipo>Courier-Bold</Tipo>
+                <Dimensione>7</Dimensione>
+            </Font>
+			<DatiSchermo Id="QuadroE53_105" TipoCampoQuadro="alfa">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo>Estremi di registrazione del contratto di
+					locazione o comodato - Numero</DescrizioneCampo>
+				<LunghezzaCampo>97</LunghezzaCampo>
+				<AdeguamentoSx>-65</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		<TipologiaCampoQuadro NumeroColonna="205"
+			NumeroRiga="053" TipoCampoQuadro="testo">
+			<DatiDiStampa>
+				<PosX>291</PosX>
+				<PosY>277</PosY>
+				<LunghezzaInStampa>16</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<Font>
+                <Tipo>Courier-Bold</Tipo>
+                <Dimensione>7</Dimensione>
+            </Font>
+			<DatiSchermo Id="QuadroE53_205" TipoCampoQuadro="alfa">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo>Estremi di registrazione del contratto di
+					locazione o comodato - Sottonumero</DescrizioneCampo>
+				<LunghezzaCampo>97</LunghezzaCampo>
+				<AdeguamentoSx>-65</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		<TipologiaCampoQuadro NumeroColonna="206"
+			NumeroRiga="053" TipoCampoQuadro="testo">
+			<DatiDiStampa>
+				<PosX>342</PosX>
+				<PosY>278</PosY>
+				<LunghezzaInStampa>3</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<DatiSchermo Id="QuadroE53_206" TipoCampoQuadro="alfa">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo>Codice ufficio Agenzia entrate</DescrizioneCampo>
+				<LunghezzaCampo>97</LunghezzaCampo>
+				<AdeguamentoSx>-65</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		<TipologiaCampoQuadro NumeroColonna="207"
+			NumeroRiga="053" TipoCampoQuadro="dataconspaziatura">
+			<DatiDiStampa>
+				<PosX>375</PosX>
+				<PosY>278</PosY>
+				<LunghezzaInStampa>10</LunghezzaInStampa>
+				<NumeroSpazi>3</NumeroSpazi>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<DatiSchermo Id="QuadroE53_207" TipoCampoQuadro="data">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo>Domanda di accatastamento -Data di
+					presentazione</DescrizioneCampo>
+				<LunghezzaCampo>50</LunghezzaCampo>
+				<AdeguamentoSx>0</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		<TipologiaCampoQuadro NumeroColonna="208"
+			NumeroRiga="053" TipoCampoQuadro="testo">
+			<DatiDiStampa>
+				<PosX>456</PosX>
+				<PosY>278</PosY>
+				<LunghezzaInStampa>16</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<DatiSchermo Id="QuadroE53_208" TipoCampoQuadro="alfa">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo>Domanda di accatastamento - Numero</DescrizioneCampo>
+				<LunghezzaCampo>97</LunghezzaCampo>
+				<AdeguamentoSx>-65</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		<TipologiaCampoQuadro NumeroColonna="209"
+			NumeroRiga="053" TipoCampoQuadro="testo">
+			<DatiDiStampa>
+				<PosX>525</PosX>
+				<PosY>278</PosY>
+				<LunghezzaInStampa>2</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<DatiSchermo Id="QuadroE53_209" TipoCampoQuadro="alfa">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo>Sigla della Provincia in cui è situato
+					l'Ufficio Provinciale dell'Agenzia del
+					Territorio presso il quale è stata presentata la domanda</DescrizioneCampo>
+				<LunghezzaCampo>97</LunghezzaCampo>
+				<AdeguamentoSx>-65</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		<TipologiaCampoQuadro NumeroColonna="001"
+			NumeroRiga="057" TipoCampoQuadro="testoconspaziatura">
+			<DatiDiStampa>
+				<PosX>430</PosX>
+				<PosY>241</PosY>
+				<LunghezzaInStampa>4</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<DatiSchermo Id="QuadroE57_1" TipoCampoQuadro="alfa">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo>Particella - Denominatore</DescrizioneCampo>
+				<LunghezzaCampo>97</LunghezzaCampo>
+				<AdeguamentoSx>-65</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		<TipologiaCampoQuadro NumeroColonna="002"
+			NumeroRiga="057" TipoCampoQuadro="testoconspaziatura">
+			<DatiDiStampa>
+				<PosX>518</PosX>
+				<PosY>241</PosY>
+				<LunghezzaInStampa>4</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<DatiSchermo Id="QuadroE57_2" TipoCampoQuadro="alfa">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo>Subalterno</DescrizioneCampo>
+				<LunghezzaCampo>97</LunghezzaCampo>
+				<AdeguamentoSx>-65</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		<TipologiaCampoQuadro NumeroColonna="001"
+			NumeroRiga="061" TipoCampoQuadro="importo">
+			<DatiDiStampa>
+				<PosX>64</PosX>
+				<PosY>195</PosY>
+				<LunghezzaInStampa>1</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<DatiSchermo Id="QuadroE61_1" TipoCampoQuadro="importo">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo> </DescrizioneCampo>
+				<LunghezzaCampo>97</LunghezzaCampo>
+				<AdeguamentoSx>-65</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		<TipologiaCampoQuadro NumeroColonna="002"
+			NumeroRiga="061" TipoCampoQuadro="numero">
+			<DatiDiStampa>
+				<PosX>131</PosX>
+				<PosY>195</PosY>
+				<LunghezzaInStampa>4</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<DatiSchermo Id="QuadroE61_2" TipoCampoQuadro="intero">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo> </DescrizioneCampo>
+				<LunghezzaCampo>97</LunghezzaCampo>
+				<AdeguamentoSx>-65</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		<TipologiaCampoQuadro NumeroColonna="003"
+			NumeroRiga="061" TipoCampoQuadro="numero">
+			<DatiDiStampa>
+				<PosX>168</PosX>
+				<PosY>195</PosY>
+				<LunghezzaInStampa>3</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<DatiSchermo Id="QuadroE61_3" TipoCampoQuadro="intero">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo> </DescrizioneCampo>
+				<LunghezzaCampo>97</LunghezzaCampo>
+				<AdeguamentoSx>-65</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		<TipologiaCampoQuadro NumeroColonna="004"
+			NumeroRiga="061" TipoCampoQuadro="importo">
+			<DatiDiStampa>
+				<PosX>222</PosX>
+				<PosY>195</PosY>
+				<LunghezzaInStampa>1</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<DatiSchermo Id="QuadroE61_4" TipoCampoQuadro="importo">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo> </DescrizioneCampo>
+				<LunghezzaCampo>97</LunghezzaCampo>
+				<AdeguamentoSx>-65</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		<TipologiaCampoQuadro NumeroColonna="005"
+			NumeroRiga="061" TipoCampoQuadro="importo">
+			<DatiDiStampa>
+				<PosX>280</PosX>
+				<PosY>195</PosY>
+				<LunghezzaInStampa>2</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<DatiSchermo Id="QuadroE61_5" TipoCampoQuadro="importo">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo> </DescrizioneCampo>
+				<LunghezzaCampo>97</LunghezzaCampo>
+				<AdeguamentoSx>-65</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		<TipologiaCampoQuadro NumeroColonna="006"
+			NumeroRiga="061" TipoCampoQuadro="importo">
+			<DatiDiStampa>
+				<PosX>350</PosX>
+				<PosY>195</PosY>
+				<LunghezzaInStampa>2</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<DatiSchermo Id="QuadroE61_6" TipoCampoQuadro="importo">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo> </DescrizioneCampo>
+				<LunghezzaCampo>97</LunghezzaCampo>
+				<AdeguamentoSx>-65</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		<TipologiaCampoQuadro NumeroColonna="007"
+			NumeroRiga="061" TipoCampoQuadro="importo">
+			<DatiDiStampa>
+				<PosX>428</PosX>
+				<PosY>195</PosY>
+				<LunghezzaInStampa>2</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<DatiSchermo Id="QuadroE61_7" TipoCampoQuadro="importo">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo> </DescrizioneCampo>
+				<LunghezzaCampo>97</LunghezzaCampo>
+				<AdeguamentoSx>-65</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		<TipologiaCampoQuadro NumeroColonna="008"
+			NumeroRiga="061" TipoCampoQuadro="importo">
+			<DatiDiStampa>
+				<PosX>486</PosX>
+				<PosY>194</PosY>
+				<LunghezzaInStampa>13</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<DatiSchermo Id="QuadroE61_8" TipoCampoQuadro="importo">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo> </DescrizioneCampo>
+				<LunghezzaCampo>97</LunghezzaCampo>
+				<AdeguamentoSx>-65</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		<TipologiaCampoQuadro NumeroColonna="001"
+			NumeroRiga="062" TipoCampoQuadro="importo">
+			<DatiDiStampa>
+				<PosX>64</PosX>
+				<PosY>170</PosY>
+				<LunghezzaInStampa>1</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<DatiSchermo Id="QuadroE62_1" TipoCampoQuadro="importo">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo> </DescrizioneCampo>
+				<LunghezzaCampo>97</LunghezzaCampo>
+				<AdeguamentoSx>-65</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		<TipologiaCampoQuadro NumeroColonna="002"
+			NumeroRiga="062" TipoCampoQuadro="numero">
+			<DatiDiStampa>
+				<PosX>131</PosX>
+				<PosY>170</PosY>
+				<LunghezzaInStampa>4</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<DatiSchermo Id="QuadroE62_2" TipoCampoQuadro="intero">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo> </DescrizioneCampo>
+				<LunghezzaCampo>97</LunghezzaCampo>
+				<AdeguamentoSx>-65</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		<TipologiaCampoQuadro NumeroColonna="003"
+			NumeroRiga="062" TipoCampoQuadro="importo">
+			<DatiDiStampa>
+				<PosX>168</PosX>
+				<PosY>170</PosY>
+				<LunghezzaInStampa>3</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<DatiSchermo Id="QuadroE62_3" TipoCampoQuadro="importo">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo> </DescrizioneCampo>
+				<LunghezzaCampo>97</LunghezzaCampo>
+				<AdeguamentoSx>-65</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		<TipologiaCampoQuadro NumeroColonna="004"
+			NumeroRiga="062" TipoCampoQuadro="importo">
+			<DatiDiStampa>
+				<PosX>222</PosX>
+				<PosY>170</PosY>
+				<LunghezzaInStampa>1</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<DatiSchermo Id="QuadroE62_4" TipoCampoQuadro="importo">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo> </DescrizioneCampo>
+				<LunghezzaCampo>97</LunghezzaCampo>
+				<AdeguamentoSx>-65</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		<TipologiaCampoQuadro NumeroColonna="005"
+			NumeroRiga="062" TipoCampoQuadro="importo">
+			<DatiDiStampa>
+				<PosX>280</PosX>
+				<PosY>170</PosY>
+				<LunghezzaInStampa>2</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<DatiSchermo Id="QuadroE62_5" TipoCampoQuadro="importo">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo> </DescrizioneCampo>
+				<LunghezzaCampo>97</LunghezzaCampo>
+				<AdeguamentoSx>-65</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		<TipologiaCampoQuadro NumeroColonna="006"
+			NumeroRiga="062" TipoCampoQuadro="importo">
+			<DatiDiStampa>
+				<PosX>350</PosX>
+				<PosY>170</PosY>
+				<LunghezzaInStampa>2</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<DatiSchermo Id="QuadroE62_6" TipoCampoQuadro="importo">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo> </DescrizioneCampo>
+				<LunghezzaCampo>97</LunghezzaCampo>
+				<AdeguamentoSx>-65</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		<TipologiaCampoQuadro NumeroColonna="007"
+			NumeroRiga="062" TipoCampoQuadro="importo">
+			<DatiDiStampa>
+				<PosX>428</PosX>
+				<PosY>170</PosY>
+				<LunghezzaInStampa>2</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<DatiSchermo Id="QuadroE62_7" TipoCampoQuadro="importo">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo> </DescrizioneCampo>
+				<LunghezzaCampo>97</LunghezzaCampo>
+				<AdeguamentoSx>-65</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		<TipologiaCampoQuadro NumeroColonna="008"
+			NumeroRiga="062" TipoCampoQuadro="importo">
+			<DatiDiStampa>
+				<PosX>486</PosX>
+				<PosY>170</PosY>
+				<LunghezzaInStampa>13</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<DatiSchermo Id="QuadroE62_8" TipoCampoQuadro="importo">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo> </DescrizioneCampo>
+				<LunghezzaCampo>97</LunghezzaCampo>
+				<AdeguamentoSx>-65</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		<TipologiaCampoQuadro NumeroColonna="001"
+			NumeroRiga="063" TipoCampoQuadro="importo">
+			<DatiDiStampa>
+				<PosX>64</PosX>
+				<PosY>147</PosY>
+				<LunghezzaInStampa>1</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<DatiSchermo Id="QuadroE63_1" TipoCampoQuadro="importo">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo> </DescrizioneCampo>
+				<LunghezzaCampo>97</LunghezzaCampo>
+				<AdeguamentoSx>-65</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		<TipologiaCampoQuadro NumeroColonna="002"
+			NumeroRiga="063" TipoCampoQuadro="numero">
+			<DatiDiStampa>
+				<PosX>131</PosX>
+				<PosY>147</PosY>
+				<LunghezzaInStampa>4</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<DatiSchermo Id="QuadroE63_2" TipoCampoQuadro="intero">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo> </DescrizioneCampo>
+				<LunghezzaCampo>97</LunghezzaCampo>
+				<AdeguamentoSx>-65</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		<TipologiaCampoQuadro NumeroColonna="003"
+			NumeroRiga="063" TipoCampoQuadro="importo">
+			<DatiDiStampa>
+				<PosX>168</PosX>
+				<PosY>147</PosY>
+				<LunghezzaInStampa>3</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<DatiSchermo Id="QuadroE63_3" TipoCampoQuadro="importo">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo> </DescrizioneCampo>
+				<LunghezzaCampo>97</LunghezzaCampo>
+				<AdeguamentoSx>-65</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		<TipologiaCampoQuadro NumeroColonna="004"
+			NumeroRiga="063" TipoCampoQuadro="importo">
+			<DatiDiStampa>
+				<PosX>222</PosX>
+				<PosY>147</PosY>
+				<LunghezzaInStampa>1</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<DatiSchermo Id="QuadroE63_4" TipoCampoQuadro="importo">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo> </DescrizioneCampo>
+				<LunghezzaCampo>97</LunghezzaCampo>
+				<AdeguamentoSx>-65</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		<TipologiaCampoQuadro NumeroColonna="005"
+			NumeroRiga="063" TipoCampoQuadro="importo">
+			<DatiDiStampa>
+				<PosX>280</PosX>
+				<PosY>147</PosY>
+				<LunghezzaInStampa>2</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<DatiSchermo Id="QuadroE63_5" TipoCampoQuadro="importo">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo> </DescrizioneCampo>
+				<LunghezzaCampo>97</LunghezzaCampo>
+				<AdeguamentoSx>-65</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		<TipologiaCampoQuadro NumeroColonna="006"
+			NumeroRiga="063" TipoCampoQuadro="importo">
+			<DatiDiStampa>
+				<PosX>350</PosX>
+				<PosY>147</PosY>
+				<LunghezzaInStampa>2</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<DatiSchermo Id="QuadroE63_6" TipoCampoQuadro="importo">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo> </DescrizioneCampo>
+				<LunghezzaCampo>97</LunghezzaCampo>
+				<AdeguamentoSx>-65</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		<TipologiaCampoQuadro NumeroColonna="007"
+			NumeroRiga="063" TipoCampoQuadro="importo">
+			<DatiDiStampa>
+				<PosX>428</PosX>
+				<PosY>147</PosY>
+				<LunghezzaInStampa>2</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<DatiSchermo Id="QuadroE63_7" TipoCampoQuadro="importo">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo> </DescrizioneCampo>
+				<LunghezzaCampo>97</LunghezzaCampo>
+				<AdeguamentoSx>-65</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		<TipologiaCampoQuadro NumeroColonna="008"
+			NumeroRiga="063" TipoCampoQuadro="importo">
+			<DatiDiStampa>
+				<PosX>486</PosX>
+				<PosY>146</PosY>
+				<LunghezzaInStampa>13</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<DatiSchermo Id="QuadroE63_8" TipoCampoQuadro="importo">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo> </DescrizioneCampo>
+				<LunghezzaCampo>97</LunghezzaCampo>
+				<AdeguamentoSx>-65</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		<TipologiaCampoQuadro NumeroColonna="001"
+			NumeroRiga="071" TipoCampoQuadro="importo">
+			<DatiDiStampa>
+				<PosX>117</PosX>
+				<PosY>109</PosY>
+				<LunghezzaInStampa>13</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<DatiSchermo Id="QuadroE71_1" TipoCampoQuadro="importo">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo> </DescrizioneCampo>
+				<LunghezzaCampo>97</LunghezzaCampo>
+				<AdeguamentoSx>-65</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		<TipologiaCampoQuadro NumeroColonna="002"
+			NumeroRiga="071" TipoCampoQuadro="importo">
+			<DatiDiStampa>
+				<PosX>174</PosX>
+				<PosY>109</PosY>
+				<LunghezzaInStampa>13</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<DatiSchermo Id="QuadroE71_2" TipoCampoQuadro="importo">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo> </DescrizioneCampo>
+				<LunghezzaCampo>97</LunghezzaCampo>
+				<AdeguamentoSx>-65</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		<TipologiaCampoQuadro NumeroColonna="003"
+			NumeroRiga="071" TipoCampoQuadro="decimale">
+			<DatiDiStampa>
+				<PosX>231</PosX>
+				<PosY>109</PosY>
+				<LunghezzaInStampa>13</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<DatiSchermo Id="QuadroE71_3" TipoCampoQuadro="decimale">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo> </DescrizioneCampo>
+				<LunghezzaCampo>97</LunghezzaCampo>
+				<AdeguamentoSx>-65</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		<TipologiaCampoQuadro NumeroColonna="001"
+			NumeroRiga="072" TipoCampoQuadro="importo">
+			<DatiDiStampa>
+				<PosX>425</PosX>
+				<PosY>109</PosY>
+				<LunghezzaInStampa>13</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<DatiSchermo Id="QuadroE72_1" TipoCampoQuadro="importo">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo> </DescrizioneCampo>
+				<LunghezzaCampo>97</LunghezzaCampo>
+				<AdeguamentoSx>-65</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		<TipologiaCampoQuadro NumeroColonna="002"
+			NumeroRiga="072" TipoCampoQuadro="decimale">
+			<DatiDiStampa>
+				<PosX>496</PosX>
+				<PosY>109</PosY>
+				<LunghezzaInStampa>13</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<DatiSchermo Id="QuadroE72_2" TipoCampoQuadro="decimale">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo> </DescrizioneCampo>
+				<LunghezzaCampo>97</LunghezzaCampo>
+				<AdeguamentoSx>-65</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		<TipologiaCampoQuadro NumeroColonna="001"
+			NumeroRiga="081" TipoCampoQuadro="casella">
+			<DatiDiStampa>
+				<PosX>155</PosX>
+				<PosY>73</PosY>
+				<LunghezzaInStampa>1</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+				<ValoreCasella>1</ValoreCasella>
+			</DatiDiStampa>
+			<DatiSchermo Id="QuadroE81_1" TipoCampoQuadro="alfa">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo> </DescrizioneCampo>
+				<LunghezzaCampo>97</LunghezzaCampo>
+				<AdeguamentoSx>-65</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		<TipologiaCampoQuadro NumeroColonna="001"
+			NumeroRiga="082" TipoCampoQuadro="importo">
+			<DatiDiStampa>
+				<PosX>314</PosX>
+				<PosY>72</PosY>
+				<LunghezzaInStampa>13</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<DatiSchermo Id="QuadroE82_1" TipoCampoQuadro="importo">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo> </DescrizioneCampo>
+				<LunghezzaCampo>97</LunghezzaCampo>
+				<AdeguamentoSx>-65</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		<TipologiaCampoQuadro NumeroColonna="001"
+			NumeroRiga="083" TipoCampoQuadro="importo">
+			<DatiDiStampa>
+				<PosX>474</PosX>
+				<PosY>72</PosY>
+				<LunghezzaInStampa>1</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<DatiSchermo Id="QuadroE83_1" TipoCampoQuadro="importo">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo> </DescrizioneCampo>
+				<LunghezzaCampo>97</LunghezzaCampo>
+				<AdeguamentoSx>-65</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+		<TipologiaCampoQuadro NumeroColonna="002"
+			NumeroRiga="083" TipoCampoQuadro="importo">
+			<DatiDiStampa>
+				<PosX>486</PosX>
+				<PosY>72</PosY>
+				<LunghezzaInStampa>13</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<DatiSchermo Id="QuadroE83_2" TipoCampoQuadro="importo">
+				<NumeroPagina>1</NumeroPagina>
+				<DescrizioneCampo> </DescrizioneCampo>
+				<LunghezzaCampo>97</LunghezzaCampo>
+				<AdeguamentoSx>-65</AdeguamentoSx>
+			</DatiSchermo>
+		</TipologiaCampoQuadro>
+
+		<Font>
+			<Tipo>Courier-Bold</Tipo>
+			<Dimensione>9</Dimensione>
+		</Font>
+
+		<TipologiaAltroCampo Nome="CodiceFiscale"
+			TipoAltroCampo="testo">
+			<DatiDiStampa>
+				<PosX>395</PosX>
+				<PosY>820</PosY>
+				<LunghezzaInStampa>16</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<Font>
+				<Tipo>Courier-Bold</Tipo>
+				<Dimensione>10</Dimensione>
+			</Font>
+		</TipologiaAltroCampo>
+		<TipologiaAltroCampo Nome="Modello"
+			TipoAltroCampo="numeroconspaziatura">
+			<DatiDiStampa>
+				<PosX>537</PosX>
+				<PosY>820</PosY>
+				<LunghezzaInStampa>2</LunghezzaInStampa>
+				<NumeroSpazi>1</NumeroSpazi>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<Font>
+				<Tipo>Courier-Bold</Tipo>
+				<Dimensione>10</Dimensione>
+			</Font>
+		</TipologiaAltroCampo>
+
+		<TipologiaAltroCampo Nome="DataStampa"
+			TipoAltroCampo="testo">
+			<DatiDiStampa>
+				<PosX>25</PosX>
+				<PosY>10</PosY>
+				<LunghezzaInStampa>16</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<Font>
+				<Tipo>Courier-Bold</Tipo>
+				<Dimensione>10</Dimensione>
+			</Font>
+		</TipologiaAltroCampo>
+		<TipologiaAltroCampo Nome="StatoDichiarazione"
+			TipoAltroCampo="testo">
+			<DatiDiStampa>
+				<PosX>250</PosX>
+				<PosY>10</PosY>
+				<LunghezzaInStampa>16</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<Font>
+				<Tipo>Courier-Bold</Tipo>
+				<Dimensione>10</Dimensione>
+			</Font>
+		</TipologiaAltroCampo>
+		<TipologiaAltroCampo Nome="ModelloDicitura"
+			TipoAltroCampo="testo">
+			<DatiDiStampa>
+				<PosX>500</PosX>
+				<PosY>10</PosY>
+				<LunghezzaInStampa>16</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<Font>
+				<Tipo>Courier-Bold</Tipo>
+				<Dimensione>10</Dimensione>
+			</Font>
+		</TipologiaAltroCampo>
+		<TipologiaAltroCampo Nome="ProtocolloTelematico"
+			TipoAltroCampo="testo">
+			<DatiDiStampa>
+				<PosX>25</PosX>
+				<PosY>18</PosY>
+				<LunghezzaInStampa>70</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<Font>
+				<Tipo>Courier-Bold</Tipo>
+				<Dimensione>10</Dimensione>
+			</Font>
+		</TipologiaAltroCampo>
+		<TipologiaAltroCampo Nome="CodiceFiscaleDicitura"
+			TipoAltroCampo="testo">
+			<DatiDiStampa>
+				<PosX>400</PosX>
+				<PosY>18</PosY>
+				<LunghezzaInStampa>70</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<Font>
+				<Tipo>Courier-Bold</Tipo>
+				<Dimensione>10</Dimensione>
+			</Font>
+		</TipologiaAltroCampo>
+		<cf xcf1="417" xcfn="180" ycf1="100" ycfn="50" />
+		<modulo xModulo1="740" xModulon="600" yModulo1="178" yModulon="48" />
+	</TipologiaStampaQuadro>
+</Quadro>

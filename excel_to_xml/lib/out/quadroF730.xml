@@ -1,0 +1,929 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<!DOCTYPE Quadro SYSTEM "tipologiastampa.dtd">
+<Quadro NomeQuadro="QuadroF" annoImposta="2013" modello="730" multiModulo="no" nome="QuadroF" pagine="1">
+    <TipologiaStampaQuadro AnnoImposta="2013" NumeroColonne="10" NumeroRighe="13">
+    
+        <TipologiaCampoQuadro NumeroColonna="001" NumeroRiga="001" TipoCampoQuadro="importo">
+            <DatiDiStampa>
+                <PosX>71</PosX>
+                <PosY>768</PosY>
+                <LunghezzaInStampa>13</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroF1_1" TipoCampoQuadro="importo">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo>Importo prima rata d'acconto Irpef</DescrizioneCampo>
+                <LunghezzaCampo>97</LunghezzaCampo>
+                <AdeguamentoSx>-65</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+        <TipologiaCampoQuadro NumeroColonna="002" NumeroRiga="001" TipoCampoQuadro="importo">
+            <DatiDiStampa>
+                <PosX>71</PosX>
+                <PosY>744</PosY>
+                <LunghezzaInStampa>13</LunghezzaInStampa>
+               <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroF1_2" TipoCampoQuadro="importo">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo>Importo seconda o unica rata d'acconto Irpef</DescrizioneCampo>
+                <LunghezzaCampo>97</LunghezzaCampo>
+                <AdeguamentoSx>-65</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+        <TipologiaCampoQuadro NumeroColonna="003" NumeroRiga="001" TipoCampoQuadro="importo">
+            <DatiDiStampa>
+                <PosX>185</PosX>
+                <PosY>768</PosY>
+                <LunghezzaInStampa>13</LunghezzaInStampa>
+               <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroF1_3" TipoCampoQuadro="importo">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo>Acconto add.le comunale trattenuto con mod. 730/2013</DescrizioneCampo>
+                <LunghezzaCampo>97</LunghezzaCampo>
+                <AdeguamentoSx>-65</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+        <TipologiaCampoQuadro NumeroColonna="004" NumeroRiga="001" TipoCampoQuadro="importo">
+            <DatiDiStampa>
+                <PosX>185</PosX>
+                <PosY>744</PosY>
+                <LunghezzaInStampa>13</LunghezzaInStampa>
+               <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroF1_4" TipoCampoQuadro="importo">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo>Acconto add.le comunale versato con Mod. F24</DescrizioneCampo>
+                <LunghezzaCampo>97</LunghezzaCampo>
+                <AdeguamentoSx>-65</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+        <TipologiaCampoQuadro NumeroColonna="005" NumeroRiga="001" TipoCampoQuadro="importo">
+            <DatiDiStampa>
+                <PosX>300</PosX>
+                <PosY>768</PosY>
+                <LunghezzaInStampa>13</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroF1_5" TipoCampoQuadro="importo">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo>Prima rata acconto cedolare secca 2013</DescrizioneCampo>
+                <LunghezzaCampo>97</LunghezzaCampo>
+                <AdeguamentoSx>-65</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+        <TipologiaCampoQuadro NumeroColonna="006" NumeroRiga="001" TipoCampoQuadro="importo">
+            <DatiDiStampa>
+                <PosX>300</PosX>
+                <PosY>744</PosY>
+                <LunghezzaInStampa>13</LunghezzaInStampa>
+               <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroF1_6" TipoCampoQuadro="importo">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo>Importo seconda o unica rata d'acconto cedolare secca 2013</DescrizioneCampo>
+                <LunghezzaCampo>97</LunghezzaCampo>
+                <AdeguamentoSx>-65</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+        <TipologiaCampoQuadro NumeroColonna="007" NumeroRiga="001" TipoCampoQuadro="importo">
+            <DatiDiStampa>
+                <PosX>415</PosX>
+                <PosY>744</PosY>
+                <LunghezzaInStampa>13</LunghezzaInStampa>
+               <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroF1_7" TipoCampoQuadro="importo">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo>Acconto Irpef 2013 ricalcolato terreni/frontalieri</DescrizioneCampo>
+                <LunghezzaCampo>97</LunghezzaCampo>
+                <AdeguamentoSx>-65</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+       
+        
+        <TipologiaCampoQuadro NumeroColonna="001" NumeroRiga="002" TipoCampoQuadro="importo">
+            <DatiDiStampa>
+                <PosX>105</PosX>
+                <PosY>708</PosY>
+                <LunghezzaInStampa>13</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroF2_1" TipoCampoQuadro="importo">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo>Particolari tipologie di ritenute IRPEF</DescrizioneCampo>
+                <LunghezzaCampo>97</LunghezzaCampo>
+                <AdeguamentoSx>-65</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+        <TipologiaCampoQuadro NumeroColonna="002" NumeroRiga="002" TipoCampoQuadro="importo">
+            <DatiDiStampa>
+                <PosX>221</PosX>
+                 <PosY>708</PosY>
+                <LunghezzaInStampa>13</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroF2_2" TipoCampoQuadro="importo">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo>Addizionale Regionale</DescrizioneCampo>
+                <LunghezzaCampo>97</LunghezzaCampo>
+                <AdeguamentoSx>-65</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+        <TipologiaCampoQuadro NumeroColonna="003" NumeroRiga="002" TipoCampoQuadro="importo">
+            <DatiDiStampa>
+                <PosX>340</PosX>
+                <PosY>708</PosY>
+                <LunghezzaInStampa>13</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroF2_3" TipoCampoQuadro="importo">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo>Addizionale Comunale</DescrizioneCampo>
+                <LunghezzaCampo>97</LunghezzaCampo>
+                <AdeguamentoSx>-65</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+        <TipologiaCampoQuadro NumeroColonna="004" NumeroRiga="002" TipoCampoQuadro="importo">
+            <DatiDiStampa>
+                <PosX>486</PosX>
+                <PosY>708</PosY>
+                <LunghezzaInStampa>13</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroF2_4" TipoCampoQuadro="importo">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo>Addizionale regionale Irpef attività sportive dilettantistiche</DescrizioneCampo>
+                <LunghezzaCampo>97</LunghezzaCampo>
+                <AdeguamentoSx>-65</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+         <TipologiaCampoQuadro NumeroColonna="005" NumeroRiga="002" TipoCampoQuadro="importo">
+            <DatiDiStampa>
+                <PosX>105</PosX>
+                <PosY>684</PosY>
+                <LunghezzaInStampa>13</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroF2_5" TipoCampoQuadro="importo">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo>Irpef per lavori socialmente utili</DescrizioneCampo>
+                <LunghezzaCampo>97</LunghezzaCampo>
+                <AdeguamentoSx>-65</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+        <TipologiaCampoQuadro NumeroColonna="006" NumeroRiga="002" TipoCampoQuadro="importo">
+            <DatiDiStampa>
+                <PosX>221</PosX>
+                <PosY>684</PosY>
+                <LunghezzaInStampa>13</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroF2_6" TipoCampoQuadro="importo">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo>Ritenute Irpef per lavori socialmente utili</DescrizioneCampo>
+                <LunghezzaCampo>97</LunghezzaCampo>
+                <AdeguamentoSx>-65</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+        <TipologiaCampoQuadro NumeroColonna="007" NumeroRiga="002" TipoCampoQuadro="importo">
+            <DatiDiStampa>
+                <PosX>340</PosX>
+                <PosY>684</PosY>
+                <LunghezzaInStampa>13</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroF2_7" TipoCampoQuadro="importo">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo>Addizionale regionale all'Irpef per lavori socialmente utili</DescrizioneCampo>
+                <LunghezzaCampo>97</LunghezzaCampo>
+                <AdeguamentoSx>-65</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+        
+        <TipologiaCampoQuadro NumeroColonna="001" NumeroRiga="003" TipoCampoQuadro="importo">
+            <DatiDiStampa>
+                <PosX>143</PosX>
+                <PosY>648</PosY>
+                <LunghezzaInStampa>13</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroF3_1" TipoCampoQuadro="importo">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo>Eccedenza IRPEF</DescrizioneCampo>
+                <LunghezzaCampo>97</LunghezzaCampo>
+                <AdeguamentoSx>-65</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+        <TipologiaCampoQuadro NumeroColonna="002" NumeroRiga="003" TipoCampoQuadro="importo">
+            <DatiDiStampa>
+                <PosX>259</PosX>
+                <PosY>648</PosY>
+                <LunghezzaInStampa>13</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroF3_2" TipoCampoQuadro="importo">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo>Eccedenza IRPEF già compensata in F24</DescrizioneCampo>
+                <LunghezzaCampo>97</LunghezzaCampo>
+                <AdeguamentoSx>-65</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+        <TipologiaCampoQuadro NumeroColonna="003" NumeroRiga="003" TipoCampoQuadro="importo">
+            <DatiDiStampa>
+                <PosX>373</PosX>
+                <PosY>648</PosY>
+                <LunghezzaInStampa>13</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroF3_3" TipoCampoQuadro="importo">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo>Eccedenza Imposta  sostitutiva Quadro RT</DescrizioneCampo>
+                <LunghezzaCampo>97</LunghezzaCampo>
+                <AdeguamentoSx>-65</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+        <TipologiaCampoQuadro NumeroColonna="004" NumeroRiga="003" TipoCampoQuadro="importo">
+            <DatiDiStampa>
+                <PosX>486</PosX>
+                <PosY>648</PosY>
+                <LunghezzaInStampa>13</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroF3_4" TipoCampoQuadro="importo">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo>Eccedenza Imposta sostitutiva Quadro RT già compensata in F24</DescrizioneCampo>
+                <LunghezzaCampo>97</LunghezzaCampo>
+                <AdeguamentoSx>-65</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+         <TipologiaCampoQuadro NumeroColonna="005" NumeroRiga="003" TipoCampoQuadro="importo">
+            <DatiDiStampa>
+                <PosX>143</PosX>
+                <PosY>624</PosY>
+                <LunghezzaInStampa>13</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroF3_5" TipoCampoQuadro="importo">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo>Eccedenza Cedolare Secca</DescrizioneCampo>
+                <LunghezzaCampo>97</LunghezzaCampo>
+                <AdeguamentoSx>-65</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+        <TipologiaCampoQuadro NumeroColonna="006" NumeroRiga="003" TipoCampoQuadro="importo">
+            <DatiDiStampa>
+                <PosX>259</PosX>
+                <PosY>624</PosY>
+                <LunghezzaInStampa>13</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroF3_6" TipoCampoQuadro="importo">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo>Eccedenz aCedolare Secca già compensata in F24</DescrizioneCampo>
+                <LunghezzaCampo>97</LunghezzaCampo>
+                <AdeguamentoSx>-65</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+        
+        <TipologiaCampoQuadro NumeroColonna="001" NumeroRiga="004" TipoCampoQuadro="numero">
+            <DatiDiStampa>
+                <PosX>45</PosX>
+                <PosY>600</PosY>
+                <LunghezzaInStampa>8</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroF4_1" TipoCampoQuadro="intero">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo>Codice regione relativo al domicilio fiscale al 31 dicembre 2010</DescrizioneCampo>
+                <LunghezzaCampo>120</LunghezzaCampo>
+                <AdeguamentoSx>0</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+        <TipologiaCampoQuadro NumeroColonna="002" NumeroRiga="004" TipoCampoQuadro="importo">
+            <DatiDiStampa>
+                <PosX>120</PosX>
+                <PosY>600</PosY>
+                <LunghezzaInStampa>13</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroF4_2" TipoCampoQuadro="importo">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo>Eccedenza Addizionale regionale all'IRPEF</DescrizioneCampo>
+                <LunghezzaCampo>97</LunghezzaCampo>
+                <AdeguamentoSx>-65</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+        <TipologiaCampoQuadro NumeroColonna="003" NumeroRiga="004" TipoCampoQuadro="importo">
+            <DatiDiStampa>
+                <PosX>227</PosX>
+                <PosY>600</PosY>
+                <LunghezzaInStampa>13</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroF4_3" TipoCampoQuadro="importo">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo>Eccedenza Addizionale regionale all'IRPEF già compensata in F24</DescrizioneCampo>
+                <LunghezzaCampo>97</LunghezzaCampo>
+                <AdeguamentoSx>-65</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+        <TipologiaCampoQuadro NumeroColonna="004" NumeroRiga="004" TipoCampoQuadro="testo">
+            <DatiDiStampa>
+                <PosX>335</PosX>
+                <PosY>600</PosY>
+                <LunghezzaInStampa>13</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroF4_4" TipoCampoQuadro="alfa">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo>Codice catastale del comune</DescrizioneCampo>
+                <LunghezzaCampo>97</LunghezzaCampo>
+                <AdeguamentoSx>-65</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+        <TipologiaCampoQuadro NumeroColonna="005" NumeroRiga="004" TipoCampoQuadro="importo">
+            <DatiDiStampa>
+                <PosX>378</PosX>
+                <PosY>600</PosY>
+                <LunghezzaInStampa>13</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroF4_5" TipoCampoQuadro="importo">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo>Eccedenza Addizionale comunale all'IRPEF</DescrizioneCampo>
+                <LunghezzaCampo>97</LunghezzaCampo>
+                <AdeguamentoSx>-65</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+        <TipologiaCampoQuadro NumeroColonna="006" NumeroRiga="004" TipoCampoQuadro="importo">
+            <DatiDiStampa>
+                <PosX>486</PosX>
+                <PosY>600</PosY>
+                <LunghezzaInStampa>13</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroF4_6" TipoCampoQuadro="importo">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo>Eccedenza Addizionale comunale all'IRPEF già compensata in F24</DescrizioneCampo>
+                <LunghezzaCampo>97</LunghezzaCampo>
+                <AdeguamentoSx>-65</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+        <TipologiaCampoQuadro NumeroColonna="001" NumeroRiga="005" TipoCampoQuadro="numero">
+            <DatiDiStampa>
+                <PosX>64</PosX>
+                <PosY>564</PosY>
+                <LunghezzaInStampa>1</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroF5_1" TipoCampoQuadro="intero">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo>Codice evento eccezionale</DescrizioneCampo>
+                <LunghezzaCampo>97</LunghezzaCampo>
+                <AdeguamentoSx>-65</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+        <TipologiaCampoQuadro NumeroColonna="002" NumeroRiga="005" TipoCampoQuadro="importo">
+            <DatiDiStampa>
+                <PosX>72</PosX>
+               <PosY>564</PosY>
+                <LunghezzaInStampa>13</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroF5_2" TipoCampoQuadro="importo">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo>IRPEF</DescrizioneCampo>
+                <LunghezzaCampo>97</LunghezzaCampo>
+                <AdeguamentoSx>-65</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+        <TipologiaCampoQuadro NumeroColonna="003" NumeroRiga="005" TipoCampoQuadro="importo">
+            <DatiDiStampa>
+                <PosX>156</PosX>
+                <PosY>564</PosY>
+                <LunghezzaInStampa>13</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroF5_3" TipoCampoQuadro="importo">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo>Addizionale regionale all'IRPEF</DescrizioneCampo>
+                <LunghezzaCampo>97</LunghezzaCampo>
+                <AdeguamentoSx>-65</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+        <TipologiaCampoQuadro NumeroColonna="004" NumeroRiga="005" TipoCampoQuadro="importo">
+            <DatiDiStampa>
+                <PosX>242</PosX>
+                <PosY>564</PosY>
+                <LunghezzaInStampa>13</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroF5_4" TipoCampoQuadro="importo">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo>Addizionale comunale all'IRPEF</DescrizioneCampo>
+                <LunghezzaCampo>97</LunghezzaCampo>
+                <AdeguamentoSx>-65</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro> 
+        <TipologiaCampoQuadro NumeroColonna="005" NumeroRiga="005" TipoCampoQuadro="importo">
+            <DatiDiStampa>
+                <PosX>328</PosX>
+                <PosY>564</PosY>
+                <LunghezzaInStampa>13</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroF5_5" TipoCampoQuadro="importo">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo>Imposta sostitutiva incremento produttività</DescrizioneCampo>
+                <LunghezzaCampo>97</LunghezzaCampo>
+                <AdeguamentoSx>-65</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+        <TipologiaCampoQuadro NumeroColonna="006" NumeroRiga="005" TipoCampoQuadro="importo">
+            <DatiDiStampa>
+                <PosX>412</PosX>
+                <PosY>564</PosY>
+                <LunghezzaInStampa>13</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroF5_6" TipoCampoQuadro="importo">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo>Cedolare secca</DescrizioneCampo>
+                <LunghezzaCampo>97</LunghezzaCampo>
+                <AdeguamentoSx>-65</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+        <TipologiaCampoQuadro NumeroColonna="007" NumeroRiga="005" TipoCampoQuadro="importo">
+            <DatiDiStampa>
+                <PosX>487</PosX>
+                <PosY>564</PosY>
+                <LunghezzaInStampa>13</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroF5_7" TipoCampoQuadro="importo">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo>Contributo di solidarietà</DescrizioneCampo>
+                <LunghezzaCampo>97</LunghezzaCampo>
+                <AdeguamentoSx>-65</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+        <TipologiaCampoQuadro NumeroColonna="001" NumeroRiga="006" TipoCampoQuadro="casella">
+            <DatiDiStampa>
+                <PosX>140</PosX>
+                <PosY>528</PosY>
+                <LunghezzaInStampa>1</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+                <ValoreCasella>1</ValoreCasella>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroF6_1" TipoCampoQuadro="alfa">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo>Richiesta dell'assistito di non effettuare i versamenti di acconto Irpef </DescrizioneCampo>
+                <LunghezzaCampo>15</LunghezzaCampo>
+                <AdeguamentoSx>0</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+        <TipologiaCampoQuadro NumeroColonna="002" NumeroRiga="006" TipoCampoQuadro="importo">
+            <DatiDiStampa>
+                <PosX>213</PosX>
+                 <PosY>528</PosY>
+                <LunghezzaInStampa>13</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroF6_2" TipoCampoQuadro="importo">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo>Versamento di acconto IRPEF in misura inferiore</DescrizioneCampo>
+                <LunghezzaCampo>97</LunghezzaCampo>
+                <AdeguamentoSx>-65</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+        <TipologiaCampoQuadro NumeroColonna="003" NumeroRiga="006" TipoCampoQuadro="casella">
+            <DatiDiStampa>
+                <PosX>399</PosX>
+                 <PosY>528</PosY>
+                <LunghezzaInStampa>1</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+                <ValoreCasella>1</ValoreCasella>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroF6_3" TipoCampoQuadro="alfa">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo>Richiesta dell'assistito di non effettuare i versamenti di acconto add.le comunale </DescrizioneCampo>
+                <LunghezzaCampo>15</LunghezzaCampo>
+                <AdeguamentoSx>0</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+        <TipologiaCampoQuadro NumeroColonna="004" NumeroRiga="006" TipoCampoQuadro="importo">
+            <DatiDiStampa>
+                <PosX>486</PosX>
+                 <PosY>528</PosY>
+                <LunghezzaInStampa>13</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroF6_4" TipoCampoQuadro="importo">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo>Versamento di acconto addizionale comunale in misura inferiore</DescrizioneCampo>
+                <LunghezzaCampo>97</LunghezzaCampo>
+                <AdeguamentoSx>-65</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>  
+        <TipologiaCampoQuadro NumeroColonna="005" NumeroRiga="006" TipoCampoQuadro="casella">
+            <DatiDiStampa>
+                <PosX>176</PosX>
+                <PosY>504</PosY>
+                <LunghezzaInStampa>1</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+                <ValoreCasella>1</ValoreCasella>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroF6_5" TipoCampoQuadro="alfa">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo>Richiesta dell'assistito di non effettuare i versamenti di acconto cedolare secca</DescrizioneCampo>
+                <LunghezzaCampo>15</LunghezzaCampo>
+                <AdeguamentoSx>0</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+        <TipologiaCampoQuadro NumeroColonna="006" NumeroRiga="006" TipoCampoQuadro="importo">
+            <DatiDiStampa>
+                <PosX>309</PosX>
+                 <PosY>504</PosY>
+                <LunghezzaInStampa>13</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroF6_6" TipoCampoQuadro="importo">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo>Versamento di acconto cedolare secca in misura inferiore</DescrizioneCampo>
+                <LunghezzaCampo>97</LunghezzaCampo>
+                <AdeguamentoSx>-65</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>      
+        <TipologiaCampoQuadro NumeroColonna="007" NumeroRiga="006" TipoCampoQuadro="numero">
+            <DatiDiStampa>
+                <PosX>522</PosX>
+                 <PosY>504</PosY>
+                <LunghezzaInStampa>8</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroF6_7" TipoCampoQuadro="intero">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo>Numero delle rate in caso di richiesta rateizzazione dei versamenti di saldo e degli eventuali acconti</DescrizioneCampo>
+                <LunghezzaCampo>5</LunghezzaCampo>
+                <AdeguamentoSx>-65</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+        <TipologiaCampoQuadro NumeroColonna="001" NumeroRiga="007" TipoCampoQuadro="importo">
+            <DatiDiStampa>
+                <PosX>57</PosX>
+                <PosY>468</PosY>
+                <LunghezzaInStampa>13</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroF7_1" TipoCampoQuadro="importo">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo>Soglia esenzione saldo addizionale comunale 2013</DescrizioneCampo>
+                <LunghezzaCampo>97</LunghezzaCampo>
+                <AdeguamentoSx>-65</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+         <TipologiaCampoQuadro NumeroColonna="002" NumeroRiga="007" TipoCampoQuadro="numero">
+            <DatiDiStampa>
+                <PosX>176</PosX>
+                 <PosY>468</PosY>
+                <LunghezzaInStampa>1</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+                <ValoreCasella>1</ValoreCasella>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroF7_2" TipoCampoQuadro="intero">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo>Casella esenzione totale/Altre agevolazioni saldo 2013</DescrizioneCampo>
+                <LunghezzaCampo>15</LunghezzaCampo>
+                <AdeguamentoSx>0</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+         
+        <TipologiaCampoQuadro NumeroColonna="001" NumeroRiga="008" TipoCampoQuadro="importo">
+            <DatiDiStampa>
+                <PosX>327</PosX>
+                 <PosY>468</PosY>
+                <LunghezzaInStampa>13</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroF8_1" TipoCampoQuadro="importo">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo>Soglia esenzione acconto addizionale comunale 2014</DescrizioneCampo>
+                <LunghezzaCampo>97</LunghezzaCampo>
+                <AdeguamentoSx>-65</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+         <TipologiaCampoQuadro NumeroColonna="002" NumeroRiga="008" TipoCampoQuadro="numero">
+            <DatiDiStampa>
+                <PosX>447</PosX>
+                 <PosY>468</PosY>
+                <LunghezzaInStampa>1</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+                <ValoreCasella>1</ValoreCasella>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroF8_2" TipoCampoQuadro="intero">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo>Casella esenzione totale acconto/Altre esenzioni 2014</DescrizioneCampo>
+                <LunghezzaCampo>15</LunghezzaCampo>
+                <AdeguamentoSx>0</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+         
+        <TipologiaCampoQuadro NumeroColonna="001" NumeroRiga="009" TipoCampoQuadro="importo">
+            <DatiDiStampa>
+                <PosX>141</PosX>
+                <PosY>432</PosY>
+                <LunghezzaInStampa>13</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroF9_1" TipoCampoQuadro="importo">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo>Importi rimborsati dal sostituto d'imposta -  IRPEF</DescrizioneCampo>
+                <LunghezzaCampo>97</LunghezzaCampo>
+                <AdeguamentoSx>-65</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+        <TipologiaCampoQuadro NumeroColonna="002" NumeroRiga="009" TipoCampoQuadro="importo">
+            <DatiDiStampa>
+                <PosX>256</PosX>
+                <PosY>432</PosY>
+                <LunghezzaInStampa>13</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroF9_2" TipoCampoQuadro="importo">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo>Importi rimborsati dal sostituto d'imposta - Addizionale regionale all'IRPEF</DescrizioneCampo>
+                <LunghezzaCampo>97</LunghezzaCampo>
+                <AdeguamentoSx>-65</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+        <TipologiaCampoQuadro NumeroColonna="003" NumeroRiga="009" TipoCampoQuadro="importo">
+            <DatiDiStampa>
+                <PosX>371</PosX>
+                <PosY>432</PosY>
+                <LunghezzaInStampa>13</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroF9_3" TipoCampoQuadro="importo">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo>Importi rimborsati dal sostituto d'imposta - Addizionale comunale all'IRPEF</DescrizioneCampo>
+                <LunghezzaCampo>97</LunghezzaCampo>
+                <AdeguamentoSx>-65</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+        <TipologiaCampoQuadro NumeroColonna="004" NumeroRiga="009" TipoCampoQuadro="importo">
+            <DatiDiStampa>
+                <PosX>486</PosX>
+                <PosY>432</PosY>
+                <LunghezzaInStampa>13</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroF9_4" TipoCampoQuadro="importo">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo>Importi rimborsati dal sostituto d'imposta - Cedolare secca</DescrizioneCampo>
+                <LunghezzaCampo>97</LunghezzaCampo>
+                <AdeguamentoSx>-65</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+        <TipologiaCampoQuadro NumeroColonna="001" NumeroRiga="010" TipoCampoQuadro="importo">
+            <DatiDiStampa>
+                <PosX>141</PosX>
+                <PosY>408</PosY>
+                <LunghezzaInStampa>13</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroF10_1" TipoCampoQuadro="importo">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo>Crediti utilizzati con il mod. F24 per il versamento dell'IMU - credito  IRPEF</DescrizioneCampo>
+                <LunghezzaCampo>97</LunghezzaCampo>
+                <AdeguamentoSx>-65</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+        <TipologiaCampoQuadro NumeroColonna="002" NumeroRiga="010" TipoCampoQuadro="importo">
+            <DatiDiStampa>
+                <PosX>256</PosX>
+                <PosY>408</PosY>
+                <LunghezzaInStampa>13</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroF10_2" TipoCampoQuadro="importo">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo>Crediti utilizzati con il mod. F24 per il versamento dell'IMU - credito Addizionale regionale all'IRPEF</DescrizioneCampo>
+                <LunghezzaCampo>97</LunghezzaCampo>
+                <AdeguamentoSx>-65</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+        <TipologiaCampoQuadro NumeroColonna="003" NumeroRiga="010" TipoCampoQuadro="importo">
+            <DatiDiStampa>
+                <PosX>371</PosX>
+                <PosY>408</PosY>
+                <LunghezzaInStampa>13</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroF10_3" TipoCampoQuadro="importo">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo>Crediti utilizzati con il mod. F24 per il versamento dell'IMU - credito Addizionale comunale all'IRPEF</DescrizioneCampo>
+                <LunghezzaCampo>97</LunghezzaCampo>
+                <AdeguamentoSx>-65</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+        <TipologiaCampoQuadro NumeroColonna="004" NumeroRiga="010" TipoCampoQuadro="importo">
+            <DatiDiStampa>
+                <PosX>486</PosX>
+                <PosY>408</PosY>
+                <LunghezzaInStampa>13</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroF10_4" TipoCampoQuadro="importo">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo>Crediti utilizzati con il mod. F24 per il versamento dell'IMU - credito cedolare secca</DescrizioneCampo>
+                <LunghezzaCampo>97</LunghezzaCampo>
+                <AdeguamentoSx>-65</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+        
+        <TipologiaCampoQuadro NumeroColonna="001" NumeroRiga="011" TipoCampoQuadro="importo">
+            <DatiDiStampa>
+                <PosX>93</PosX>
+                <PosY>372</PosY>
+                <LunghezzaInStampa>13</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroF11_1" TipoCampoQuadro="importo">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo>Importi rimborsati dal sostituto per detrazioni incapienti: ulteriori detrazioni per figli</DescrizioneCampo>
+                <LunghezzaCampo>97</LunghezzaCampo>
+                <AdeguamentoSx>-65</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+        <TipologiaCampoQuadro NumeroColonna="002" NumeroRiga="011" TipoCampoQuadro="importo">
+            <DatiDiStampa>
+                <PosX>185</PosX>
+                <PosY>372</PosY>
+                <LunghezzaInStampa>13</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroF11_2" TipoCampoQuadro="importo">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo>Importi rimborsati dal sostituto per detrazioni incapienti: detrazioni canone di locazione</DescrizioneCampo>
+                <LunghezzaCampo>97</LunghezzaCampo>
+                <AdeguamentoSx>-65</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro> 
+               
+       <TipologiaCampoQuadro NumeroColonna="001" NumeroRiga="012" TipoCampoQuadro="importo">
+            <DatiDiStampa>
+                <PosX>272</PosX>
+                <PosY>372</PosY>
+                <LunghezzaInStampa>13</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroF12_1" TipoCampoQuadro="importo">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo>Restituzione  Bonus Fiscale</DescrizioneCampo>
+                <LunghezzaCampo>97</LunghezzaCampo>
+                <AdeguamentoSx>-65</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+        <TipologiaCampoQuadro NumeroColonna="002" NumeroRiga="012" TipoCampoQuadro="importo">
+            <DatiDiStampa>
+                <PosX>317</PosX>
+                <PosY>372</PosY>
+                <LunghezzaInStampa>13</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroF12_2" TipoCampoQuadro="importo">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo>Restituzione Bonus Straordinario</DescrizioneCampo>
+                <LunghezzaCampo>97</LunghezzaCampo>
+                <AdeguamentoSx>-65</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>  
+        
+         <TipologiaCampoQuadro NumeroColonna="001" NumeroRiga="013" TipoCampoQuadro="numero">
+            <DatiDiStampa>
+                <PosX>431</PosX>
+                <PosY>372</PosY>
+                <LunghezzaInStampa>9</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroF13_1" TipoCampoQuadro="intero">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo>Pignoramento presso terzi - 
+Tipo di reddito</DescrizioneCampo>
+                <LunghezzaCampo>97</LunghezzaCampo>
+                <AdeguamentoSx>-65</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+        <TipologiaCampoQuadro NumeroColonna="002" NumeroRiga="013" TipoCampoQuadro="importo">
+            <DatiDiStampa>
+                <PosX>487</PosX>
+                <PosY>372</PosY>
+                <LunghezzaInStampa>13</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroF13_2" TipoCampoQuadro="importo">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo>Pignoramento presso terzi - 
+Ritenute</DescrizioneCampo>
+                <LunghezzaCampo>97</LunghezzaCampo>
+                <AdeguamentoSx>-65</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>      
+
+        <Font>
+            <Tipo>Courier-Bold</Tipo>
+            <Dimensione>9</Dimensione>
+        </Font>
+		
+		<TipologiaAltroCampo Nome="CodiceFiscale" TipoAltroCampo="testo">
+			<DatiDiStampa>
+				<PosX>395</PosX>
+				<PosY>820</PosY>
+				<LunghezzaInStampa>16</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<Font>
+				<Tipo>Courier-Bold</Tipo>
+				<Dimensione>10</Dimensione>
+			</Font>
+		</TipologiaAltroCampo>
+		<TipologiaAltroCampo Nome="Modello" TipoAltroCampo="numeroconspaziatura">
+			<DatiDiStampa>
+				<PosX>537</PosX>
+				<PosY>820</PosY>
+				<LunghezzaInStampa>2</LunghezzaInStampa>
+				<NumeroSpazi>1</NumeroSpazi>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<Font>
+				<Tipo>Courier-Bold</Tipo>
+				<Dimensione>10</Dimensione>
+			</Font>
+		</TipologiaAltroCampo>
+
+        <TipologiaAltroCampo Nome="DataStampa" TipoAltroCampo="testo">
+            <DatiDiStampa>
+                <PosX>25</PosX>
+                <PosY>4</PosY>
+                <LunghezzaInStampa>16</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <Font>
+                <Tipo>Courier-Bold</Tipo>
+                <Dimensione>10</Dimensione>
+            </Font>
+        </TipologiaAltroCampo>
+        <TipologiaAltroCampo Nome="StatoDichiarazione" TipoAltroCampo="testo">
+            <DatiDiStampa>
+                <PosX>250</PosX>
+                <PosY>4</PosY>
+                <LunghezzaInStampa>16</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <Font>
+                <Tipo>Courier-Bold</Tipo>
+                <Dimensione>10</Dimensione>
+            </Font>
+        </TipologiaAltroCampo>
+        <TipologiaAltroCampo Nome="ModelloDicitura" TipoAltroCampo="testo">
+            <DatiDiStampa>
+                <PosX>500</PosX>
+                <PosY>4</PosY>
+                <LunghezzaInStampa>16</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <Font>
+                <Tipo>Courier-Bold</Tipo>
+                <Dimensione>10</Dimensione>
+            </Font>
+        </TipologiaAltroCampo>
+        <TipologiaAltroCampo Nome="ProtocolloTelematico" TipoAltroCampo="testo">
+            <DatiDiStampa>
+                <PosX>25</PosX>
+                <PosY>15</PosY>
+                <LunghezzaInStampa>70</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <Font>
+                <Tipo>Courier-Bold</Tipo>
+                <Dimensione>10</Dimensione>
+            </Font>
+        </TipologiaAltroCampo>
+        <TipologiaAltroCampo Nome="CodiceFiscaleDicitura" TipoAltroCampo="testo">
+            <DatiDiStampa>
+                <PosX>400</PosX>
+                <PosY>15</PosY>
+                <LunghezzaInStampa>70</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <Font>
+                <Tipo>Courier-Bold</Tipo>
+                <Dimensione>10</Dimensione>
+            </Font>
+        </TipologiaAltroCampo>
+        <cf xcf1="417" xcfn="180" ycf1="100" ycfn="50"/>
+        <modulo xModulo1="740" xModulon="600" yModulo1="178" yModulon="48"/>
+    </TipologiaStampaQuadro>
+</Quadro>

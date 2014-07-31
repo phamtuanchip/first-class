@@ -1,0 +1,1256 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE Quadro SYSTEM "tipologiastampa.dtd">
+<Quadro NomeQuadro="QuadroA" annoImposta="2013" modello="730" multiModulo="no" nome="QuadroA" pagine="1">
+    <TipologiaStampaQuadro AnnoImposta="2013" NumeroColonne="10" NumeroRighe="8">
+    
+    <TipologiaCampoQuadro NumeroColonna="001" NumeroRiga="001" TipoCampoQuadro="importo">
+            <DatiDiStampa>
+                <PosX>49</PosX>
+                <PosY>204</PosY>
+                <LunghezzaInStampa>13</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroA1_1" TipoCampoQuadro="importo">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo>REDDITO DOMINICALE</DescrizioneCampo>
+                <LunghezzaCampo>97</LunghezzaCampo>
+                <AdeguamentoSx>-65</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+        <TipologiaCampoQuadro NumeroColonna="002" NumeroRiga="001" TipoCampoQuadro="testo">
+            <DatiDiStampa>
+                <PosX>140</PosX>
+                <PosY>204</PosY>
+                <LunghezzaInStampa>2</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroA1_2" TipoCampoQuadro="alfa">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo>TITOLO</DescrizioneCampo>
+                <LunghezzaCampo>97</LunghezzaCampo>
+                <AdeguamentoSx>-65</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+        <TipologiaCampoQuadro NumeroColonna="003" NumeroRiga="001" TipoCampoQuadro="importo">
+            <DatiDiStampa>
+                <PosX>166</PosX>
+                <PosY>204</PosY>
+                <LunghezzaInStampa>13</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroA1_3" TipoCampoQuadro="importo">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo>REDDITO AGRARIO</DescrizioneCampo>
+                <LunghezzaCampo>97</LunghezzaCampo>
+                <AdeguamentoSx>-65</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+        <TipologiaCampoQuadro NumeroColonna="004" NumeroRiga="001" TipoCampoQuadro="numero">
+            <DatiDiStampa>
+                <PosX>262</PosX>
+                <PosY>204</PosY>
+                <LunghezzaInStampa>3</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroA1_4" TipoCampoQuadro="intero">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo>POSSESSO GIORNO</DescrizioneCampo>
+                <LunghezzaCampo>97</LunghezzaCampo>
+                <AdeguamentoSx>-65</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+        <TipologiaCampoQuadro NumeroColonna="005" NumeroRiga="001" TipoCampoQuadro="decimale">
+            <DatiDiStampa>
+                <PosX>295</PosX>
+                <PosY>204</PosY>
+                <LunghezzaInStampa>6</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroA1_5" TipoCampoQuadro="decimale">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo>POSSESSO </DescrizioneCampo>
+                <LunghezzaCampo>45</LunghezzaCampo>
+                <AdeguamentoSx>30</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+        <TipologiaCampoQuadro NumeroColonna="006" NumeroRiga="001" TipoCampoQuadro="importo">
+            <DatiDiStampa>
+                <PosX>352</PosX>
+                <PosY>204</PosY>
+                <LunghezzaInStampa>13</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroA1_6" TipoCampoQuadro="importo">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo>CANONE DI AFFITTO IN REGIME VINCOLISTICO</DescrizioneCampo>
+                <LunghezzaCampo>97</LunghezzaCampo>
+                <AdeguamentoSx>-65</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+        <TipologiaCampoQuadro NumeroColonna="007" NumeroRiga="001" TipoCampoQuadro="testo">
+            <DatiDiStampa>
+                <PosX>445</PosX>
+                <PosY>204</PosY>
+                <LunghezzaInStampa>1</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroA1_7" TipoCampoQuadro="alfa">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo>CASI PARTICOLARI</DescrizioneCampo>
+                <LunghezzaCampo>97</LunghezzaCampo>
+                <AdeguamentoSx>-65</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+        <TipologiaCampoQuadro NumeroColonna="008" NumeroRiga="001" TipoCampoQuadro="casella">
+            <DatiDiStampa>
+                <PosX>481</PosX>
+                <PosY>204</PosY>
+                <LunghezzaInStampa>1</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+                <ValoreCasella>1</ValoreCasella>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroA1_8" TipoCampoQuadro="alfa">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo>CONTINUAZIONE (*)</DescrizioneCampo>
+                <LunghezzaCampo>15</LunghezzaCampo>
+                <AdeguamentoSx>0</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+        
+        <TipologiaCampoQuadro NumeroColonna="009" NumeroRiga="001" TipoCampoQuadro="testo">
+            <DatiDiStampa>
+                <PosX>517</PosX>
+                <PosY>204</PosY>
+                <LunghezzaInStampa>1</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroA1_9" TipoCampoQuadro="alfa">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo>CASI PARTICOLARI</DescrizioneCampo>
+                <LunghezzaCampo>97</LunghezzaCampo>
+                <AdeguamentoSx>-65</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+        
+        <TipologiaCampoQuadro NumeroColonna="010" NumeroRiga="001" TipoCampoQuadro="casella">
+            <DatiDiStampa>
+                <PosX>548</PosX>
+                <PosY>204</PosY>
+                <LunghezzaInStampa>1</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+                <ValoreCasella>1</ValoreCasella>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroA1_10" TipoCampoQuadro="alfa">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo>CASI PARTICOLARI</DescrizioneCampo>
+                <LunghezzaCampo>97</LunghezzaCampo>
+                <AdeguamentoSx>-65</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+        
+        
+        
+        <TipologiaCampoQuadro NumeroColonna="001" NumeroRiga="002" TipoCampoQuadro="importo">
+            <DatiDiStampa>
+                <PosX>49</PosX>
+                <PosY>180</PosY>
+                <LunghezzaInStampa>13</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroA2_1" TipoCampoQuadro="importo">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo> </DescrizioneCampo>
+                <LunghezzaCampo>97</LunghezzaCampo>
+                <AdeguamentoSx>-65</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+        <TipologiaCampoQuadro NumeroColonna="002" NumeroRiga="002" TipoCampoQuadro="testo">
+            <DatiDiStampa>
+                <PosX>140</PosX>
+                <PosY>180</PosY>
+                <LunghezzaInStampa>2</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroA2_2" TipoCampoQuadro="alfa">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo> </DescrizioneCampo>
+                <LunghezzaCampo>97</LunghezzaCampo>
+                <AdeguamentoSx>-65</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+        <TipologiaCampoQuadro NumeroColonna="003" NumeroRiga="002" TipoCampoQuadro="importo">
+            <DatiDiStampa>
+                <PosX>166</PosX>
+                <PosY>180</PosY>
+                <LunghezzaInStampa>13</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroA2_3" TipoCampoQuadro="importo">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo> </DescrizioneCampo>
+                <LunghezzaCampo>97</LunghezzaCampo>
+                <AdeguamentoSx>-65</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+        <TipologiaCampoQuadro NumeroColonna="004" NumeroRiga="002" TipoCampoQuadro="numero">
+            <DatiDiStampa>
+                <PosX>262</PosX>
+                <PosY>180</PosY>
+                <LunghezzaInStampa>3</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroA2_4" TipoCampoQuadro="intero">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo> </DescrizioneCampo>
+                <LunghezzaCampo>97</LunghezzaCampo>
+                <AdeguamentoSx>-65</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+        <TipologiaCampoQuadro NumeroColonna="005" NumeroRiga="002" TipoCampoQuadro="decimale">
+            <DatiDiStampa>
+                <PosX>295</PosX>
+                <PosY>180</PosY>
+                <LunghezzaInStampa>6</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroA2_5" TipoCampoQuadro="decimale">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo> </DescrizioneCampo>
+                <LunghezzaCampo>45</LunghezzaCampo>
+                <AdeguamentoSx>30</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+        <TipologiaCampoQuadro NumeroColonna="006" NumeroRiga="002" TipoCampoQuadro="importo">
+            <DatiDiStampa>
+                <PosX>352</PosX>
+                <PosY>180</PosY>
+                <LunghezzaInStampa>13</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroA2_6" TipoCampoQuadro="importo">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo> </DescrizioneCampo>
+                <LunghezzaCampo>97</LunghezzaCampo>
+                <AdeguamentoSx>-65</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+        <TipologiaCampoQuadro NumeroColonna="007" NumeroRiga="002" TipoCampoQuadro="testo">
+            <DatiDiStampa>
+                <PosX>445</PosX>
+                <PosY>180</PosY>
+                <LunghezzaInStampa>1</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroA2_7" TipoCampoQuadro="alfa">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo> </DescrizioneCampo>
+                <LunghezzaCampo>97</LunghezzaCampo>
+                <AdeguamentoSx>-65</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+        <TipologiaCampoQuadro NumeroColonna="008" NumeroRiga="002" TipoCampoQuadro="casella">
+            <DatiDiStampa>
+                <PosX>481</PosX>
+                <PosY>180</PosY>
+                <LunghezzaInStampa>1</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+                <ValoreCasella>1</ValoreCasella>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroA2_8" TipoCampoQuadro="alfa">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo> </DescrizioneCampo>
+                <LunghezzaCampo>15</LunghezzaCampo>
+                <AdeguamentoSx>0</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+        
+        <TipologiaCampoQuadro NumeroColonna="009" NumeroRiga="002" TipoCampoQuadro="testo">
+            <DatiDiStampa>
+                <PosX>517</PosX>
+                <PosY>180</PosY>
+                <LunghezzaInStampa>1</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroA2_9" TipoCampoQuadro="alfa">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo>CASI PARTICOLARI</DescrizioneCampo>
+                <LunghezzaCampo>97</LunghezzaCampo>
+                <AdeguamentoSx>-65</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+        
+        <TipologiaCampoQuadro NumeroColonna="010" NumeroRiga="002" TipoCampoQuadro="casella">
+            <DatiDiStampa>
+                <PosX>548</PosX>
+                <PosY>180</PosY>
+                <LunghezzaInStampa>1</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+                <ValoreCasella>1</ValoreCasella>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroA2_10" TipoCampoQuadro="alfa">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo>CASI PARTICOLARI</DescrizioneCampo>
+                <LunghezzaCampo>97</LunghezzaCampo>
+                <AdeguamentoSx>-65</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+        
+        
+        
+        <TipologiaCampoQuadro NumeroColonna="001" NumeroRiga="003" TipoCampoQuadro="importo">
+            <DatiDiStampa>
+                <PosX>49</PosX>
+                <PosY>156</PosY>
+                <LunghezzaInStampa>13</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroA3_1" TipoCampoQuadro="importo">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo> </DescrizioneCampo>
+                <LunghezzaCampo>97</LunghezzaCampo>
+                <AdeguamentoSx>-65</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+        <TipologiaCampoQuadro NumeroColonna="002" NumeroRiga="003" TipoCampoQuadro="testo">
+            <DatiDiStampa>
+                  <PosX>140</PosX>
+                <PosY>156</PosY>
+                <LunghezzaInStampa>2</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroA3_2" TipoCampoQuadro="alfa">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo> </DescrizioneCampo>
+                <LunghezzaCampo>97</LunghezzaCampo>
+                <AdeguamentoSx>-65</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+        <TipologiaCampoQuadro NumeroColonna="003" NumeroRiga="003" TipoCampoQuadro="importo">
+            <DatiDiStampa>
+                <PosX>166</PosX>
+                <PosY>156</PosY>
+                <LunghezzaInStampa>13</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroA3_3" TipoCampoQuadro="importo">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo> </DescrizioneCampo>
+                <LunghezzaCampo>97</LunghezzaCampo>
+                <AdeguamentoSx>-65</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+        <TipologiaCampoQuadro NumeroColonna="004" NumeroRiga="003" TipoCampoQuadro="numero">
+            <DatiDiStampa>
+                <PosX>262</PosX>
+                <PosY>156</PosY>
+                <LunghezzaInStampa>3</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroA3_4" TipoCampoQuadro="intero">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo> </DescrizioneCampo>
+                <LunghezzaCampo>97</LunghezzaCampo>
+                <AdeguamentoSx>-65</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+        <TipologiaCampoQuadro NumeroColonna="005" NumeroRiga="003" TipoCampoQuadro="decimale">
+            <DatiDiStampa>
+                <PosX>295</PosX>
+                <PosY>156</PosY>
+                <LunghezzaInStampa>6</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroA3_5" TipoCampoQuadro="decimale">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo> </DescrizioneCampo>
+                <LunghezzaCampo>45</LunghezzaCampo>
+                <AdeguamentoSx>30</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+        <TipologiaCampoQuadro NumeroColonna="006" NumeroRiga="003" TipoCampoQuadro="importo">
+            <DatiDiStampa>
+                <PosX>352</PosX>
+                <PosY>156</PosY>
+                <LunghezzaInStampa>13</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroA3_6" TipoCampoQuadro="importo">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo> </DescrizioneCampo>
+                <LunghezzaCampo>97</LunghezzaCampo>
+                <AdeguamentoSx>-65</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+        <TipologiaCampoQuadro NumeroColonna="007" NumeroRiga="003" TipoCampoQuadro="testo">
+            <DatiDiStampa>
+                <PosX>445</PosX>
+                <PosY>156</PosY>
+                <LunghezzaInStampa>1</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroA3_7" TipoCampoQuadro="alfa">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo> </DescrizioneCampo>
+                <LunghezzaCampo>97</LunghezzaCampo>
+                <AdeguamentoSx>-65</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+        <TipologiaCampoQuadro NumeroColonna="008" NumeroRiga="003" TipoCampoQuadro="casella">
+            <DatiDiStampa>
+                <PosX>481</PosX>
+                <PosY>156</PosY>
+                <LunghezzaInStampa>1</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+                <ValoreCasella>1</ValoreCasella>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroA3_8" TipoCampoQuadro="alfa">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo> </DescrizioneCampo>
+                <LunghezzaCampo>15</LunghezzaCampo>
+                <AdeguamentoSx>0</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+        
+        <TipologiaCampoQuadro NumeroColonna="009" NumeroRiga="003" TipoCampoQuadro="testo">
+            <DatiDiStampa>
+                <PosX>517</PosX>
+                <PosY>156</PosY>
+                <LunghezzaInStampa>1</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroA3_9" TipoCampoQuadro="alfa">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo>CASI PARTICOLARI</DescrizioneCampo>
+                <LunghezzaCampo>97</LunghezzaCampo>
+                <AdeguamentoSx>-65</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+        
+        <TipologiaCampoQuadro NumeroColonna="010" NumeroRiga="003" TipoCampoQuadro="casella">
+            <DatiDiStampa>
+                <PosX>548</PosX>
+                <PosY>156</PosY>
+                <LunghezzaInStampa>1</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+                <ValoreCasella>1</ValoreCasella>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroA3_10" TipoCampoQuadro="alfa">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo>CASI PARTICOLARI</DescrizioneCampo>
+                <LunghezzaCampo>97</LunghezzaCampo>
+                <AdeguamentoSx>-65</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+        
+        
+        <TipologiaCampoQuadro NumeroColonna="001" NumeroRiga="004" TipoCampoQuadro="importo">
+            <DatiDiStampa>
+                <PosX>49</PosX>
+                <PosY>132</PosY>
+                <LunghezzaInStampa>13</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroA4_1" TipoCampoQuadro="importo">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo> </DescrizioneCampo>
+                <LunghezzaCampo>97</LunghezzaCampo>
+                <AdeguamentoSx>-65</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+        <TipologiaCampoQuadro NumeroColonna="002" NumeroRiga="004" TipoCampoQuadro="testo">
+            <DatiDiStampa>
+                  <PosX>140</PosX>
+                <PosY>132</PosY>
+                <LunghezzaInStampa>2</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroA4_2" TipoCampoQuadro="alfa">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo> </DescrizioneCampo>
+                <LunghezzaCampo>97</LunghezzaCampo>
+                <AdeguamentoSx>-65</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+        <TipologiaCampoQuadro NumeroColonna="003" NumeroRiga="004" TipoCampoQuadro="importo">
+            <DatiDiStampa>
+                <PosX>166</PosX>
+                <PosY>132</PosY>
+                <LunghezzaInStampa>13</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroA4_3" TipoCampoQuadro="importo">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo> </DescrizioneCampo>
+                <LunghezzaCampo>97</LunghezzaCampo>
+                <AdeguamentoSx>-65</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+        <TipologiaCampoQuadro NumeroColonna="004" NumeroRiga="004" TipoCampoQuadro="numero">
+            <DatiDiStampa>
+                <PosX>262</PosX>
+                <PosY>132</PosY>
+                <LunghezzaInStampa>3</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroA4_4" TipoCampoQuadro="intero">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo> </DescrizioneCampo>
+                <LunghezzaCampo>97</LunghezzaCampo>
+                <AdeguamentoSx>-65</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+        <TipologiaCampoQuadro NumeroColonna="005" NumeroRiga="004" TipoCampoQuadro="decimale">
+            <DatiDiStampa>
+                <PosX>295</PosX>
+                <PosY>132</PosY>
+                <LunghezzaInStampa>6</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroA4_5" TipoCampoQuadro="decimale">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo> </DescrizioneCampo>
+                <LunghezzaCampo>45</LunghezzaCampo>
+                <AdeguamentoSx>30</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+        <TipologiaCampoQuadro NumeroColonna="006" NumeroRiga="004" TipoCampoQuadro="importo">
+            <DatiDiStampa>
+                <PosX>352</PosX>
+                <PosY>132</PosY>
+                <LunghezzaInStampa>13</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroA4_6" TipoCampoQuadro="importo">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo> </DescrizioneCampo>
+                <LunghezzaCampo>97</LunghezzaCampo>
+                <AdeguamentoSx>-65</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+        <TipologiaCampoQuadro NumeroColonna="007" NumeroRiga="004" TipoCampoQuadro="testo">
+            <DatiDiStampa>
+                <PosX>445</PosX>
+                <PosY>132</PosY>
+                <LunghezzaInStampa>1</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroA4_7" TipoCampoQuadro="alfa">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo> </DescrizioneCampo>
+                <LunghezzaCampo>97</LunghezzaCampo>
+                <AdeguamentoSx>-65</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+        <TipologiaCampoQuadro NumeroColonna="008" NumeroRiga="004" TipoCampoQuadro="casella">
+            <DatiDiStampa>
+                <PosX>481</PosX>
+                <PosY>132</PosY>
+                <LunghezzaInStampa>1</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+                <ValoreCasella>1</ValoreCasella>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroA4_8" TipoCampoQuadro="alfa">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo> </DescrizioneCampo>
+                <LunghezzaCampo>15</LunghezzaCampo>
+                <AdeguamentoSx>0</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+        
+        <TipologiaCampoQuadro NumeroColonna="009" NumeroRiga="004" TipoCampoQuadro="testo">
+            <DatiDiStampa>
+                <PosX>517</PosX>
+                <PosY>132</PosY>
+                <LunghezzaInStampa>1</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroA4_9" TipoCampoQuadro="alfa">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo>CASI PARTICOLARI</DescrizioneCampo>
+                <LunghezzaCampo>97</LunghezzaCampo>
+                <AdeguamentoSx>-65</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+        
+        <TipologiaCampoQuadro NumeroColonna="010" NumeroRiga="004" TipoCampoQuadro="casella">
+            <DatiDiStampa>
+                <PosX>548</PosX>
+                <PosY>132</PosY>
+                <LunghezzaInStampa>1</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+                <ValoreCasella>1</ValoreCasella>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroA4_10" TipoCampoQuadro="alfa">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo>CASI PARTICOLARI</DescrizioneCampo>
+                <LunghezzaCampo>97</LunghezzaCampo>
+                <AdeguamentoSx>-65</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+        
+        
+        <TipologiaCampoQuadro NumeroColonna="001" NumeroRiga="005" TipoCampoQuadro="importo">
+            <DatiDiStampa>
+                <PosX>49</PosX>
+                <PosY>108</PosY>
+                <LunghezzaInStampa>13</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroA5_1" TipoCampoQuadro="importo">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo> </DescrizioneCampo>
+                <LunghezzaCampo>97</LunghezzaCampo>
+                <AdeguamentoSx>-65</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+        <TipologiaCampoQuadro NumeroColonna="002" NumeroRiga="005" TipoCampoQuadro="testo">
+            <DatiDiStampa>
+                  <PosX>140</PosX>
+                <PosY>108</PosY>
+                <LunghezzaInStampa>2</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroA5_2" TipoCampoQuadro="alfa">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo> </DescrizioneCampo>
+                <LunghezzaCampo>97</LunghezzaCampo>
+                <AdeguamentoSx>-65</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+        <TipologiaCampoQuadro NumeroColonna="003" NumeroRiga="005" TipoCampoQuadro="importo">
+            <DatiDiStampa>
+                <PosX>166</PosX>
+                <PosY>108</PosY>
+                <LunghezzaInStampa>13</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroA5_3" TipoCampoQuadro="importo">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo> </DescrizioneCampo>
+                <LunghezzaCampo>97</LunghezzaCampo>
+                <AdeguamentoSx>-65</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+        <TipologiaCampoQuadro NumeroColonna="004" NumeroRiga="005" TipoCampoQuadro="numero">
+            <DatiDiStampa>
+                <PosX>262</PosX>
+                <PosY>108</PosY>
+                <LunghezzaInStampa>3</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroA5_4" TipoCampoQuadro="intero">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo> </DescrizioneCampo>
+                <LunghezzaCampo>97</LunghezzaCampo>
+                <AdeguamentoSx>-65</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+        <TipologiaCampoQuadro NumeroColonna="005" NumeroRiga="005" TipoCampoQuadro="decimale">
+            <DatiDiStampa>
+                <PosX>295</PosX>
+                <PosY>108</PosY>
+                <LunghezzaInStampa>6</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroA5_5" TipoCampoQuadro="decimale">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo> </DescrizioneCampo>
+                <LunghezzaCampo>45</LunghezzaCampo>
+                <AdeguamentoSx>30</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+        <TipologiaCampoQuadro NumeroColonna="006" NumeroRiga="005" TipoCampoQuadro="importo">
+            <DatiDiStampa>
+                <PosX>352</PosX>
+                <PosY>108</PosY>
+                <LunghezzaInStampa>13</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroA5_6" TipoCampoQuadro="importo">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo> </DescrizioneCampo>
+                <LunghezzaCampo>97</LunghezzaCampo>
+                <AdeguamentoSx>-65</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+        <TipologiaCampoQuadro NumeroColonna="007" NumeroRiga="005" TipoCampoQuadro="testo">
+            <DatiDiStampa>
+                <PosX>445</PosX>
+                <PosY>108</PosY>
+                <LunghezzaInStampa>1</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroA5_7" TipoCampoQuadro="alfa">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo> </DescrizioneCampo>
+                <LunghezzaCampo>97</LunghezzaCampo>
+                <AdeguamentoSx>-65</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+        <TipologiaCampoQuadro NumeroColonna="008" NumeroRiga="005" TipoCampoQuadro="casella">
+            <DatiDiStampa>
+                <PosX>481</PosX>
+                <PosY>108</PosY>
+                <LunghezzaInStampa>1</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+                <ValoreCasella>1</ValoreCasella>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroA5_8" TipoCampoQuadro="alfa">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo> </DescrizioneCampo>
+                <LunghezzaCampo>15</LunghezzaCampo>
+                <AdeguamentoSx>0</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+        
+        <TipologiaCampoQuadro NumeroColonna="009" NumeroRiga="005" TipoCampoQuadro="testo">
+            <DatiDiStampa>
+                <PosX>517</PosX>
+                <PosY>108</PosY>
+                <LunghezzaInStampa>1</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroA5_9" TipoCampoQuadro="alfa">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo>CASI PARTICOLARI</DescrizioneCampo>
+                <LunghezzaCampo>97</LunghezzaCampo>
+                <AdeguamentoSx>-65</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+        
+        <TipologiaCampoQuadro NumeroColonna="010" NumeroRiga="005" TipoCampoQuadro="casella">
+            <DatiDiStampa>
+                <PosX>548</PosX>
+                <PosY>108</PosY>
+                <LunghezzaInStampa>1</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+                <ValoreCasella>1</ValoreCasella>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroA5_10" TipoCampoQuadro="alfa">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo>CASI PARTICOLARI</DescrizioneCampo>
+                <LunghezzaCampo>97</LunghezzaCampo>
+                <AdeguamentoSx>-65</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+        
+        <TipologiaCampoQuadro NumeroColonna="001" NumeroRiga="006" TipoCampoQuadro="importo">
+            <DatiDiStampa>
+                <PosX>49</PosX>
+                <PosY>84</PosY>
+                <LunghezzaInStampa>13</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroA6_1" TipoCampoQuadro="importo">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo> </DescrizioneCampo>
+                <LunghezzaCampo>97</LunghezzaCampo>
+                <AdeguamentoSx>-65</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+        <TipologiaCampoQuadro NumeroColonna="002" NumeroRiga="006" TipoCampoQuadro="testo">
+            <DatiDiStampa>
+                  <PosX>140</PosX>
+                <PosY>84</PosY>
+                <LunghezzaInStampa>2</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroA6_2" TipoCampoQuadro="alfa">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo> </DescrizioneCampo>
+                <LunghezzaCampo>97</LunghezzaCampo>
+                <AdeguamentoSx>-65</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+        <TipologiaCampoQuadro NumeroColonna="003" NumeroRiga="006" TipoCampoQuadro="importo">
+            <DatiDiStampa>
+                <PosX>166</PosX>
+                <PosY>84</PosY>
+                <LunghezzaInStampa>13</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroA6_3" TipoCampoQuadro="importo">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo> </DescrizioneCampo>
+                <LunghezzaCampo>97</LunghezzaCampo>
+                <AdeguamentoSx>-65</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+        <TipologiaCampoQuadro NumeroColonna="004" NumeroRiga="006" TipoCampoQuadro="numero">
+            <DatiDiStampa>
+                <PosX>262</PosX>
+                <PosY>84</PosY>
+                <LunghezzaInStampa>3</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroA6_4" TipoCampoQuadro="intero">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo> </DescrizioneCampo>
+                <LunghezzaCampo>97</LunghezzaCampo>
+                <AdeguamentoSx>-65</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+        <TipologiaCampoQuadro NumeroColonna="005" NumeroRiga="006" TipoCampoQuadro="decimale">
+            <DatiDiStampa>
+                <PosX>295</PosX>
+                <PosY>84</PosY>
+                <LunghezzaInStampa>6</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroA6_5" TipoCampoQuadro="decimale">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo> </DescrizioneCampo>
+                <LunghezzaCampo>45</LunghezzaCampo>
+                <AdeguamentoSx>30</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+        <TipologiaCampoQuadro NumeroColonna="006" NumeroRiga="006" TipoCampoQuadro="importo">
+            <DatiDiStampa>
+                <PosX>352</PosX>
+                <PosY>84</PosY>
+                <LunghezzaInStampa>13</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroA6_6" TipoCampoQuadro="importo">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo> </DescrizioneCampo>
+                <LunghezzaCampo>97</LunghezzaCampo>
+                <AdeguamentoSx>-65</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+        <TipologiaCampoQuadro NumeroColonna="007" NumeroRiga="006" TipoCampoQuadro="testo">
+            <DatiDiStampa>
+                <PosX>445</PosX>
+                <PosY>84</PosY>
+                <LunghezzaInStampa>1</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroA6_7" TipoCampoQuadro="alfa">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo> </DescrizioneCampo>
+                <LunghezzaCampo>97</LunghezzaCampo>
+                <AdeguamentoSx>-65</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+        <TipologiaCampoQuadro NumeroColonna="008" NumeroRiga="006" TipoCampoQuadro="casella">
+            <DatiDiStampa>
+                <PosX>481</PosX>
+                <PosY>84</PosY>
+                <LunghezzaInStampa>1</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+                <ValoreCasella>1</ValoreCasella>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroA6_8" TipoCampoQuadro="alfa">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo> </DescrizioneCampo>
+                <LunghezzaCampo>15</LunghezzaCampo>
+                <AdeguamentoSx>0</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+        
+        <TipologiaCampoQuadro NumeroColonna="009" NumeroRiga="006" TipoCampoQuadro="testo">
+            <DatiDiStampa>
+                <PosX>517</PosX>
+                <PosY>84</PosY>
+                <LunghezzaInStampa>1</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroA6_9" TipoCampoQuadro="alfa">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo>CASI PARTICOLARI</DescrizioneCampo>
+                <LunghezzaCampo>97</LunghezzaCampo>
+                <AdeguamentoSx>-65</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+        
+        <TipologiaCampoQuadro NumeroColonna="010" NumeroRiga="006" TipoCampoQuadro="casella">
+            <DatiDiStampa>
+                <PosX>548</PosX>
+                <PosY>84</PosY>
+                <LunghezzaInStampa>1</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+                <ValoreCasella>1</ValoreCasella>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroA6_10" TipoCampoQuadro="alfa">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo>CASI PARTICOLARI</DescrizioneCampo>
+                <LunghezzaCampo>97</LunghezzaCampo>
+                <AdeguamentoSx>-65</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+        
+        
+        <TipologiaCampoQuadro NumeroColonna="001" NumeroRiga="007" TipoCampoQuadro="importo">
+            <DatiDiStampa>
+                <PosX>49</PosX>
+                <PosY>60</PosY>
+                <LunghezzaInStampa>13</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroA7_1" TipoCampoQuadro="importo">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo> </DescrizioneCampo>
+                <LunghezzaCampo>97</LunghezzaCampo>
+                <AdeguamentoSx>-65</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+        <TipologiaCampoQuadro NumeroColonna="002" NumeroRiga="007" TipoCampoQuadro="testo">
+            <DatiDiStampa>
+                  <PosX>140</PosX>
+                <PosY>60</PosY>
+                <LunghezzaInStampa>2</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroA7_2" TipoCampoQuadro="alfa">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo> </DescrizioneCampo>
+                <LunghezzaCampo>97</LunghezzaCampo>
+                <AdeguamentoSx>-65</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+        <TipologiaCampoQuadro NumeroColonna="003" NumeroRiga="007" TipoCampoQuadro="importo">
+            <DatiDiStampa>
+                <PosX>166</PosX>
+                <PosY>60</PosY>
+                <LunghezzaInStampa>13</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroA7_3" TipoCampoQuadro="importo">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo> </DescrizioneCampo>
+                <LunghezzaCampo>97</LunghezzaCampo>
+                <AdeguamentoSx>-65</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+        <TipologiaCampoQuadro NumeroColonna="004" NumeroRiga="007" TipoCampoQuadro="numero">
+            <DatiDiStampa>
+                <PosX>262</PosX>
+                <PosY>60</PosY>
+                <LunghezzaInStampa>3</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroA7_4" TipoCampoQuadro="intero">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo> </DescrizioneCampo>
+                <LunghezzaCampo>97</LunghezzaCampo>
+                <AdeguamentoSx>-65</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+        <TipologiaCampoQuadro NumeroColonna="005" NumeroRiga="007" TipoCampoQuadro="decimale">
+            <DatiDiStampa>
+                <PosX>295</PosX>
+                <PosY>60</PosY>
+                <LunghezzaInStampa>6</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroA7_5" TipoCampoQuadro="decimale">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo> </DescrizioneCampo>
+                <LunghezzaCampo>45</LunghezzaCampo>
+                <AdeguamentoSx>30</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+        <TipologiaCampoQuadro NumeroColonna="006" NumeroRiga="007" TipoCampoQuadro="importo">
+            <DatiDiStampa>
+                <PosX>352</PosX>
+                <PosY>60</PosY>
+                <LunghezzaInStampa>13</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroA7_6" TipoCampoQuadro="importo">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo> </DescrizioneCampo>
+                <LunghezzaCampo>97</LunghezzaCampo>
+                <AdeguamentoSx>-65</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+        <TipologiaCampoQuadro NumeroColonna="007" NumeroRiga="007" TipoCampoQuadro="testo">
+            <DatiDiStampa>
+                <PosX>445</PosX>
+                <PosY>60</PosY>
+                <LunghezzaInStampa>1</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroA7_7" TipoCampoQuadro="alfa">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo> </DescrizioneCampo>
+                <LunghezzaCampo>97</LunghezzaCampo>
+                <AdeguamentoSx>-65</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+        <TipologiaCampoQuadro NumeroColonna="008" NumeroRiga="007" TipoCampoQuadro="casella">
+            <DatiDiStampa>
+                <PosX>481</PosX>
+                <PosY>60</PosY>
+                <LunghezzaInStampa>1</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+                <ValoreCasella>1</ValoreCasella>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroA7_8" TipoCampoQuadro="alfa">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo> </DescrizioneCampo>
+                <LunghezzaCampo>15</LunghezzaCampo>
+                <AdeguamentoSx>0</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+        
+        <TipologiaCampoQuadro NumeroColonna="009" NumeroRiga="007" TipoCampoQuadro="testo">
+            <DatiDiStampa>
+                <PosX>517</PosX>
+                <PosY>60</PosY>
+                <LunghezzaInStampa>1</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroA7_9" TipoCampoQuadro="alfa">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo>CASI PARTICOLARI</DescrizioneCampo>
+                <LunghezzaCampo>97</LunghezzaCampo>
+                <AdeguamentoSx>-65</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+        
+        <TipologiaCampoQuadro NumeroColonna="010" NumeroRiga="007" TipoCampoQuadro="casella">
+            <DatiDiStampa>
+                <PosX>548</PosX>
+                <PosY>60</PosY>
+                <LunghezzaInStampa>1</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+                <ValoreCasella>1</ValoreCasella>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroA7_10" TipoCampoQuadro="alfa">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo>CASI PARTICOLARI</DescrizioneCampo>
+                <LunghezzaCampo>97</LunghezzaCampo>
+                <AdeguamentoSx>-65</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+        
+        
+        
+        <TipologiaCampoQuadro NumeroColonna="001" NumeroRiga="008" TipoCampoQuadro="importo">
+            <DatiDiStampa>
+                <PosX>49</PosX>
+                <PosY>36</PosY>
+                <LunghezzaInStampa>13</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroA8_1" TipoCampoQuadro="importo">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo> </DescrizioneCampo>
+                <LunghezzaCampo>97</LunghezzaCampo>
+                <AdeguamentoSx>-65</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+        <TipologiaCampoQuadro NumeroColonna="002" NumeroRiga="008" TipoCampoQuadro="testo">
+            <DatiDiStampa>
+                  <PosX>140</PosX>
+                <PosY>36</PosY>
+                <LunghezzaInStampa>2</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroA8_2" TipoCampoQuadro="alfa">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo> </DescrizioneCampo>
+                <LunghezzaCampo>97</LunghezzaCampo>
+                <AdeguamentoSx>-65</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+        <TipologiaCampoQuadro NumeroColonna="003" NumeroRiga="008" TipoCampoQuadro="importo">
+            <DatiDiStampa>
+                <PosX>166</PosX>
+                <PosY>36</PosY>
+                <LunghezzaInStampa>13</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroA8_3" TipoCampoQuadro="importo">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo> </DescrizioneCampo>
+                <LunghezzaCampo>97</LunghezzaCampo>
+                <AdeguamentoSx>-65</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+        <TipologiaCampoQuadro NumeroColonna="004" NumeroRiga="008" TipoCampoQuadro="numero">
+            <DatiDiStampa>
+                <PosX>262</PosX>
+                <PosY>36</PosY>
+                <LunghezzaInStampa>3</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroA8_4" TipoCampoQuadro="intero">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo> </DescrizioneCampo>
+                <LunghezzaCampo>97</LunghezzaCampo>
+                <AdeguamentoSx>-65</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+        <TipologiaCampoQuadro NumeroColonna="005" NumeroRiga="008" TipoCampoQuadro="decimale">
+            <DatiDiStampa>
+                <PosX>295</PosX>
+                <PosY>36</PosY>
+                <LunghezzaInStampa>6</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroA8_5" TipoCampoQuadro="decimale">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo> </DescrizioneCampo>
+                <LunghezzaCampo>45</LunghezzaCampo>
+                <AdeguamentoSx>30</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+        <TipologiaCampoQuadro NumeroColonna="006" NumeroRiga="008" TipoCampoQuadro="importo">
+            <DatiDiStampa>
+                <PosX>352</PosX>
+                <PosY>36</PosY>
+                <LunghezzaInStampa>13</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroA8_6" TipoCampoQuadro="importo">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo> </DescrizioneCampo>
+                <LunghezzaCampo>97</LunghezzaCampo>
+                <AdeguamentoSx>-65</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+        <TipologiaCampoQuadro NumeroColonna="007" NumeroRiga="008" TipoCampoQuadro="testo">
+            <DatiDiStampa>
+                <PosX>445</PosX>
+                <PosY>36</PosY>
+                <LunghezzaInStampa>1</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroA8_7" TipoCampoQuadro="alfa">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo> </DescrizioneCampo>
+                <LunghezzaCampo>97</LunghezzaCampo>
+                <AdeguamentoSx>-65</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+        <TipologiaCampoQuadro NumeroColonna="008" NumeroRiga="008" TipoCampoQuadro="casella">
+            <DatiDiStampa>
+                <PosX>481</PosX>
+                <PosY>36</PosY>
+                <LunghezzaInStampa>1</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+                <ValoreCasella>1</ValoreCasella>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroA8_8" TipoCampoQuadro="alfa">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo> </DescrizioneCampo>
+                <LunghezzaCampo>15</LunghezzaCampo>
+                <AdeguamentoSx>0</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+        
+        <TipologiaCampoQuadro NumeroColonna="009" NumeroRiga="008" TipoCampoQuadro="testo">
+            <DatiDiStampa>
+                <PosX>517</PosX>
+                <PosY>36</PosY>
+                <LunghezzaInStampa>1</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroA8_9" TipoCampoQuadro="alfa">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo>CASI PARTICOLARI</DescrizioneCampo>
+                <LunghezzaCampo>97</LunghezzaCampo>
+                <AdeguamentoSx>-65</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+        
+        <TipologiaCampoQuadro NumeroColonna="010" NumeroRiga="008" TipoCampoQuadro="casella">
+            <DatiDiStampa>
+                <PosX>548</PosX>
+                <PosY>36</PosY>
+                <LunghezzaInStampa>1</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+                <ValoreCasella>1</ValoreCasella>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroA8_10" TipoCampoQuadro="alfa">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo>CASI PARTICOLARI</DescrizioneCampo>
+                <LunghezzaCampo>97</LunghezzaCampo>
+                <AdeguamentoSx>-65</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+        
+        
+        <Font>
+            <Tipo>Courier-Bold</Tipo>
+            <Dimensione>9</Dimensione>
+        </Font>
+        <TipologiaAltroCampo Nome="Modello" TipoAltroCampo="numeroconspaziatura">
+            <DatiDiStampa>
+                <PosX>510</PosX>
+                <PosY>807</PosY>
+                <LunghezzaInStampa>3</LunghezzaInStampa>
+                <NumeroSpazi>1</NumeroSpazi>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <Font>
+                <Tipo>Courier-Bold</Tipo>
+                <Dimensione>12</Dimensione>
+            </Font>
+        </TipologiaAltroCampo>
+        <TipologiaAltroCampo Nome="DataStampa" TipoAltroCampo="testo">
+            <DatiDiStampa>
+                <PosX>25</PosX>
+                <PosY>3</PosY>
+                <LunghezzaInStampa>16</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <Font>
+                <Tipo>Courier-Bold</Tipo>
+                <Dimensione>10</Dimensione>
+            </Font>
+        </TipologiaAltroCampo>
+        <TipologiaAltroCampo Nome="StatoDichiarazione" TipoAltroCampo="testo">
+            <DatiDiStampa>
+                <PosX>250</PosX>
+                <PosY>3</PosY>
+                <LunghezzaInStampa>16</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <Font>
+                <Tipo>Courier-Bold</Tipo>
+                <Dimensione>10</Dimensione>
+            </Font>
+        </TipologiaAltroCampo>
+        <TipologiaAltroCampo Nome="ModelloDicitura" TipoAltroCampo="testo">
+            <DatiDiStampa>
+                <PosX>500</PosX>
+                <PosY>3</PosY>
+                <LunghezzaInStampa>16</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <Font>
+                <Tipo>Courier-Bold</Tipo>
+                <Dimensione>10</Dimensione>
+            </Font>
+        </TipologiaAltroCampo>
+        <TipologiaAltroCampo Nome="ProtocolloTelematico" TipoAltroCampo="testo">
+            <DatiDiStampa>
+                <PosX>25</PosX>
+                <PosY>13</PosY>
+                <LunghezzaInStampa>70</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <Font>
+                <Tipo>Courier-Bold</Tipo>
+                <Dimensione>10</Dimensione>
+            </Font>
+        </TipologiaAltroCampo>
+        <TipologiaAltroCampo Nome="CodiceFiscaleDicitura" TipoAltroCampo="testo">
+            <DatiDiStampa>
+                <PosX>400</PosX>
+                <PosY>13</PosY>
+                <LunghezzaInStampa>70</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <Font>
+                <Tipo>Courier-Bold</Tipo>
+                <Dimensione>10</Dimensione>
+            </Font>
+        </TipologiaAltroCampo>
+        <cf xcf1="417" xcfn="180" ycf1="100" ycfn="50"/>
+        <modulo xModulo1="740" xModulon="600" yModulo1="178" yModulon="48"/>    
+    </TipologiaStampaQuadro>
+</Quadro>

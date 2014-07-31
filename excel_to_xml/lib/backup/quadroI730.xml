@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE Quadro SYSTEM "tipologiastampa.dtd">
+<Quadro NomeQuadro="QuadroI" annoImposta="2013" modello="730" multiModulo="no" nome="QuadroI" pagine="1">
+    <TipologiaStampaQuadro AnnoImposta="2013" NumeroColonne="2" NumeroRighe="1">
+       
+        <TipologiaCampoQuadro NumeroColonna="001" NumeroRiga="001" TipoCampoQuadro="importo">
+            <DatiDiStampa>
+                <PosX>191</PosX>
+                <PosY>96</PosY>
+                <LunghezzaInStampa>13</LunghezzaInStampa>
+               <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroI1_1" TipoCampoQuadro="importo">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo>IMPORTO</DescrizioneCampo>
+                <LunghezzaCampo>97</LunghezzaCampo>
+                <AdeguamentoSx>-65</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+  <TipologiaCampoQuadro NumeroColonna="002" NumeroRiga="001" TipoCampoQuadro="casella">
+            <DatiDiStampa>
+                <PosX>535</PosX>
+                <PosY>97</PosY>
+                <LunghezzaInStampa>1</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+                <ValoreCasella>1</ValoreCasella>
+            </DatiDiStampa>
+            <DatiSchermo Id="QuadroI1_2" TipoCampoQuadro="alfa">
+                <NumeroPagina>1</NumeroPagina>
+                <DescrizioneCampo>CASELLA</DescrizioneCampo>
+                <LunghezzaCampo>97</LunghezzaCampo>
+                <AdeguamentoSx>-65</AdeguamentoSx>
+            </DatiSchermo>
+        </TipologiaCampoQuadro>
+        <Font>
+            <Tipo>Courier-Bold</Tipo>
+            <Dimensione>9</Dimensione>
+        </Font>
+		
+		<TipologiaAltroCampo Nome="CodiceFiscale"
+			TipoAltroCampo="testo">
+			<DatiDiStampa>
+				<PosX>395</PosX>
+				<PosY>820</PosY>
+				<LunghezzaInStampa>16</LunghezzaInStampa>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<Font>
+				<Tipo>Courier-Bold</Tipo>
+				<Dimensione>10</Dimensione>
+			</Font>
+		</TipologiaAltroCampo>
+		<TipologiaAltroCampo Nome="Modello"
+			TipoAltroCampo="numeroconspaziatura">
+			<DatiDiStampa>
+				<PosX>537</PosX>
+				<PosY>820</PosY>
+				<LunghezzaInStampa>2</LunghezzaInStampa>
+				<NumeroSpazi>1</NumeroSpazi>
+				<NumeroPagina>1</NumeroPagina>
+			</DatiDiStampa>
+			<Font>
+				<Tipo>Courier-Bold</Tipo>
+				<Dimensione>10</Dimensione>
+			</Font>
+		</TipologiaAltroCampo>
+
+        <TipologiaAltroCampo Nome="DataStampa" TipoAltroCampo="testo">
+            <DatiDiStampa>
+                <PosX>25</PosX>
+                <PosY>4</PosY>
+                <LunghezzaInStampa>16</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <Font>
+                <Tipo>Courier-Bold</Tipo>
+                <Dimensione>10</Dimensione>
+            </Font>
+        </TipologiaAltroCampo>
+        <TipologiaAltroCampo Nome="StatoDichiarazione" TipoAltroCampo="testo">
+            <DatiDiStampa>
+                <PosX>250</PosX>
+                <PosY>4</PosY>
+                <LunghezzaInStampa>16</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <Font>
+                <Tipo>Courier-Bold</Tipo>
+                <Dimensione>10</Dimensione>
+            </Font>
+        </TipologiaAltroCampo>
+        <TipologiaAltroCampo Nome="ModelloDicitura" TipoAltroCampo="testo">
+            <DatiDiStampa>
+                <PosX>500</PosX>
+                <PosY>4</PosY>
+                <LunghezzaInStampa>16</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <Font>
+                <Tipo>Courier-Bold</Tipo>
+                <Dimensione>10</Dimensione>
+            </Font>
+        </TipologiaAltroCampo>
+        <TipologiaAltroCampo Nome="ProtocolloTelematico" TipoAltroCampo="testo">
+            <DatiDiStampa>
+                <PosX>25</PosX>
+                <PosY>15</PosY>
+                <LunghezzaInStampa>70</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <Font>
+                <Tipo>Courier-Bold</Tipo>
+                <Dimensione>10</Dimensione>
+            </Font>
+        </TipologiaAltroCampo>
+        <TipologiaAltroCampo Nome="CodiceFiscaleDicitura" TipoAltroCampo="testo">
+            <DatiDiStampa>
+                <PosX>400</PosX>
+                <PosY>15</PosY>
+                <LunghezzaInStampa>70</LunghezzaInStampa>
+                <NumeroPagina>1</NumeroPagina>
+            </DatiDiStampa>
+            <Font>
+                <Tipo>Courier-Bold</Tipo>
+                <Dimensione>10</Dimensione>
+            </Font>
+        </TipologiaAltroCampo>
+        <cf xcf1="417" xcfn="180" ycf1="100" ycfn="50"/>
+        <modulo xModulo1="740" xModulon="600" yModulo1="178" yModulon="48"/>
+    </TipologiaStampaQuadro>
+</Quadro>
