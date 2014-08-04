@@ -24,11 +24,11 @@ package lab5;
  */
 public class Traps {
 
-  private Traps(){
+  public Traps(){
     
   }
   
-  static public Traps(int i) {
+   public Traps(int i) {
     
   }
   /**

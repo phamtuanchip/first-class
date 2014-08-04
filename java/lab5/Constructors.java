@@ -45,7 +45,8 @@ class Plan{
 
 class Tree extends Plan {
    Tree() {
-     System.out.print("Tree") ;
+    
      super();
+     System.out.print("Tree") ;
   }
 }
