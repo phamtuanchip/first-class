@@ -1,0 +1,15 @@
+*.class
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# IntelliJ
+out
+target
+*.ipr
+*.iml
+*.iws
+.idea
+/build
