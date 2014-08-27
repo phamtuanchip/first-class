@@ -20,7 +20,7 @@ public class XML_Paser_Object {
 	/**
 	 * @param args
 	 */
-	public static String dic="D:\\OneDrive\\DALI\\";
+	public static String dic="D:\\OneDrive\\DALI\\UnicePF\\gen\\";
 	public static String xmlNames = "quadroA730.xml quadroB730.xml quadroC730.xml quadroD730.xml quadroE730.xml quadroF730.xml quadroG730.xml quadroI730.xml quadroPL730.xml"; 
 	public static String jspNames = "quadroA.jsp quadroB.jsp quadroC.jsp quadroD.jsp quadroE.jsp quadroF.jsp quadroG.jsp quadroI.jsp quadroPL.jsp";
 	public static void main(String[] args) {
@@ -148,7 +148,7 @@ public class XML_Paser_Object {
 	}
 
 	static	String getOutPut_xml(String chr) {
-		return dic+"out\\quadro"+chr+ "730.xml"; 
+		return dic+"out\\quadro"+chr+ ".xml"; 
 	}
 	
 	static	String getOutPut_jsp(String chr) {
