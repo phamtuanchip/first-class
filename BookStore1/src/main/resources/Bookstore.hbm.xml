@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+ "-//Hibernate/Hibernate Mapping DTD//EN"
+ "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd"> 
+ 
+ <hibernate-mapping>
+ 	<class name="com.nttdata.bean.Author" table="author">
+      <meta attribute="class-description">
+         This class contains authors detail. 
+      </meta>
+      <id name="author_id" type="int" column="author_id">
+         <generator class="identity"/>
+      </id>
+      <property name="author_name" column="author_name" type="string"/>
+      <property name="author_age" column="author_age" type="int"/>
+   </class>
+   
+   <class name="com.nttdata.bean.Book" table="book">
+      <meta attribute="class-description">
+         This class contains books detail. 
+      </meta>
+      <id name="book_id" type="int" column="book_id">
+         <generator class="identity"/>
+      </id>
+      <property name="book_title" column="book_title" type="string" />
+      <property name="book_price" column="book_price" type="float"/>
+      <property name="book_description" column="book_description" type="string"/>
+      <property name="book_publicYear" column="book_publicYear" type="int"/>
+      <property name="author_id" column="author_id" type="int"/>
+      <property name="category_id" column="category_id" type="int"/>
+   </class>
+   
+   <class name="com.nttdata.bean.Category" table="category">
+      <meta attribute="class-description">
+         This class contains categories detail. 
+      </meta>
+      <id name="category_id" type="int" column="category_id">
+         <generator class="identity"/>
+      </id>
+      <property name="category_name" column="category_name" type="string"/>
+   </class>
+   
+ </hibernate-mapping>
