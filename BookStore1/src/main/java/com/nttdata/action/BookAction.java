@@ -7,8 +7,6 @@ import javax.servlet.http.HttpServletRequest;
 
 import org.apache.struts2.ServletActionContext;
 
-
-
 import com.nttdata.bean.Book;
 import com.nttdata.dao.BookDAO;
 import com.nttdata.dao.BookDAOImpl;
@@ -19,10 +17,10 @@ import com.opensymphony.xwork2.ActionSupport;
 public class BookAction extends ActionSupport {
 
 	private static final long serialVersionUID = 1L;
-	HttpServletRequest request = ServletActionContext.getRequest();
-	List<Book> bookList = new ArrayList<Book>();
-	BookDAO bookDao = new BookDAOImpl();
-	Book objBook = new Book();
+	private HttpServletRequest request = ServletActionContext.getRequest();
+	private List<Book> bookList = new ArrayList<Book>();
+	private BookDAO bookDao = new BookDAOImpl();
+	private Book objBook = new Book();
 	public Book getObjBook() {
 		return objBook;
 	}
@@ -39,14 +37,17 @@ public class BookAction extends ActionSupport {
 		return bookList;
 	}
 	
-	public String listBook() throws Exception{	 
+	public String listBook() throws Exception{	 	
+		System.out.println("List book method ===================");	
 		bookList = bookDao.listBook();
+		System.out.println("Book List : " + bookList);
 		return SUCCESS;
 	}
 	
+	
+	
 	public String addBook() throws Exception{
-		System.out.println("add method=========================");
-		 
+		System.out.println("add method=========================");	 
 		boolean successful = bookDao.addBook(objBook);
 		
 		//reload page
@@ -84,6 +85,15 @@ public class BookAction extends ActionSupport {
 		if(sucessful)
 			return SUCCESS;
 		else 
+			return ERROR;
+	}
+	public String searchBook() throws Exception{
+		String textSearch = request.getParameter("searchText");
+		System.out.println("text search =========== :" +textSearch);	
+		bookList = bookDao.selectBookByName(textSearch);
+		if(bookList != null)
+			return SUCCESS;
+		else
 			return ERROR;
 	}
 

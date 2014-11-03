@@ -3,23 +3,27 @@
 "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
 "http://struts.apache.org/dtds/struts-2.0.dtd">
 <struts>
-	<constant name="struts.devMode" value="true"/>
-	
-	<package name="BookStore" namespace="/"  extends="hibernate-default">
-		<action  name="listBookAction" class="com.nttdata.action.BookAction" method="listBook">
-			<result name="success">Book.jsp</result>
+	<constant name="struts.devMode" value="true" />
+	<package name="BookStore" namespace="/" extends="hibernate-default">		
+		<action name="listBookAction" class="com.nttdata.action.BookAction"
+			method="listBook">
+			<result name="success" >Book.jsp</result>
 		</action>
-		<action name="editBook" class="com.nttdata.action.BookAction" method="editBook">
+		<action name="editBook" class="com.nttdata.action.BookAction"
+			method="editBook">
 			<result name="success">UpdateBook.jsp</result>
 		</action>
-		<action name="deleteBook" class="com.nttdata.action.BookAction" method="deleteBook">
+		<action name="deleteBook" class="com.nttdata.action.BookAction"
+			method="deleteBook">
 			<result name="success">Book.jsp</result>
 		</action>
-		<action name="addBook" class="com.nttdata.action.BookAction" method="addBook">
+		<action name="addBook" class="com.nttdata.action.BookAction"
+			method="addBook">
 			<result name="success">Book.jsp</result>
 			<result name="error">Error.jsp</result>
 		</action>
-		<action name="updateBook" class="com.nttdata.action.BookAction" method="updateBook">
+		<action name="updateBook" class="com.nttdata.action.BookAction"
+			method="updateBook">
 			<result name="success">Book.jsp</result>
 		</action>
 	</package>

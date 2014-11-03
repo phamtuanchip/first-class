@@ -11,12 +11,12 @@
 <h1 align="center">Add New Book</h1>
 <table align="center">
 <s:form action="addBook">
-	<s:textfield name="book_title" label="Book Title" />
-	<s:textfield name="book_price" label="Book Price" />
-	<s:textfield name="book_description" label="Book Description" />
-	<s:textfield name="book_publicYear" label="Book Public Year" />
-	<s:textfield name="author_id" label="Author ID"/>
-	<s:textfield name="category_id" label="Category ID"/>
+	<s:textfield name="objBook.book_title" label="Book Title" />
+	<s:textfield name="objBook.book_price" label="Book Price" />
+	<s:textfield name="objBook.book_description" label="Book Description" />
+	<s:textfield name="objBook.book_publicYear" label="Book Public Year" />
+	<s:textfield name="objBook.author_id" label="Author ID"/>
+	<s:textfield name="objBook.category_id" label="Category ID"/>
 	<s:submit value="Add New Book"  />
 </s:form>
 </table>

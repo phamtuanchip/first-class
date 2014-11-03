@@ -16,7 +16,6 @@ public class AuthorDaoImpl implements AuthorDao {
 	@TransactionTarget
 	Transaction transaction;
 	@SuppressWarnings("unchecked")
-	@Override
 	public List<Author> listAuthor() {
 		return session.createQuery("FROM author").list();
 	}

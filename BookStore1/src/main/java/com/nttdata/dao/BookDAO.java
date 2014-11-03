@@ -10,4 +10,5 @@ public interface BookDAO {
 	boolean deleteBook(int book_id);
 	boolean updateBook(Book objBook);
 	Book selectBookByID(int book_id);
+	public List<Book> selectBookByName(String book_name);
 }
