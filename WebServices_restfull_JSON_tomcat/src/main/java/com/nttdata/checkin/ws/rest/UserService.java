@@ -29,7 +29,7 @@ public class UserService {
 	@POST
 	@Path("/post")
 	@Consumes(MediaType.APPLICATION_JSON)
-	public Response createTrackInJSON(User u) {
+	public Response createUserInJSON(User u) {
 
 		String result = "User saved : " + u;
 		return Response.status(201).entity(result).build();

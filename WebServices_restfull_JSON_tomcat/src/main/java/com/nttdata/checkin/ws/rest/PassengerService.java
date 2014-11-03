@@ -16,7 +16,7 @@ public class PassengerService {
 	@GET
 	@Path("/get")
 	@Produces(MediaType.APPLICATION_JSON)
-	public Passenger getUserInJSON() {
+	public Passenger getPassengerInJSON() {
 
 		Passenger p = new Passenger();
 		 
@@ -27,9 +27,9 @@ public class PassengerService {
 	@POST
 	@Path("/post")
 	@Consumes(MediaType.APPLICATION_JSON)
-	public Response createTrackInJSON(Passenger p) {
+	public Response createPassengerInJSON(Passenger p) {
 
-		String result = "User saved : " + p;
+		String result = "Passenger saved : " + p;
 		return Response.status(201).entity(result).build();
 		
 	}
