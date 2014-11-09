@@ -5,7 +5,7 @@
 	<artifactId>ws-rest</artifactId>
 	<packaging>war</packaging>
 	<version>1.0-SNAPSHOT</version>
-	<name>RESTfulExample Maven Webapp</name>
+	<name>Mobile checkin rest webservice</name>
 	
 
 	<repositories>
