@@ -1,0 +1,31 @@
+<!doctype HTML>
+<html ng-app='myapp'>
+<head>
+	<title>AngularJS Chapter 1</title>
+	<style type="text/css">
+		.task-done-true {text-decoration:line-through}
+	</style>
+</head>
+<body ng-controller="TodoController">
+<p>{{message}}</p>	
+<input type="text" ng-model="todo.text">
+<input type="number" ng-model="todo.points">
+<button ng-click="save(todo)">New Task</button>
+
+<div id="stats" ng-show="showStats()">
+Total Points = {{totalPoints()}}
+Progress({{donePoints()}}/{{totalPoints()}}) = {{(donePoints()/totalPoints())*100}} %
+<div>
+
+<ul>
+	<li class="task-done-{{todo.done}}" ng-repeat='todo in todos track by $index'>
+		<input type="checkbox" ng-model="todo.done" ng-change="taskUpdate(todo)">
+		{{todo.text}} has {{todo.points}} points
+	</li>
+</ul>
+
+
+<script type="text/javascript" src="bower_components/angular/angular.js"></script>
+<script type="text/javascript" src="controller.js"></script>
+</body>
+</html>

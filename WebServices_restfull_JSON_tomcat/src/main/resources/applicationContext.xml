@@ -1,65 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+    DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS HEADER.
+
+    Copyright (c) 2010-2013 Oracle and/or its affiliates. All rights reserved.
+
+    The contents of this file are subject to the terms of either the GNU
+    General Public License Version 2 only ("GPL") or the Common Development
+    and Distribution License("CDDL") (collectively, the "License").  You
+    may not use this file except in compliance with the License.  You can
+    obtain a copy of the License at
+    http://glassfish.java.net/public/CDDL+GPL_1_1.html
+    or packager/legal/LICENSE.txt.  See the License for the specific
+    language governing permissions and limitations under the License.
+
+    When distributing the software, include this License Header Notice in each
+    file and include the License file at packager/legal/LICENSE.txt.
+
+    GPL Classpath Exception:
+    Oracle designates this particular file as subject to the "Classpath"
+    exception as provided by Oracle in the GPL Version 2 section of the License
+    file that accompanied this code.
+
+    Modifications:
+    If applicable, add the following below the License Header, with the fields
+    enclosed by brackets [] replaced by your own identifying information:
+    "Portions Copyright [year] [name of copyright owner]"
+
+    Contributor(s):
+    If you wish your version of this file to be governed by only the CDDL or
+    only the GPL Version 2, indicate your decision by adding "[Contributor]
+    elects to include this software in this distribution under the [CDDL or GPL
+    Version 2] license."  If you don't indicate a single choice of license, a
+    recipient has the option to distribute your version of this file under
+    either the CDDL, the GPL Version 2 or to extend the choice of license to
+    its licensees as provided above.  However, if you add GPL Version 2 code
+    and therefore, elected the GPL Version 2 license, then the option applies
+    only if the new code is made subject to such option by the copyright
+    holder.
+
+-->
 <beans xmlns="http://www.springframework.org/schema/beans"
-	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-	xmlns:context="http://www.springframework.org/schema/context"
-	xmlns:tx="http://www.springframework.org/schema/tx"	
-	xsi:schemaLocation="
-		http://www.springframework.org/schema/beans	
-		http://www.springframework.org/schema/beans/spring-beans.xsd
-	 
-		http://www.springframework.org/schema/tx 
-		http://www.springframework.org/schema/tx/spring-tx.xsd
-		 
-		http://www.springframework.org/schema/context
-		http://www.springframework.org/schema/context/spring-context.xsd">
- 
-	<context:component-scan base-package="com.nttdata.checkin.ws.*" />
- 
-	<!-- ************ JPA configuration *********** -->
-	<tx:annotation-driven transaction-manager="transactionManager" />  
-    <bean id="transactionManager" class="org.springframework.orm.jpa.JpaTransactionManager">
-        <property name="entityManagerFactory" ref="entityManagerFactory" />
-    </bean>
-    <bean id="transactionManagerLegacy" class="org.springframework.orm.jpa.JpaTransactionManager">
-        <property name="entityManagerFactory" ref="entityManagerFactoryLegacy" />
-    </bean>    
-    <!-- 
-    <bean id="entityManagerFactory" class="org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean">
-        <property name="persistenceXmlLocation" value="classpath:config/persistence-demo.xml" />
-        <property name="persistenceUnitName" value="demoRestPersistence" />        
-        <property name="dataSource" ref="restDemoDS" />
-        <property name="packagesToScan" value="org.codingpedia.demo.*" />
-        <property name="jpaVendorAdapter">
-            <bean class="org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter">
-                <property name="showSql" value="true" />
-                <property name="databasePlatform" value="org.hibernate.dialect.MySQLDialect" />
-            </bean>
-        </property>
-    </bean>     
-    <bean id="entityManagerFactoryLegacy" class="org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean">
-        <property name="persistenceXmlLocation" value="classpath:config/persistence-demo.xml" />
-        <property name="persistenceUnitName" value="demoRestPersistenceLegacy" />
-        <property name="dataSource" ref="restDemoLegacyDS" />
-        <property name="packagesToScan" value="org.codingpedia.demo.*" />
-        <property name="jpaVendorAdapter">
-            <bean class="org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter">
-                <property name="showSql" value="true" />
-                <property name="databasePlatform" value="org.hibernate.dialect.MySQLDialect" />
-            </bean>
-        </property>
-    </bean>        
-    	
-	<bean id="podcastDao" class="org.codingpedia.demo.rest.dao.PodcastDaoJPA2Impl"/>	
-    <bean id="podcastService" class="org.codingpedia.demo.rest.service.PodcastServiceDbAccessImpl" />	
-    <bean id="podcastsResource" class="org.codingpedia.demo.rest.resource.PodcastsResource" />
-    <bean id="podcastLegacyResource" class="org.codingpedia.demo.rest.resource.PodcastLegacyResource" />
-    
-	<bean id="restDemoDS" class="org.springframework.jndi.JndiObjectFactoryBean" scope="singleton">
-	    <property name="jndiName" value="java:comp/env/jdbc/restDemoDB" />
-	    <property name="resourceRef" value="true" />        
-	</bean>
-	<bean id="restDemoLegacyDS" class="org.springframework.jndi.JndiObjectFactoryBean" scope="singleton">
-	    <property name="jndiName" value="java:comp/env/jdbc/restDemoLegacyDB" />
-	    <property name="resourceRef" value="true" />        
-	</bean>	
-	 -->
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+  http://www.springframework.org/schema/beans/spring-beans.xsd
+  http://www.springframework.org/schema/context
+  http://www.springframework.org/schema/context/spring-context.xsd"
+        >
+
+    <bean id="greetingService" class="com.nttdata.checkin.ws.spring.GreetingServiceImpl"/>
+
+    <bean class="com.nttdata.checkin.ws.spring.DateTimeService" scope="request"/>
+
+    <bean class="com.nttdata.checkin.ws.spring.SpringSingletonResource"/>
+
+    <bean class="com.nttdata.checkin.ws.spring.SpringRequestResource" scope="request"/>
+
+    <bean class="com.nttdata.checkin.ws.spring.CustomExceptionMapper"/>
+
 </beans>
