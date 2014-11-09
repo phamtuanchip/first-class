@@ -49,6 +49,10 @@
   http://www.springframework.org/schema/context/spring-context.xsd"
         >
 
+	<bean class="com.nttdata.checkin.ws.rest.UserWService"/>
+	<bean id="lcaService" class="com.nttdata.checkin.service.impl.LCA01ServiceImpl"/>
+	
+	
     <bean id="greetingService" class="com.nttdata.checkin.ws.spring.GreetingServiceImpl"/>
 
     <bean class="com.nttdata.checkin.ws.spring.DateTimeService" scope="request"/>

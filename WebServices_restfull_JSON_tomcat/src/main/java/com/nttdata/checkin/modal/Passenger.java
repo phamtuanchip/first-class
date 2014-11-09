@@ -1,4 +1,4 @@
-package com.nttdata.checkin.ws;
+package com.nttdata.checkin.modal;
 
 import java.io.Serializable;
 import java.util.Date;

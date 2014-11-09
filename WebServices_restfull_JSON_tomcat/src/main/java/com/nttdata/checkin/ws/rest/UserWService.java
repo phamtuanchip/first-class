@@ -8,11 +8,18 @@ import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 
-import com.nttdata.checkin.ws.User;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+import com.nttdata.checkin.modal.User;
+import com.nttdata.checkin.service.impl.LCA01ServiceImpl;
 
 @Path("/json/user")
-public class UserService {
-
+@Component
+public class UserWService {
+	
+	@Autowired
+	private LCA01ServiceImpl lcaService;
 	@GET
 	@Path("/get")
 	@Produces(MediaType.APPLICATION_JSON)
@@ -22,7 +29,8 @@ public class UserService {
 		u.setUsername("test001");
 		u.setPassword("Metallica");
 		u.setRole(User.ROLE_AGENT);
-		return u;
+		
+		return lcaService.login(u);
 
 	}
 

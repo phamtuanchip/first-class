@@ -37,7 +37,7 @@
  * only if the new code is made subject to such option by the copyright
  * holder.
  */
-package com.nttdata.checkin.ws.spring;
+package com.nttdata.checkin.config;
 
 import org.glassfish.jersey.server.ResourceConfig;
 import org.glassfish.jersey.server.spring.scope.RequestContextFilter;
@@ -49,16 +49,13 @@ import com.nttdata.checkin.ws.rest.UserWService;
  *
  * @author Jakub Podlesak (jakub.podlesak at oracle.com)
  */
-public class MyApplication extends ResourceConfig {
+public class WSRegister extends ResourceConfig {
 
     /**
      * Register JAX-RS application components.
      */
-    public MyApplication () {
+    public WSRegister () {
         register(RequestContextFilter.class);
-        register(JerseyResource.class);
-        register(SpringSingletonResource.class);
-        register(SpringRequestResource.class);
-        register(CustomExceptionMapper.class);
+        register(UserWService.class);
     }
 }

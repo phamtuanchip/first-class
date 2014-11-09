@@ -1,4 +1,4 @@
-package com.nttdata.checkin.ws;
+package com.nttdata.checkin.service;
 
 import java.net.Socket;
 import java.util.ArrayList;
@@ -6,9 +6,11 @@ import java.util.ArrayList;
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
 
-@Path("/v1")
-public interface DSCWebService {
-	@GET
+import com.nttdata.checkin.modal.User;
+
+ 
+public interface DSCService {
+	 
 	public User login(User u);
 	 
 	

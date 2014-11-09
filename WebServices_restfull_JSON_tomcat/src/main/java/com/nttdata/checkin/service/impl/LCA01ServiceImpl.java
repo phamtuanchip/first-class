@@ -1,4 +1,4 @@
-package com.nttdata.checkin.ws.rest;
+package com.nttdata.checkin.service.impl;
 
 import java.net.Socket;
 import java.util.ArrayList;
@@ -11,17 +11,15 @@ import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 
-import com.nttdata.checkin.ws.DSCWebService;
-import com.nttdata.checkin.ws.Passenger;
-import com.nttdata.checkin.ws.User;
+import com.nttdata.checkin.modal.Passenger;
+import com.nttdata.checkin.modal.User;
+import com.nttdata.checkin.service.DSCService;
 
 
-public class LCA01WebServiceImpl implements DSCWebService{
+public class LCA01ServiceImpl implements DSCService{
 	
 	 
-	
-	@Path("/user/get")
-	@Produces(MediaType.APPLICATION_JSON)
+	 
 	public User login(User user) {
 		User u = new User();
 		u.setUsername("test001");

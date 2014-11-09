@@ -8,10 +8,10 @@ import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 
-import com.nttdata.checkin.ws.Passenger;
+import com.nttdata.checkin.modal.Passenger;
 
 @Path("/json/passenger")
-public class PassengerService {
+public class PassengerWService {
 
 	@GET
 	@Path("/get")
