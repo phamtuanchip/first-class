@@ -9,16 +9,19 @@
   http://www.springframework.org/schema/context/spring-context.xsd"
         >
 
+	 
+	 
+    <bean id="lcaServiceF" class="com.nttdata.checkin.service.impl.LCA01ServiceFactory">
+	  <property name="lca1Service" ref="lca1Service"></property>
+	</bean>
+	 
+	<bean id="lcaServiceM" class="com.nttdata.checkin.service.impl.LCA01ServiceMockFactory">
+		<property name="lcaService" ref="lcaService"></property>
+	</bean>
 	
-	<!-- 
-		<bean id="lcaServiceF" class="com.nttdata.checkin.service.impl.LCA01ServiceFactory"/>
-	 -->
-	<bean id="lcaServiceM" class="com.nttdata.checkin.service.impl.LCA01ServiceMockFactory"/>
-	
-	<bean class="com.nttdata.checkin.ws.rest.CheckInWebService" scope="request" />
-	  
- 
-	
+	<bean class="com.nttdata.checkin.ws.rest.CheckInWebService">
+		<property name="lcaServiceM" ref="lcaServiceM"></property>
+	</bean>  
    
    <bean id="dataSource" 
       class="org.springframework.jdbc.datasource.DriverManagerDataSource">
@@ -29,11 +32,14 @@
    </bean>
 
  
-   <bean id="jdbcTemplate" 
-      class="com.nttdata.checkin.service.impl.LCAServiceMock">
-      <property name="dataSource"  ref="dataSource" />    
-   </bean>
+   <bean id="jdbcTemplate" class="org.springframework.jdbc.core.JdbcTemplate">
+		<property name="dataSource" ref="dataSource"></property>
+	</bean>
+ 
+	<bean id="lcaService" class="com.nttdata.checkin.service.impl.LCAServiceMock">
+		<property name="jdbcTemplate" ref="jdbcTemplate"></property>
+	</bean>
 	 
-	 
+	 <bean id="lca1Service" class="com.nttdata.checkin.service.impl.LCA01Service" />
 
 </beans>

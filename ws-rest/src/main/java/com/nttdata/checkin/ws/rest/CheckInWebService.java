@@ -21,34 +21,39 @@ import com.nttdata.checkin.service.impl.LCA01ServiceMockFactory;
 @Path("/json")
 @Component
 public class CheckInWebService {
-	 
 	@Autowired
 	private LCA01ServiceFactory lcaServiceF;
 	
+	public void setLcaServiceF(LCA01ServiceFactory lcaServiceF){
+		this.lcaServiceF = lcaServiceF;
+	}
+
 	@Autowired
 	private LCA01ServiceMockFactory lcaServiceM;
-	
+
+	public void setLcaServiceM(LCA01ServiceMockFactory lcaServiceM){
+		this.lcaServiceM = lcaServiceM;
+	}
+
 	@GET
 	@Path("/user/get")
 	@Produces(MediaType.APPLICATION_JSON)
 	public User getUserInJSON() throws AuthenticationException, NoLCAImplementation {
-		
+
 		User u = new User();
 		u.setUsername("test001");
 		u.setPassword("Metallica");
 		u.setRole(User.ROLE_AGENT);
-	 
+
 		try {
-			 if(lcaServiceF != null)
-				 lcaServiceF.getDSCService().login(u);
-			 else if(lcaServiceM != null)
+			if(lcaServiceM != null)
 				lcaServiceM.getDSCService().login(u); 
-			 else throw new NoLCAImplementation("No implemetation for LCA Service, please check applicationContext.xml injection");
+			else throw new NoLCAImplementation("No implemetation for LCA Service, please check applicationContext.xml injection");
 		} catch (AuthenticationException e) {
 			e.printStackTrace();
 			throw e;
 		}
-		
+
 		return u;
 
 	}
@@ -59,7 +64,7 @@ public class CheckInWebService {
 	public Passenger getPassengerInJSON() {
 
 		Passenger p = new Passenger();
-		 
+
 		return p;
 
 	}
@@ -70,7 +75,7 @@ public class CheckInWebService {
 
 		String result = "User saved : " + u;
 		return Response.status(201).entity(result).build();
-		
+
 	}
-	
+
 }

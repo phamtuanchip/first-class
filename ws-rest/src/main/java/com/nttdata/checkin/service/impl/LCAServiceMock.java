@@ -16,6 +16,10 @@ public class LCAServiceMock implements DSCService{
 	@Autowired
 	private JdbcTemplate jdbcTemplate;
 
+	public void setJdbcTemplate(JdbcTemplate jdbcTemplate) {
+		this.jdbcTemplate = jdbcTemplate;
+	}
+	
 	@Override
 	public User login(User u) throws AuthenticationException {
 		String SQL = "select * from userTb where userName = ?";
