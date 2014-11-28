@@ -11,6 +11,10 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <!-- Optional: Incorporate the Bootstrap JavaScript plugins -->
 <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+ <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+ <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3&sensor=false&libraries=places"></script>
+ <!-- <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?v=3&key=AIzaSyAdm1NhUYT7jonRRieUPnLSWw-yCxJRcd8&sensor=false&callback=initializeMap&libraries=places"></script>
+ -->
 <script>
 var operation = "A"; //"A"=Adding; "E"=Editing
 	var selected_index = -1; //Index of the selected list item
@@ -18,7 +22,8 @@ var operation = "A"; //"A"=Adding; "E"=Editing
 	tbClients = JSON.parse(tbClients); //Converts string to object
 	if(tbClients == null) //If there is no data, initialize an empty array
 		tbClients = [];
-		
+	var marker;
+var cityCircle;	
 $(function(){
 	if(typeof(Storage) !== "undefined") {
     // Code for localStorage/sessionStorage.
@@ -52,8 +57,13 @@ $(function(){
 		Delete();
 		List();
 	}); 
+	
+	$("#remind").bind("click", function(){
+		$("#mappicker").toggle();
+	});
  
  List(); 
+	 
 });
 
 function Add(){
@@ -110,6 +120,142 @@ $("#taskform").bind("submit",function(){
 		var cli = JSON.parse(tbClients[i]);
 	  	$("#data").append('<tr><td>'+cli.ID+'</td><td>'+cli.Name+'</td><td>'+cli.PRI+'</td><td><span alt="Edit"'+i+' onclick="javaScript:Edit();">Edit</span>|<span id="delete" alt="Delete"'+i+'  onclick="javaScript:Delete();">Delete</span></td></tr>');
 	}
+	
+ 
+	
+	(function mapInit($, google) {
+	var $mapCanvas = $('#map-canvas')[0];
+	var $searchLocation = $('#search');
+	var $address = $('#address');
+	var $radiusInput = $('#radius');
+	
+	var geocoder = new google.maps.Geocoder();
+    var mapOptions = {
+        zoom: 15,
+        center: new google.maps.LatLng(45.4447514,9.1580605)
+    };
+    marker = new google.maps.Marker({
+        map: map,
+        draggable:true,
+        position: new google.maps.LatLng(45.4447514,9.1580605)
+  	});
+	var map = new google.maps.Map($mapCanvas, mapOptions);
+	var autocomplete = new google.maps.places.Autocomplete($address[0]);
+	autocomplete.bindTo('bounds', map);
+	
+	$radiusInput.on('change', function() {
+		if(verifyAddress()){
+			cityCircle.setRadius(parseInt($(this).val(), 10));
+			cityCircle.map.fitBounds(cityCircle.getBounds());
+			//$("#radiusId").val(parseInt($(this).val(), 10));
+		}
+	});
+	//$('#tableLocationListId tr').find("#updateArea").hide();
+	google.maps.event.addListener(autocomplete, 'place_changed', function() {
+		if(verifyAddress()){
+			$searchLocation.click();
+		}
+	});
+	google.maps.event.addListener(marker, 'dragend', function() {
+		console.log("in drag");
+		lat = marker.getPosition().lat();
+		lng = marker.getPosition().lng();
+		$("#latitudein").val(lat);
+		$("#longitudein").val(lng);
+		geocoder.geocode({'latLng': marker.getPosition()}, function(results, status) {
+			if (status == google.maps.GeocoderStatus.OK) {
+			      if (results[0]) {
+			    	  $("#address").val(results[0].formatted_address);
+			      }
+			}
+		});
+	});
+	$('#search').on('click', function() {
+		if(verifyAddress()){
+			var addressVal = $address.val();
+			geocoder.geocode({ 'address': addressVal}, function(results, status) {
+				if (status == google.maps.GeocoderStatus.OK) {
+					map.setCenter(results[0].geometry.location);
+					if (marker) {
+						marker.setMap(null);
+					}
+					var infowindow = new google.maps.InfoWindow();
+					marker = new google.maps.Marker({
+						map: map,
+						draggable:true,
+						position: results[0].geometry.location
+					});
+					
+					infowindow.setContent(results[0].formatted_address);
+					infowindow.open(map, marker);
+					var radius = parseInt($radiusInput.val(), 10);
+					var populationOptions = {
+						strokeColor: 'blue',
+						strokeOpacity: 0.5,
+						strokeWeight: 1,
+						fillColor: '#45C8DC',
+						fillOpacity: 0.35,
+						map: map,
+						center: results[0].geometry.location,
+						radius: radius
+					};
+					google.maps.event.addListener(marker, 'dragend', function() {
+						console.log("in drag");
+						lat = marker.getPosition().lat();
+						lng = marker.getPosition().lng();
+						//$('#tableLocationListId tr.MapView').find("#latitudein").val(lat);
+						//$('#tableLocationListId tr.MapView').find("#longitudein").val(lng);
+						geocoder.geocode({'latLng': marker.getPosition()}, function(results, status) {
+							if (status == google.maps.GeocoderStatus.OK) {
+							      if (results[0]) {
+							    	  $("#address").val(results[0].formatted_address);
+							    	  
+							    	  var $radiusInput = $('#radius');
+							    	  var radius = parseInt($radiusInput.val(), 10);
+										var populationOptions = {
+											strokeColor: 'blue',
+											strokeOpacity: 0.5,
+											strokeWeight: 1,
+											fillColor: '#45C8DC',
+											fillOpacity: 0.35,
+											map: map,
+											//center: results[0].geometry.location,
+											center: marker.getPosition(),
+											radius: radius
+										};
+									
+										if(cityCircle) {
+											 cityCircle.setMap(null);
+											}
+										cityCircle = new google.maps.Circle(populationOptions);
+										cityCircle.map.fitBounds(cityCircle.getBounds());
+										//$('#tableLocationListId tr.MapView').find("#localionName").val(results[0].formatted_address);
+										//$('#tableLocationListId tr.MapView').find("#latId").val(populationOptions.center.lat());
+										//$('#tableLocationListId tr.MapView').find("#lgnId").val(populationOptions.center.lng());
+										//$('#tableLocationListId tr.MapView').find("#radiusId").val(radius);
+							      }
+							}
+						});
+					});
+					if(cityCircle) {
+					 cityCircle.setMap(null);
+					}
+					cityCircle = new google.maps.Circle(populationOptions);
+					cityCircle.map.fitBounds(cityCircle.getBounds());
+					//$('#tableLocationListId tr.MapView').find("#localionName").val(results[0].formatted_address);
+					//$('#tableLocationListId tr.MapView').find("#latId").val(populationOptions.center.lat());
+					//$('#tableLocationListId tr.MapView').find("#lgnId").val(populationOptions.center.lng());
+					//$('#tableLocationListId tr.MapView').find("#radiusId").val(radius);
+				} else {
+					//console.log('Geocode was not successful for the following reason: ' + status);
+				}
+			});
+		}
+	});
+})($, google);
+function verifyAddress(){
+	return true;
+}
 } 
  
 
@@ -131,12 +277,22 @@ $("#taskform").bind("submit",function(){
     <label for="priority">Priority</label>
     <input type="number" class="form-control" id="priority">
   </div>
-  <div class="checkbox">
-    <label><input type="checkbox" id="remind"> Remind me</label>
+  <div class="form-group">
+	<input type="checkbox" class="form-control" id="remind">
+    <label for="remind"> Remind</label>
+	
   </div>
-  <button type="button" class="btn btn-default" id="addbtn" >add</button>
+  <div class="form-group" id="mappicker" style="display:none;">
+    <label for="priority">when I am arrive</label>
+     <input type="text" class="form-control" id="address">
+		<label for="priority">radius</label>
+	 <input type="text" class="form-control" id="radius">
+	<button type="button" class="btn btn-default" id="search" >search</button>
+	
+  </div>
+  <button type="button" class="btn btn-default" id="addbtn" >Save</button>
 </form>
- 	 
+ <div id="map-canvas"></div>	 
    
   <div class="table-responsive">
     <table class="table table-striped table-bordered" id="data">
