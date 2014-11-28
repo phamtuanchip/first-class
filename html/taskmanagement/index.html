@@ -12,17 +12,108 @@
 <!-- Optional: Incorporate the Bootstrap JavaScript plugins -->
 <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 <script>
+var operation = "A"; //"A"=Adding; "E"=Editing
+	var selected_index = -1; //Index of the selected list item
+	var tbClients = localStorage.getItem("tbClients");//Retrieve the stored data
+	tbClients = JSON.parse(tbClients); //Converts string to object
+	if(tbClients == null) //If there is no data, initialize an empty array
+		tbClients = [];
+		
 $(function(){
- $("#addbtn").off().on("click", function add(){
- 
-  $("#data").append('<tr><td>'+$("#data").find("tr").size()+'</td><td>'+$("#task").val()+'</td><td>'+$("#priority").val()+'</td></tr>');
-  $("#taskform")[0].reset();
-  alert("added!");
- });
+	if(typeof(Storage) !== "undefined") {
+    // Code for localStorage/sessionStorage.
+	console.log("save avaiable");
+	} else {
+		// Sorry! No Web Storage support..
+		console.log("your browser does not support");
+	}	
 	
+  
+ $("#addbtn").off().on("click", function add(){
+	 
+    Add();
+   List(); 
+  $("#taskform")[0].reset();
+ });
+
+	 $("#edit").bind("click", function(){
+		operation = "E";
+		selected_index = parseInt($(this).attr("alt").replace("Edit", ""));
+		var cli = JSON.parse(tbClients[selected_index]);
+		//$("#txtID").val(cli.ID);
+		$("#task").val(cli.Name);
+		$("#priority").val(cli.PRI);
+		$("#remind").attr("checked","checked");
+		$("#task").focus();
+	}); 
+
+	$("#delete").bind("click", function(){
+		selected_index = parseInt($(this).attr("alt").replace("Delete", ""));
+		Delete();
+		List();
+	}); 
+ 
+ List(); 
+});
+
+function Add(){
+	var index = $("#data").find("tr").size();
+	var task = $("#task").val();
+	var priority = $("#priority").val();
+	var isReminde = $("#remind").is(":checked");
+	var client = JSON.stringify({
+		ID    : index,
+		Name  : task,
+		PRI : priority,
+		Remide : isReminde
+	});
+	tbClients.push(client);
+	localStorage.setItem("tbClients", JSON.stringify(tbClients));
+	console.log("The data was saved.");
+	return true;
+} 
+
+function Edit(){
+	tbClients[selected_index] = JSON.stringify({
+			ID    : index,
+			Name  : task,
+			PRI : priority,
+			Remide : isReminde
+		});//Alter the selected item on the table
+	localStorage.setItem("tbClients", JSON.stringify(tbClients));
+	console.log("The data was edited.")
+	operation = "A"; //Return to default value
+	return true;
+} 
+ 
+ function Delete(){
+	tbClients.splice(selected_index, 1);
+	localStorage.setItem("tbClients", JSON.stringify(tbClients));
+	console.log("Client deleted.");
+} 
+
+$("#taskform").bind("submit",function(){
+	if(operation == "A")
+		return Add();
+	else
+		return Edit();		
 });
 
 
+
+
+ function List(){		
+	console.log("load data");
+	$("#data").find("tr:gt(0)").remove();
+	for(var i in tbClients){
+	    console.log("id" + i);
+		var cli = JSON.parse(tbClients[i]);
+	  	$("#data").append('<tr><td>'+cli.ID+'</td><td>'+cli.Name+'</td><td>'+cli.PRI+'</td><td><span alt="Edit"'+i+' onclick="javaScript:Edit();">Edit</span>|<span id="delete" alt="Delete"'+i+'  onclick="javaScript:Delete();">Delete</span></td></tr>');
+	}
+} 
+ 
+
+ 
 </script>
 
   </head>
@@ -41,7 +132,7 @@ $(function(){
     <input type="number" class="form-control" id="priority">
   </div>
   <div class="checkbox">
-    <label><input type="checkbox"> Remind me</label>
+    <label><input type="checkbox" id="remind"> Remind me</label>
   </div>
   <button type="button" class="btn btn-default" id="addbtn" >add</button>
 </form>
@@ -54,6 +145,7 @@ $(function(){
           <th>#</th>
           <th>Task</th>
           <th>Priority</th>
+		   <th>Action</th>
         </tr>
       </thead>
       <tbody>
