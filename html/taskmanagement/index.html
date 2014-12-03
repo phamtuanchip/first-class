@@ -9,6 +9,9 @@
 
 <!-- Optional: Include the jQuery library -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.1/jquery-ui.min.js"></script>
+<link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.1/themes/base/minified/jquery-ui.min.css">
+
 <!-- Optional: Incorporate the Bootstrap JavaScript plugins -->
 <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
  <script type="text/javascript" src="https://www.google.com/jsapi"></script>
@@ -16,6 +19,29 @@
  
  <!-- <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?v=3&key=AIzaSyAdm1NhUYT7jonRRieUPnLSWw-yCxJRcd8&sensor=false&callback=initializeMap&libraries=places"></script>
  -->
+ 
+ <style>
+	.Alert {
+	margin: 3px;
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	left:60px;
+	top: 10px;
+	background: green;
+	display: none;
+	}
+	.Alert.newcolor {
+	background: blue;
+	}
+	p {
+	color: red;
+	}
+	.Finished {
+		text-decoration: line-through;
+	}	
+</style>
+ 
 <script>
 var operation = "A"; //"A"=Adding; "E"=Editing
 	var selected_index = -1; //Index of the selected list item
@@ -32,13 +58,34 @@ $(function(){
 		// Sorry! No Web Storage support..
 		console.log("your browser does not support");
 	}	
-	
+
+
+var div = $(".Alert");
+function runIt(){
+div
+.show( "slow" )
+.animate({ left: "+=200" }, 2000 )
+.slideToggle( 1000 )
+.slideToggle( "fast" )
+.animate({ left: "-=200" }, 1500 )
+.hide( "slow" )
+.show( 1200 )
+.slideUp( "normal", runIt );
+}
+function showIt() {
+var n = div.queue( "fx" );
+//$("span" ).text( n.length );
+setTimeout( showIt, 100 );
+}	
   
  $("#addbtn").off().on("click", function add(){
 	 
-    Add();
+   Add();
    List(); 
   $("#taskform")[0].reset();
+  if($("#mappicker").css('display') === "block"){
+	$("#mappicker").css('display', 'none');
+  }
  });
 
 	 $("#edit").bind("click", function(){
@@ -55,7 +102,10 @@ $(function(){
 	$("#delete").bind("click", function(){
 		selected_index = parseInt($(this).attr("alt").replace("Delete", ""));
 		Delete();
-		List();
+	}); 
+	$("#Done").bind("click", function(){
+		selected_index = parseInt($(this).attr("alt").replace("Done", ""));
+		Done();
 	}); 
 	
 	$("#remind").bind("click", function(){
@@ -67,6 +117,11 @@ $(function(){
 	});
  
  List(); 
+ 
+  $("#date").datepicker();
+  
+  runIt();
+  showIt();
 	 
 });
 
@@ -75,19 +130,35 @@ function Add(){
 	var task = $("#task").val();
 	var priority = $("#priority").val();
 	var isReminde = $("#remind").is(":checked");
+	var date = $("#date").val();
+	var address = "";
+	var address_lat = "";
+	var address_lgn = "";
+	if(isReminde){
+	 address = $("#address").val();
+	 address_lat = $("#address_lat").val();
+	 address_lgn = $("#address_lgn").val();
+	}
 	var client = JSON.stringify({
 		ID    : index,
 		Name  : task,
 		PRI : priority,
-		Remide : isReminde
+		Date : date,
+		Remide : isReminde,
+		Add : address,
+		Lat: address_lat,
+		Lgn: address_lgn,
+		Remided: 'false'
 	});
 	tbClients.push(client);
 	localStorage.setItem("tbClients", JSON.stringify(tbClients));
+
 	console.log("The data was saved.");
 	return true;
 } 
 
-function Edit(){
+function Edit(element){
+	var selected_index = parseInt($(element).attr("alt").replace("Edit", ""));
 	tbClients[selected_index] = JSON.stringify({
 			ID    : index,
 			Name  : task,
@@ -100,11 +171,45 @@ function Edit(){
 	return true;
 } 
  
- function Delete(){
+ function Done(element){
+   var selected_index = parseInt($(element).attr("alt").replace("Done", ""));
+   
+ 	var cli = JSON.parse(tbClients[selected_index]);
+	if(cli.Remided == 'false') cli.Remided = true;
+	var client = JSON.stringify({
+		ID    : cli.ID,
+		Name  : cli.Name,
+		PRI : cli.PRI,
+		Date : cli.Date,
+		Remide : cli.Remide,
+		Add : cli.Add,
+		Lat: cli.Lat,
+		Lgn: cli.Lgn,
+		Remided: cli.Remided
+	});
+	console.log("is reminded " + cli.Remided);
+	tbClients.splice(selected_index, 1);
+	tbClients.push(client);
+	localStorage.setItem("tbClients", JSON.stringify(tbClients));
+
+	 
+	//localStorage.setItem("tbClients", JSON.stringify(tbClients));
+	reloadDb();
+	console.log("The data was edited.")
+	operation = "A"; //Return to default value
+	return true;
+} 
+ function Delete(element){
+	var selected_index = parseInt($(element).attr("alt").replace("Delete", ""));
 	tbClients.splice(selected_index, 1);
 	localStorage.setItem("tbClients", JSON.stringify(tbClients));
+	reloadDb();
 	console.log("Client deleted.");
 } 
+function reloadDb(){
+	$("#data").find("tr:gt(0)").remove();
+	List();
+}
 
 $("#taskform").bind("submit",function(){
 	if(operation == "A")
@@ -120,8 +225,15 @@ $("#taskform").bind("submit",function(){
 	console.log("load data");
 	$("#data").find("tr:gt(0)").remove();
 	for(var i in tbClients){
+	    console.log("iii " +i);
 		var cli = JSON.parse(tbClients[i]);
-	  	$("#data").append('<tr><td>'+cli.ID+'</td><td>'+cli.Name+'</td><td>'+cli.PRI+'</td><td><span alt="Edit"'+i+' onclick="javaScript:Edit();">Edit</span>|<span id="delete" alt="Delete"'+i+'  onclick="javaScript:Delete();">Delete</span></td></tr>');
+		var finished = "";
+		
+		if(cli.Remided == true){finished = "Finished";}  
+		
+		var row = '<tr><td>'+cli.ID+'</td><td class="'+finished+'">'+cli.Name+'</td><td>'+cli.Date+'</td><td>'+cli.PRI+'</td><td>'+cli.Add+'</td><td><span alt="Done'+i+'" onclick="javaScript:Done(this);">Done</span>|<span alt="Edit'+i+'" onclick="javaScript:Edit(this);">Edit</span>|<span id="delete" alt="Delete'+i+'"  onclick="javaScript:Delete(this);">Delete</span></td></tr>'
+		
+	  	$("#data").append(row);
 	}
 	
  
@@ -291,6 +403,7 @@ $("#taskform").bind("submit",function(){
 })($, google);
 
 
+
 function verifyAddress(){
 	return true;
 }
@@ -302,6 +415,8 @@ function verifyAddress(){
 
   </head>
   <body>
+   <p>The queue length is: <span></span></p>	
+   <div class="Alert"></div> 
    <div class="container">
 	 <p>Create task management:</p>
 	 
@@ -310,6 +425,10 @@ function verifyAddress(){
   <div class="form-group">
     <label for="task">New task</label>
     <input type="text" class="form-control" id="task" required="required" />
+  </div>
+  <div class="form-group">
+    <label for="date">Date</label>
+    <input type="date" class="form-control" id="date" required="required" />
   </div>
   <div class="form-group">
     <label for="priority">Priority</label>
@@ -342,7 +461,10 @@ function verifyAddress(){
         <tr>
           <th>#</th>
           <th>Task</th>
+		  <th>Date</th>	
           <th>Priority</th>
+		  <th>Where</th>	
+		  
 		   <th>Action</th>
         </tr>
       </thead>
