@@ -13,6 +13,7 @@
 <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
  <script type="text/javascript" src="https://www.google.com/jsapi"></script>
  <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3&sensor=false&libraries=places"></script>
+ 
  <!-- <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?v=3&key=AIzaSyAdm1NhUYT7jonRRieUPnLSWw-yCxJRcd8&sensor=false&callback=initializeMap&libraries=places"></script>
  -->
 <script>
@@ -22,8 +23,7 @@ var operation = "A"; //"A"=Adding; "E"=Editing
 	tbClients = JSON.parse(tbClients); //Converts string to object
 	if(tbClients == null) //If there is no data, initialize an empty array
 		tbClients = [];
-	var marker;
-var cityCircle;	
+	
 $(function(){
 	if(typeof(Storage) !== "undefined") {
     // Code for localStorage/sessionStorage.
@@ -60,6 +60,10 @@ $(function(){
 	
 	$("#remind").bind("click", function(){
 		$("#mappicker").toggle();
+		console.log($("#mappicker").css('display') === "block");
+		if($("#mappicker").css('display') === "block"){
+			$("#search").click();
+		}
 	});
  
  List(); 
@@ -116,40 +120,51 @@ $("#taskform").bind("submit",function(){
 	console.log("load data");
 	$("#data").find("tr:gt(0)").remove();
 	for(var i in tbClients){
-	    console.log("id" + i);
 		var cli = JSON.parse(tbClients[i]);
 	  	$("#data").append('<tr><td>'+cli.ID+'</td><td>'+cli.Name+'</td><td>'+cli.PRI+'</td><td><span alt="Edit"'+i+' onclick="javaScript:Edit();">Edit</span>|<span id="delete" alt="Delete"'+i+'  onclick="javaScript:Delete();">Delete</span></td></tr>');
 	}
 	
  
 	
-	(function mapInit($, google) {
+(function mapInit($, google) {
+	var marker;
+	var cityCircle;	
 	var $mapCanvas = $('#map-canvas')[0];
 	var $searchLocation = $('#search');
 	var $address = $('#address');
 	var $radiusInput = $('#radius');
 	
 	var geocoder = new google.maps.Geocoder();
-    var mapOptions = {
-        zoom: 15,
-        center: new google.maps.LatLng(45.4447514,9.1580605)
-    };
-    marker = new google.maps.Marker({
-        map: map,
-        draggable:true,
-        position: new google.maps.LatLng(45.4447514,9.1580605)
-  	});
-	var map = new google.maps.Map($mapCanvas, mapOptions);
+	var mapOptions = {
+          center: new google.maps.LatLng(21.0277644,105.83415979999995),
+          zoom: 8
+        };
+    var map = new google.maps.Map( $mapCanvas, mapOptions);
+    var	 marker = new google.maps.Marker({
+				map: map,
+				draggable:true,
+				position: new google.maps.LatLng(21.0277644,105.83415979999995)
+	});  
+     
+	var infowindow = new google.maps.InfoWindow();			
+	infowindow.setContent("Hanoi, Vietnam");
+	infowindow.open(map, marker);
+	var populationOptions = {
+						strokeColor: 'blue',
+						strokeOpacity: 0.5,
+						strokeWeight: 1,
+						fillColor: '#45C8DC',
+						fillOpacity: 0.35,
+						map: map,
+						center: new google.maps.LatLng(21.0277644,105.83415979999995),
+						radius: 100
+					};
+	cityCircle = new google.maps.Circle(populationOptions);
+	cityCircle.map.fitBounds(cityCircle.getBounds());				
 	var autocomplete = new google.maps.places.Autocomplete($address[0]);
 	autocomplete.bindTo('bounds', map);
 	
-	$radiusInput.on('change', function() {
-		if(verifyAddress()){
-			cityCircle.setRadius(parseInt($(this).val(), 10));
-			cityCircle.map.fitBounds(cityCircle.getBounds());
-			//$("#radiusId").val(parseInt($(this).val(), 10));
-		}
-	});
+	
 	//$('#tableLocationListId tr').find("#updateArea").hide();
 	google.maps.event.addListener(autocomplete, 'place_changed', function() {
 		if(verifyAddress()){
@@ -170,10 +185,24 @@ $("#taskform").bind("submit",function(){
 			}
 		});
 	});
-	$('#search').on('click', function() {
+	
+	$('#search').off('click').on('click', function() {
+	console.log('search...');
 		if(verifyAddress()){
-			var addressVal = $address.val();
-			geocoder.geocode({ 'address': addressVal}, function(results, status) {
+			var mapOptions = {
+				zoom: 15,
+				center: new google.maps.LatLng(21.0277644,105.83415979999995)
+			};
+			var map = new google.maps.Map($('#map-canvas')[0], mapOptions);
+			var	 marker = new google.maps.Marker({
+				map: map,
+				draggable:true,
+				position: new google.maps.LatLng(21.0277644,105.83415979999995)
+			});
+			var geocoder = new google.maps.Geocoder();
+			var addressVal = $("#address").val();
+			//var cityCircle;	
+			geocoder.geocode({'address': addressVal}, function(results, status) {
 				if (status == google.maps.GeocoderStatus.OK) {
 					map.setCenter(results[0].geometry.location);
 					if (marker) {
@@ -188,7 +217,7 @@ $("#taskform").bind("submit",function(){
 					
 					infowindow.setContent(results[0].formatted_address);
 					infowindow.open(map, marker);
-					var radius = parseInt($radiusInput.val(), 10);
+					var radius = parseInt($('#radius').val(), 10);
 					var populationOptions = {
 						strokeColor: 'blue',
 						strokeOpacity: 0.5,
@@ -203,8 +232,8 @@ $("#taskform").bind("submit",function(){
 						console.log("in drag");
 						lat = marker.getPosition().lat();
 						lng = marker.getPosition().lng();
-						//$('#tableLocationListId tr.MapView').find("#latitudein").val(lat);
-						//$('#tableLocationListId tr.MapView').find("#longitudein").val(lng);
+						$("#address_lat").val(lat);
+						$("#address_lgn").val(lng);
 						geocoder.geocode({'latLng': marker.getPosition()}, function(results, status) {
 							if (status == google.maps.GeocoderStatus.OK) {
 							      if (results[0]) {
@@ -242,17 +271,26 @@ $("#taskform").bind("submit",function(){
 					}
 					cityCircle = new google.maps.Circle(populationOptions);
 					cityCircle.map.fitBounds(cityCircle.getBounds());
-					//$('#tableLocationListId tr.MapView').find("#localionName").val(results[0].formatted_address);
-					//$('#tableLocationListId tr.MapView').find("#latId").val(populationOptions.center.lat());
-					//$('#tableLocationListId tr.MapView').find("#lgnId").val(populationOptions.center.lng());
-					//$('#tableLocationListId tr.MapView').find("#radiusId").val(radius);
+					$("#address_lat").val(populationOptions.center.lat());
+					$("#address_lgn").val(populationOptions.center.lng());
+					 
 				} else {
 					//console.log('Geocode was not successful for the following reason: ' + status);
 				}
 			});
 		}
 	});
+	$('#radius').on('change', function() {
+			if(verifyAddress()){
+				cityCircle.setRadius(parseInt($(this).val(), 10));
+				cityCircle.map.fitBounds(cityCircle.getBounds());
+				//$("#radiusId").val(parseInt($(this).val(), 10));
+			}
+	});
+	
 })($, google);
+
+
 function verifyAddress(){
 	return true;
 }
@@ -270,29 +308,33 @@ function verifyAddress(){
 	 
  <form class="form-inline" role="form" id="taskform">
   <div class="form-group">
-    <label for="email">New task</label>
-    <input type="text" class="form-control" id="task" required>
+    <label for="task">New task</label>
+    <input type="text" class="form-control" id="task" required="required" />
   </div>
   <div class="form-group">
     <label for="priority">Priority</label>
-    <input type="number" class="form-control" id="priority">
+    <input type="number" class="form-control" id="priority" value="1" />
   </div>
   <div class="form-group">
 	<input type="checkbox" class="form-control" id="remind">
     <label for="remind"> Remind</label>
-	
-  </div>
-  <div class="form-group" id="mappicker" style="display:none;">
-    <label for="priority">when I am arrive</label>
-     <input type="text" class="form-control" id="address">
-		<label for="priority">radius</label>
-	 <input type="text" class="form-control" id="radius">
-	<button type="button" class="btn btn-default" id="search" >search</button>
-	
   </div>
   <button type="button" class="btn btn-default" id="addbtn" >Save</button>
 </form>
- <div id="map-canvas"></div>	 
+<div class="form-group" id="mappicker" style="display:none;">
+    <label for="address">when I am arrive</label>
+     <input type="text" class="form-control" id="address" value="Hanoi, Vietnam" />
+	 <input type="hidden" class="form-control" id="address_lat" />
+	 <input type="hidden" class="form-control" id="address_lgn" />
+	 <label for="priority">radius</label>
+	 <input type="number" class="form-control" id="radius" value="100" />
+	 
+	<button type="button" class="btn btn-default" id="search" >search</button>
+	 <center>
+	 <div id="map-canvas" style="height: 600px; width:800px; margin: 0; padding: 0;"></div>	 
+	 </center>
+  </div>
+
    
   <div class="table-responsive">
     <table class="table table-striped table-bordered" id="data">
