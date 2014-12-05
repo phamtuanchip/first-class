@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+<tiles-definitions>   
+    <definition name="danhsachdanhmuc" template="/WEB-INF/jsp/template/mytemplate.jsp">
+        <put-attribute name="content" value="/WEB-INF/jsp/danhsachdanhmuc.jsp" />
+    </definition>
+       <definition name="danhsachtailieu" template="/WEB-INF/jsp/template/mytemplate.jsp">
+        <put-attribute name="content" value="/WEB-INF/jsp/danhsachtailieu.jsp" />
+        <put-attribute name="head" value="/WEB-INF/jsp/danhsachtailieuhead.jsp"></put-attribute>
+    </definition>
+    
+       <definition name="detail" template="/WEB-INF/jsp/template/mytemplate.jsp">
+        <put-attribute name="content" value="/WEB-INF/jsp/detail.jsp" />
+    </definition>
+    
+     <definition name="file_upload_success" template="/WEB-INF/jsp/template/mytemplate.jsp">
+        <put-attribute name="content" value="/WEB-INF/jsp/file_upload_success.jsp" />
+    </definition>
+    
+     <definition name="editpage" template="/WEB-INF/jsp/template/mytemplate.jsp">
+        <put-attribute name="content" value="/WEB-INF/jsp/editpage.jsp" />
+    </definition>
+    <definition name="index" template="/WEB-INF/jsp/template/mytemplate.jsp">
+        <put-attribute name="content" value="/WEB-INF/jsp/index.jsp" />
+    </definition>
+    <definition name="suadanhmuc" template="/WEB-INF/jsp/template/mytemplate.jsp">
+        <put-attribute name="content" value="/WEB-INF/jsp/suadanhmuc.jsp" />
+    </definition>
+</tiles-definitions>

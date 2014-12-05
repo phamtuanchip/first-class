@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+<struts>
+	<constant name="struts.enable.DynamicMethodInvocation" value="false" />
+	<constant name="struts.devMode" value="true" />
+	<constant name="struts.custom.i18n.resources" value="Action" />
+	<constant name="struts.ui.theme" value="simple" />
+	<constant name="struts.action.excludePattern" value="/rest/.*?"></constant>
+	<package name="default" namespace="/" extends="struts-default">
+	
+		<result-types>
+			<result-type name="ImageResult" class="training.lmquan.resulttype.ImageResult"></result-type>
+		</result-types>
+		<!-- image -->
+		<action name="listImage" class="training.lmquan.action.ImageAction" method="listImage">
+			<result name="success">page/ListIamge.jsp</result>
+		</action>
+		<action name="viewByCategory" class="training.lmquan.action.ImageAction" method="viewByCategory">
+			<result name="success">page/ListIamge.jsp</result>
+		</action>
+		<action name="addImageForward" class="training.lmquan.action.ImageAction" method="addImageForward">
+			<result name="success">page/AddImage.jsp</result>
+		</action>
+		<action name="addImage" class="training.lmquan.action.ImageAction" method="addImage">
+			<interceptor-ref name="fileUpload">
+				<param name="maximumSize">2097152</param>
+				<param name="allowedTypes">
+					image/png,image/gif,image/jpeg,image/pjpeg
+				</param>
+			</interceptor-ref>
+			<interceptor-ref name="defaultStack"></interceptor-ref>
+			<result name="success" type="redirect">listImage</result>
+		</action>
+		
+ 		<action name="imageAction" class="training.lmquan.action.ImageAction" method="showImage">
+		   <result name="success" type="ImageResult"/>
+	    </action>
+	    
+	    <action name="daleteImage" class="training.lmquan.action.ImageAction" method="daleteImage">
+	    	<result name="success" type="redirect">listImage</result>
+	    </action>
+	    
+	    <action name="imageForwardEdit" class="training.lmquan.action.ImageAction" method="imageForwardEdit">
+	    	<result name="success">page/EditImageInfo.jsp</result>
+	    </action>
+		
+		<action name="editImage" class="training.lmquan.action.ImageAction" method="editImage">
+			<interceptor-ref name="fileUpload">
+				<param name="maximumSize">2097152</param>
+				<param name="allowedTypes">
+					image/png,image/gif,image/jpeg,image/pjpeg
+				</param>
+			</interceptor-ref>
+			<interceptor-ref name="defaultStack"></interceptor-ref>
+			<result name="success" type="redirect">listImage</result>
+		</action>
+		<action name="searchImage" class="training.lmquan.action.ImageAction" method="searchImage">
+			<result name="success">page/ListIamge.jsp</result>
+		</action>
+		<action name="slideShow" class="training.lmquan.action.ImageAction" method="listImage">
+			<result name="success">page/SlideShow.jsp</result>
+		</action>
+		<!-- category -->
+		<action name="addCategory" class="training.lmquan.action.CategoryAction" method="addCategory">
+			<result name="success" type="redirect">listImage</result>
+			<result name="input" type="chain">addCategoryPage</result>
+		</action>
+		<action name="addCategoryPage">
+			<result>page/AddCategory.jsp</result>
+		</action>
+	</package>
+	
+</struts>
