@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+   
+    <properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<!-- tag::jetty-version[] -->
+		<jetty-version>9.2.6.v20141205</jetty-version>
+		<!-- end::jetty-version[] -->
+		<jetty-plugin-version>${jetty-version}</jetty-plugin-version>
+		<slf4j-version>1.7.7</slf4j-version>
+		<spring-version>4.1.2.RELEASE</spring-version>
+		<jackson1-version>1.9.13</jackson1-version>
+		<jackson2-version>2.4.3</jackson2-version>
+		<dojo-version>1.10.3</dojo-version>
+		<rhino-version>1.7R4</rhino-version>
+		<cometd-version> 3.0.4-SNAPSHOT</cometd-version>
+	</properties>
+    
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>org.cometd.documentation</groupId>
+    <artifactId>cometd-tutorials-client-hello</artifactId>
+    <name>CometD Tutorials :: Client Hello World</name>
+     <version>1.0-SNAPSHOT</version>
+    <packaging>war</packaging>
+
+    <build>
+        <plugins>
+            <plugin>
+                <artifactId>maven-war-plugin</artifactId>
+                <configuration>
+                    <overlays>
+                        <overlay />
+                        <overlay>
+                            <groupId>org.cometd.tutorials</groupId>
+                            <artifactId>cometd-tutorials-skeleton</artifactId>
+                        </overlay>
+                    </overlays>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.cometd.java</groupId>
+            <artifactId>cometd-java-annotations</artifactId>
+           <version>2.9.1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.cometd.tutorials</groupId>
+            <artifactId>cometd-tutorials-skeleton</artifactId>
+            <version>2.9.1</version>
+            <type>war</type>
+        </dependency>
+        
+        <dependency>
+            <groupId>org.cometd.java</groupId>
+            <artifactId>bayeux-api</artifactId>
+            <version>${cometd-version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.cometd.javascript</groupId>
+            <artifactId>cometd-javascript-dojo</artifactId>
+            <version>${cometd-version}</version>
+            <type>war</type>
+        </dependency>
+        <dependency>
+            <groupId>org.cometd.java</groupId>
+            <artifactId>cometd-java-server</artifactId>
+            <version>${cometd-version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.cometd.java</groupId>
+            <artifactId>cometd-java-annotations</artifactId>
+            <version>${cometd-version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.cometd.java</groupId>
+            <artifactId>cometd-websocket-jetty</artifactId>
+            <version>${cometd-version}</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.cometd.java</groupId>
+                    <artifactId>cometd-java-client</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>org.eclipse.jetty</groupId>
+            <artifactId>jetty-util</artifactId>
+            <version>${jetty-version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.eclipse.jetty</groupId>
+            <artifactId>jetty-jmx</artifactId>
+            <version>${jetty-version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.eclipse.jetty</groupId>
+            <artifactId>jetty-continuation</artifactId>
+            <version>${jetty-version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.eclipse.jetty</groupId>
+            <artifactId>jetty-websocket</artifactId>
+            <version>${jetty-version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.eclipse.jetty</groupId>
+            <artifactId>jetty-servlets</artifactId>
+            <version>${jetty-version}</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.eclipse.jetty</groupId>
+                    <artifactId>jetty-client</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+         
+    </dependencies>
+
+</project>
