@@ -5,7 +5,7 @@ import javax.ws.rs.Path;
 import javax.ws.rs.PathParam;
 import javax.ws.rs.core.Response;
 
-//http://localhost:8080/RESTfulExample/rest/message/hello%20world
+//http://localhost:8080/rest_easy_jboss_mv/rest/message/hello%20world
 @Path("/message")
 public class MessageRestService {
 
