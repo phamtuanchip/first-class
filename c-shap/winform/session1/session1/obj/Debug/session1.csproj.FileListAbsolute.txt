@@ -1,0 +1,8 @@
+D:\projects\first-class\c-shap\winform\session1\session1\bin\Debug\session1.exe.config
+D:\projects\first-class\c-shap\winform\session1\session1\bin\Debug\session1.exe
+D:\projects\first-class\c-shap\winform\session1\session1\bin\Debug\session1.pdb
+D:\projects\first-class\c-shap\winform\session1\session1\obj\Debug\session1.csprojResolveAssemblyReference.cache
+D:\projects\first-class\c-shap\winform\session1\session1\obj\Debug\session1.Properties.Resources.resources
+D:\projects\first-class\c-shap\winform\session1\session1\obj\Debug\session1.csproj.GenerateResource.Cache
+D:\projects\first-class\c-shap\winform\session1\session1\obj\Debug\session1.exe
+D:\projects\first-class\c-shap\winform\session1\session1\obj\Debug\session1.pdb
