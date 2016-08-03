@@ -29,7 +29,7 @@ public class EmployeeController {
 	private EmployeeService employeeService;
 	
 	@Autowired
-	private EmployeeService employeeMBService;
+	private MBEmployeeService employeeMBService;
 	
 	@RequestMapping(value = "/save", method = RequestMethod.POST)
 	public ModelAndView saveEmployee(@ModelAttribute("command") EmployeeBean employeeBean, 

@@ -7,10 +7,7 @@ import org.springframework.stereotype.Service;
 import com.dineshonjava.model.Employee;
 import com.dineshonjava.service.EmployeeService;
 
-/**
- * @author Chilvas
- *
- */
+ 
 public interface MBEmployeeService {
 
 	public void addEmployee(Employee employee) ;
