@@ -11,38 +11,17 @@ import com.dineshonjava.service.EmployeeService;
  * @author Chilvas
  *
  */
-@Service("employeeMBService")
-public class MBEmployeeService implements EmployeeService{
+public interface MBEmployeeService {
 
-	@Override
-	public void addEmployee(Employee employee) {
-		// TODO Auto-generated method stub
-		
-	}
+	public void addEmployee(Employee employee) ;
 
-	@Override
-	public List<Employee> listEmployeess() {
-		// TODO Auto-generated method stub
-		return null;
-	}
+	public List<Employee> listEmployeess();
 
-	@Override
-	public Employee getEmployee(int empid) {
-		// TODO Auto-generated method stub
-		return null;
-	}
+	public Employee getEmployee(int empid) ;
 
-	@Override
-	public void updateEmployee(Employee employee) {
-		// TODO Auto-generated method stub
-		
-	}
+	public void updateEmployee(Employee employee);
 
-	@Override
-	public void deleteEmployee(Employee employee) {
-		// TODO Auto-generated method stub
-		
-	}
+	public void deleteEmployee(Employee employee);
 	
 	 
 }

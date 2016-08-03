@@ -10,7 +10,7 @@
 <h1>List Employees</h1>
 <h3><a href="addmb.html">Add More Employee</a></h3>
 
-<c:if test="${!empty employees}">
+<c:if test="${!empty mbemployees}">
 	<table align="left" border="1">
 		<tr>
 			<th>Employee ID</th>
@@ -20,7 +20,7 @@
 			<th>Employee Address</th>
 		</tr>
 
-		<c:forEach items="${employees}" var="employee">
+		<c:forEach items="${mbemployees}" var="employee">
 			<tr>
 				<td><c:out value="${employee.id}"/></td>
 				<td><c:out value="${employee.name}"/></td>

@@ -16,6 +16,7 @@ import org.springframework.web.servlet.ModelAndView;
 import com.dineshonjava.bean.EmployeeBean;
 import com.dineshonjava.model.Employee;
 import com.dineshonjava.service.EmployeeService;
+import com.ifi.mybatis.service.MBEmployeeService;
 
 /**
  * @author Chilvas
@@ -26,6 +27,9 @@ public class EmployeeController {
 	
 	@Autowired
 	private EmployeeService employeeService;
+	
+	@Autowired
+	private EmployeeService employeeMBService;
 	
 	@RequestMapping(value = "/save", method = RequestMethod.POST)
 	public ModelAndView saveEmployee(@ModelAttribute("command") EmployeeBean employeeBean, 
@@ -41,6 +45,15 @@ public class EmployeeController {
 		model.put("employees",  prepareListofBean(employeeService.listEmployeess()));
 		return new ModelAndView("employeesList", model);
 	}
+	
+	
+	@RequestMapping(value="/mbemployees", method = RequestMethod.GET)
+	public ModelAndView listMbEmployees() {
+		Map<String, Object> model = new HashMap<String, Object>();
+		model.put("mbemployees",  prepareListofBean(employeeMBService.listEmployeess()));
+		return new ModelAndView("mbemployeesList", model);
+	}
+	
 
 	@RequestMapping(value = "/add", method = RequestMethod.GET)
 	public ModelAndView addEmployee(@ModelAttribute("command")  EmployeeBean employeeBean,
