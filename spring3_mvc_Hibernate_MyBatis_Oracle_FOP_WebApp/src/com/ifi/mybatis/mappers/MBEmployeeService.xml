@@ -11,7 +11,7 @@
         <result property="salary" column="salary"/>
         <result property="empAge" column="empAge"/>
     </resultMap>
-	
+	<!-- Try removing the semi colon from the end of your SQL statement. -->
 	<select id="listEmployeess" resultMap="result">  
 		SELECT empId,empName,empAddress,salary,empAge FROM Employee
 	</select>
