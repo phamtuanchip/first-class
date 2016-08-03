@@ -13,8 +13,7 @@
     </resultMap>
 	
 	<select id="listEmployeess" resultMap="result">  
-		SELECT empId,empName,empAddress,salary,empAge 
-		FROM Employee;
+		SELECT empId,empName,empAddress,salary,empAge FROM Employee
 	</select>
 	
 	<select id="getEmployee" resultMap="result" parameterType="int">  
