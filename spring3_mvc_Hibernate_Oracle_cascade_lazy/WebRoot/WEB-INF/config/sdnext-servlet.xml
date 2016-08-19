@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:tx="http://www.springframework.org/schema/tx"
+	xsi:schemaLocation="
+http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+http://www.springframework.org/schema/context
+http://www.springframework.org/schema/context/spring-context-3.0.xsd
+http://www.springframework.org/schema/tx
+http://www.springframework.org/schema/tx/spring-tx-3.0.xsd">
+
+	<context:property-placeholder location="classpath:resources/database.properties" />
+
+
+	<context:component-scan base-package="com.dineshonjava" />
+
+	<tx:annotation-driven transaction-manager="hibernateTransactionManager" />
+
+
+	<bean id="jspViewResolver"
+		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+		<property name="viewClass"
+			value="org.springframework.web.servlet.view.JstlView" />
+		<property name="prefix" value="/WEB-INF/views/" />
+		<property name="suffix" value=".jsp" />
+	</bean>
+
+	<bean id="dataSource"
+		class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+		<property name="driverClassName" value="${database.driver}" />
+		<property name="url" value="${database.url}" />
+		<property name="username" value="${database.user}" />
+		<property name="password" value="${database.password}" />
+	</bean>
+
+	<bean id="sessionFactory"
+		class="org.springframework.orm.hibernate3.annotation.AnnotationSessionFactoryBean">
+		<property name="dataSource" ref="dataSource" />
+		 
+		<property name="hibernateProperties">
+			<props>
+				<prop key="hibernate.dialect">${hibernate.dialect}</prop>
+				<prop key="hibernate.show_sql">${hibernate.show_sql}</prop>
+				<prop key="hibernate.hbm2ddl.auto">${hibernate.hbm2ddl.auto}</prop>
+				<prop key="hibernate.enable_lazy_load_no_trans">true</prop>
+				<prop key="current_session_context_clas">thread</prop>
+			</props>
+		</property>
+		 
+		<property name="mappingResources">
+			<list>
+				<value>com/dineshonjava/model/Account.hbm.xml</value>
+				<value>com/dineshonjava/model/Card.hbm.xml</value>
+			</list>
+		</property>
+		
+	</bean>
+
+	<bean id="cardDao" class="com.dineshonjava.dao.CardDaoImpl"
+		autowire="byName">
+		<property name="sessionFactory" ref="sessionFactory" />
+	</bean>
+	<bean id="accountDao" class="com.dineshonjava.dao.AccountDaoImpl"
+		autowire="byName">
+		<property name="sessionFactory" ref="sessionFactory" />
+	</bean>
+	<!-- </Dao> -->
+	<bean id="accountService" class="com.dineshonjava.service.AccountServiceImpl"
+		autowire="byName">
+		<property name="accountDao" ref="accountDao" />
+	</bean>
+	<bean id="cardService" class="com.dineshonjava.service.CardServiceImpl"
+		autowire="byName">
+		<property name="cardDao">
+			<ref bean="cardDao" />
+		</property>
+	</bean>
+	<bean id="accountBean" class="com.dineshonjava.bean.AccountBean"
+		autowire="byName">
+	</bean>
+	<bean id="cardBean" class="com.dineshonjava.bean.CardBean"
+		autowire="byName">
+		
+	</bean>
+	<bean id="methodNameResolver"
+		class="org.springframework.web.servlet.mvc.multiaction.ParameterMethodNameResolver">
+		<property name="paramName">
+			<value>mode</value>
+		</property>
+		<property name="defaultMethodName">
+			<value>list</value>
+		</property>
+	</bean>
+	<bean name="/multi.html" class="com.dineshonjava.controller.MultiController"
+		autowire="byName">
+		<property name="methodNameResolver" ref="methodNameResolver" />
+		<property name="accountService">
+			<ref local="accountService" />
+		</property>
+		<property name="accountBean">
+			<ref local="accountBean" />
+		</property>
+		<property name="cardService">
+			<ref local="cardService" />
+		</property>
+		<property name="cardBean">
+			<ref local="cardBean" />
+		</property>
+	</bean>
+	<bean id="accountValidator" class="com.dineshonjava.validator.AccountValidator"></bean>
+	<bean name="/accountadd.html" class="com.dineshonjava.controller.AccountSimple"
+		autowire="byName">
+		<property name="CommandName" value="accountBean" />
+		<property name="formView" value="accountAdd" />
+		<property name="successView" value="accountAddd" />
+		<property name="validator" ref="accountValidator" />
+	</bean>
+	<bean id="cardValidator" class="com.dineshonjava.validator.CardValidator"></bean>
+	<bean name="/cardadd.html" class="com.dineshonjava.controller.CardSimple"
+		autowire="byName">
+		<property name="CommandName" value="cardBean" />
+		<property name="formView" value="cardAdd" />
+		<property name="successView" value="cardAddd" />
+		<property name="validator" ref="cardValidator" />
+	</bean>
+	<bean name="/search.html" class="com.dineshonjava.controller.Search"
+		autowire="byName">
+		<property name="accountBean" ref="accountBean" />
+		<property name="CommandName" value="accountBean" />
+		<property name="formView" value="accountSearch" />
+		<property name="successView" value="accountSearch" />
+	</bean>
+	 <bean name="/index.html" class="com.dineshonjava.controller.MultiController" 
+		autowire="byName"></bean>
+	
+
+	<!-- Application Message Bundle -->
+
+
+
+
+	<!-- <bean name="/cardadd.html" class="com.dineshonjava.controller.CardSimple" 
+		autowire="byName"> <property name="commandName" value="cardBean"></property> 
+		<property name="commandClass" value="com.dineshonjava.bean.CardBean"></property> 
+		<property name="formView" value="cardAdd"></property> <property name="successView" 
+		value="cardSave"></property> </bean> -->
+	<bean id="hibernateTransactionManager"
+		class="org.springframework.orm.hibernate3.HibernateTransactionManager">
+		<property name="sessionFactory" ref="sessionFactory" />
+	</bean>
+
+
+
+
+
+	<!-- <bean class="com.dineshonjava.controller.MultiController" name="/delete.html" 
+		autowire="byName"> </bean> <bean class="com.dineshonjava.controller.MultiController" 
+		name="/edit.html" autowire="byName"> </bean> <bean class="com.dineshonjava.controller.MultiController" 
+		name="/list.html" autowire="byName"> </bean> <bean class="com.dineshonjava.controller.MultiController" 
+		name="/add.html" autowire="byName"> </bean> <bean class="com.dineshonjava.controller.MultiController" 
+		name="/save.html" autowire="byName"> </bean> <bean class="com.dineshonjava.controller.MultiController" 
+		name="/listCard.html" autowire="byName"> </bean> -->
+	<!-- </Dao> -->
+
+
+
+
+
+</beans>

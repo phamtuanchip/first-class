@@ -1,0 +1,7 @@
+<hibernate-configuration>
+    <session-factory>
+        <property name="dialect">oracle.jdbc.driver.OracleDriver</property>
+        <property name="transaction.factory_class">org.hibernate.transaction.JDBCTransactionFactory</property>
+        <property name="current_session_context_class">thread</property>
+    </session-factory>
+</hibernate-configuration>

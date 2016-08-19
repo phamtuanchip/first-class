@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="com.dineshonjava.model">
+
+	<class name="com.dineshonjava.model.Card" table="CARD" dynamic-update="true" dynamic-insert="true">
+		<id name="id" type="java.lang.Integer" column="ID">
+			<generator class="increment"></generator>
+		</id>
+
+		<property name="name" type="java.lang.String"  column="name" />
+		<property name="type" type="java.lang.String"  column="type" />
+		<property name="numberAc" type="java.lang.String" column="numberac" />
+		<property name="accountHolders" type="java.lang.String"  column="accountholders" />
+		<property name="branch" type="java.lang.String" column="branch" />
+
+  		<many-to-one name="account" class="com.dineshonjava.model.Account" cascade="all" >
+            <column  name="aid" />
+        </many-to-one>
+
+	</class>
+</hibernate-mapping>
