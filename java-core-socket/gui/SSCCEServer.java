@@ -44,11 +44,16 @@ public class SSCCEServer {
                         DataInputStream in = new DataInputStream(sock.getInputStream());
                         byte[] bytes = new byte[Integer.parseInt(data[1])];
                         in.read(bytes);
-                        tellEveryone(data[0] + "`" + data[1] + "`" + data[2] + "`" + data[3]);
+                        try {
+                        	tellEveryone(data[0] + "`" + data[1] + "`" + data[2] + "`" + data[3]);
+						} catch (Exception e) {
+							e.printStackTrace();
+						}
+                        
                         for(DataOutputStream dos:clientDataOutputStreams){
                             try {
                                 dos.write(bytes);
-                                dos.close();
+                                //dos.close();
                             }
                             catch (Exception ex) {
                                 System.out.println("error telling everyone");
@@ -64,8 +69,11 @@ public class SSCCEServer {
             }
             catch (Exception ex) {
                 System.out.println("lost a connection");
-                System.out.println(ex.getMessage().toString());
+                ex.printStackTrace();
+                //System.out.println(ex.getMessage().toString());
                 clientOutputStreams.remove(client);
+            } finally {
+            	
             }
         }
     }

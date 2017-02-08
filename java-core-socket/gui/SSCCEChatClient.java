@@ -47,10 +47,10 @@ public class SSCCEChatClient extends JFrame {
                         DataInputStream in = new DataInputStream(sock.getInputStream());
                         byte[] bytes = new byte[Integer.parseInt(data[1])];
                         in.read(bytes);
-                        FileOutputStream fos = new FileOutputStream(System.getProperty("user.home") + "\\Desktop\\" + data[0]);
+                        FileOutputStream fos = new FileOutputStream(System.getProperty("user.home") + "\\Desktop\\recived\\" + data[0]);
                         fos.write(bytes);
-                        fos.close();
-                        in.close();
+                        //fos.close();
+                        //in.close();
                         textArea.append("Success!");
                     }else if(data[2].equals("server")){
                         textArea.append(data[0]);
@@ -58,7 +58,10 @@ public class SSCCEChatClient extends JFrame {
 
                 }
            }catch(Exception ex) {
-           }
+        	   ex.printStackTrace();
+           } finally{
+            	
+            }
         }
     }//Incoming Reader
 
