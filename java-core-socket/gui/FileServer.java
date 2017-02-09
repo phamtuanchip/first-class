@@ -15,6 +15,7 @@ public class FileServer extends Thread {
 	private ServerSocket ss;
 	String dirPath = "c:\\server-data";
 	int port ;
+	boolean isbackup = false;
 	ServerSocket serverSocket;
 	
 	public FileServer(int port) {
@@ -33,6 +34,13 @@ public class FileServer extends Thread {
 		this.port = port;
 		openSocket();
 	}
+	public FileServer(String fullPath, int port, boolean isBackup) {		
+		this.dirPath = fullPath;
+		this.port = port;
+		this.isbackup = isBackup;
+		openSocket();
+	}
+	
 	public void run() {
 		while (true) {
 			try {
@@ -50,14 +58,15 @@ public class FileServer extends Thread {
 
 		int filesCount = dis.readInt();
 		File[] files = new File[filesCount];
+		
 		File target = new File(dirPath +"/" + new SimpleDateFormat("yyyyddMMhhmmss").format(new Date()));
 		target.mkdirs();
 		for(int i = 0; i < filesCount; i++)
 		{
 		    long fileLength = dis.readLong();
 		    String fileName = dis.readUTF();
-		    
-		    files[i] = new File(target.getAbsolutePath() + "/" + fileName);
+		    if(isbackup) dirPath = target.getAbsolutePath();
+		    files[i] = new File(dirPath + "/" + fileName);
 
 		    FileOutputStream fos = new FileOutputStream(files[i]);
 		    BufferedOutputStream bos = new BufferedOutputStream(fos);
@@ -71,7 +80,7 @@ public class FileServer extends Thread {
 	
 	public static void main(String[] args) {
 		try {
-			FileServer fs = new FileServer(args[0], Integer.parseInt(args[1]));
+			FileServer fs = new FileServer(args[0], Integer.parseInt(args[1]), Boolean.parseBoolean(args[2]));
 			fs.start();
 		} catch (IndexOutOfBoundsException e) {
 			FileServer fs = new FileServer(1988);
