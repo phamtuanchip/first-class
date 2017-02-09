@@ -62,7 +62,16 @@ public class FileClient {
 	
 	public static void main(String[] args) {
 		//FileClient fc = new FileClient("localhost", 1988, "cat.jpg");
-		FileClient fc = new FileClient("localhost", 1988, "c:\\client-data");
+		try {
+			FileClient fc = new FileClient(args[0], Integer.parseInt(args[1]), args[2]);
+		} catch (IndexOutOfBoundsException e) {
+			FileClient fc = new FileClient("localhost", 1988, "c:\\client-data");
+		} catch (NumberFormatException e) {
+			FileClient fc = new FileClient("localhost", 1988, "c:\\client-data");
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		
 	}
 
 }

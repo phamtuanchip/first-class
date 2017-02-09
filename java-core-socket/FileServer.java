@@ -12,16 +12,25 @@ public class FileServer extends Thread {
 	
 	private ServerSocket ss;
 	String dirPath = "c:\\server-data";
+	int port ;
 	ServerSocket serverSocket;
 	
 	public FileServer(int port) {
+		this.port = port;
+		openSocket();
+	}
+	public void openSocket(){
 		try {
 			ss = new ServerSocket(port);
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
 	}
-	
+	public FileServer(String fullPath, int port) {		
+		this.dirPath = fullPath;
+		this.port = port;
+		openSocket();
+	}
 	public void run() {
 		while (true) {
 			try {
@@ -87,8 +96,15 @@ public class FileServer extends Thread {
 	}
 	
 	public static void main(String[] args) {
-		FileServer fs = new FileServer(1988);
-		fs.start();
+		try {
+			FileServer fs = new FileServer(args[0], 1988);
+		} catch (IndexOutOfBoundsException e) {
+			FileServer fs = new FileServer(1988);
+			fs.start();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		
 	}
 
 }
