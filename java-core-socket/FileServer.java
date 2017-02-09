@@ -7,6 +7,8 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.net.ServerSocket;
 import java.net.Socket;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
 public class FileServer extends Thread {
 	
@@ -48,13 +50,14 @@ public class FileServer extends Thread {
 
 		int filesCount = dis.readInt();
 		File[] files = new File[filesCount];
-
+		File target = new File(dirPath +"/" + new SimpleDateFormat("yyyyddMMhhmmss").format(new Date()));
+		target.mkdirs();
 		for(int i = 0; i < filesCount; i++)
 		{
 		    long fileLength = dis.readLong();
 		    String fileName = dis.readUTF();
-
-		    files[i] = new File(dirPath + "/" + fileName);
+		    
+		    files[i] = new File(target.getAbsolutePath() + "/" + fileName);
 
 		    FileOutputStream fos = new FileOutputStream(files[i]);
 		    BufferedOutputStream bos = new BufferedOutputStream(fos);
@@ -63,42 +66,17 @@ public class FileServer extends Thread {
 
 		    bos.close();
 		}
-
-		dis.close();
-		
-		/*
-		DataInputStream dis = new DataInputStream(clientSock.getInputStream());
-		FileOutputStream fos = new FileOutputStream("datafile" + System.currentTimeMillis());
-		try {
-			
-			byte[] buffer = new byte[4096];
-			
-			int filesize = 15123; // Send file size in separate msg
-			int read = 0;
-			int totalRead = 0;
-			int remaining = filesize;
-			while((read = dis.read(buffer, 0, Math.min(buffer.length, remaining))) > 0) {
-				totalRead += read;
-				remaining -= read;
-				System.out.println("read " + totalRead + " bytes.");
-				fos.write(buffer, 0, read);
-			}
-		} catch (Exception e) {
-			// TODO: handle exception
-			e.printStackTrace();
-		} finally {
-			fos.close();
-			dis.close();
-		}
-		**/
-		
-		
+		dis.close();		
 	}
 	
 	public static void main(String[] args) {
 		try {
-			FileServer fs = new FileServer(args[0], 1988);
+			FileServer fs = new FileServer(args[0], Integer.parseInt(args[1]));
+			fs.start();
 		} catch (IndexOutOfBoundsException e) {
+			FileServer fs = new FileServer(1988);
+			fs.start();
+		} catch (NumberFormatException e) {
 			FileServer fs = new FileServer(1988);
 			fs.start();
 		} catch (Exception e) {
